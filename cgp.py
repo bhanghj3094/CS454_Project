@@ -334,7 +334,7 @@ class CGP(object):
             # only gather fitness
             temp_f = open('fitness.txt', 'a')
             temp_writer = csv.writer(temp_f, lineterminator='\n')
-            temp_writer.writerow(self.pop[0].eval)
+            temp_writer.writerow([self.pop[0].eval])
             temp_f.close()
 
             # log for each generation
