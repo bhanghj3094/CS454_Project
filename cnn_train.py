@@ -31,6 +31,7 @@ def weights_init(m):
         m.weight.data.normal_(1.0, 0.02)
         m.bias.data.fill_(0)
 
+
 def weights_init_normal(m):
     classname = m.__class__.__name__
     if classname.find('Conv2d') != -1:
@@ -40,6 +41,7 @@ def weights_init_normal(m):
     elif classname.find('BatchNorm2d') != -1:
         init.uniform_(m.weight.data, 1.0, 0.02)
         init.constant_(m.bias.data, 0.0)
+
 
 def weights_init_normal_(m):
     classname = m.__class__.__name__
@@ -51,6 +53,7 @@ def weights_init_normal_(m):
         init.uniform_(m.weight.data, 1.0, 0.02)
         init.constant_(m.bias.data, 0.0)
 
+
 def weights_init_xavier(m):
     classname = m.__class__.__name__
     if classname.find('Conv') != -1:
@@ -60,6 +63,7 @@ def weights_init_xavier(m):
     elif classname.find('BatchNorm2d') != -1:
         init.uniform_(m.weight.data, 1.0, 0.02)
         init.constant_(m.bias.data, 0.0)
+
 
 def weights_init_kaiming(m):
     classname = m.__class__.__name__
@@ -71,6 +75,7 @@ def weights_init_kaiming(m):
         init.uniform_(m.weight.data, 1.0, 0.02)
         init.constant_(m.bias.data, 0.0)
 
+
 def weights_init_orthogonal(m):
     classname = m.__class__.__name__
     print(classname)
@@ -81,6 +86,7 @@ def weights_init_orthogonal(m):
     elif classname.find('BatchNorm2d') != -1:
         init.uniform_(m.weight.data, 1.0, 0.02)
         init.constant_(m.bias.data, 0.0)
+
 
 def init_weights(net, init_type='normal'):
     print('initialization method [%s]' % init_type)
@@ -94,7 +100,6 @@ def init_weights(net, init_type='normal'):
         net.apply(weights_init_orthogonal)
     else:
         raise NotImplementedError('initialization method [%s] is not implemented' % init_type)
-
 
 
 # __init__: load dataset
@@ -118,24 +123,29 @@ class CNN_train():
                 self.n_class = 10
                 self.channel = 3
                 if self.validation:
-                    self.dataloader, self.test_dataloader = get_train_valid_loader(data_dir='./', batch_size=self.batchsize, augment=True, random_seed=2018, num_workers=1, pin_memory=True)
+                    self.dataloader, self.test_dataloader = get_train_valid_loader(data_dir='./',
+                                                                                   batch_size=self.batchsize,
+                                                                                   augment=True, random_seed=2018,
+                                                                                   num_workers=1, pin_memory=True)
                     # self.dataloader, self.test_dataloader = loaders[0], loaders[1]
                 else:
                     train_dataset = dset.CIFAR10(root='./', train=True, download=True,
-                            transform=transforms.Compose([
-                                transforms.RandomHorizontalFlip(),
-                                transforms.Scale(self.imgSize),
-                                transforms.ToTensor(),
-                                transforms.Normalize((0.485, 0.456, 0.406), (0.229, 0.224, 0.225)),
-                            ]))
+                                                 transform=transforms.Compose([
+                                                     transforms.RandomHorizontalFlip(),
+                                                     transforms.Scale(self.imgSize),
+                                                     transforms.ToTensor(),
+                                                     transforms.Normalize((0.485, 0.456, 0.406), (0.229, 0.224, 0.225)),
+                                                 ]))
                     test_dataset = dset.CIFAR10(root='./', train=False, download=True,
-                            transform=transforms.Compose([
-                                transforms.Scale(self.imgSize),
-                                transforms.ToTensor(),
-                                transforms.Normalize((0.485, 0.456, 0.406), (0.229, 0.224, 0.225)),
-                            ]))
-                    self.dataloader = torch.utils.data.DataLoader(train_dataset, batch_size=self.batchsize, shuffle=True, num_workers=int(2))
-                    self.test_dataloader = torch.utils.data.DataLoader(test_dataset, batch_size=self.batchsize, shuffle=True, num_workers=int(2))
+                                                transform=transforms.Compose([
+                                                    transforms.Scale(self.imgSize),
+                                                    transforms.ToTensor(),
+                                                    transforms.Normalize((0.485, 0.456, 0.406), (0.229, 0.224, 0.225)),
+                                                ]))
+                    self.dataloader = torch.utils.data.DataLoader(train_dataset, batch_size=self.batchsize,
+                                                                  shuffle=True, num_workers=int(2))
+                    self.test_dataloader = torch.utils.data.DataLoader(test_dataset, batch_size=self.batchsize,
+                                                                       shuffle=True, num_workers=int(2))
             print('train num    ', len(self.dataloader.dataset))
             # print('test num     ', len(self.test_dataloader.dataset))
         else:
@@ -147,7 +157,7 @@ class CNN_train():
             print('GPUID     :', gpuID)
             print('epoch_num :', epoch_num)
             print('batch_size:', self.batchsize)
-        
+
         # model
         torch.backends.cudnn.benchmark = True
         model = CGP2CNN(cgp, self.channel, self.n_class, self.imgSize)
@@ -164,19 +174,19 @@ class CNN_train():
         label = label.cuda(gpuID)
 
         # Train loop
-        for epoch in range(1, epoch_num+1):
+        for epoch in range(1, epoch_num + 1):
             start_time = time.time()
             if self.verbose:
                 print('epoch', epoch)
             train_loss = 0
-            total = 0
-            correct = 0
+            total = 0.
+            correct = 0.
             ite = 0
             for module in model.children():
                 module.train(True)
             for _, (data, target) in enumerate(self.dataloader):
                 if self.dataset_name == 'mnist':
-                    data = data[:,0:1,:,:] # for gray scale images
+                    data = data[:, 0:1, :, :]  # for gray scale images
                 data = data.cuda(gpuID)
                 target = target.cuda(gpuID)
                 input.resize_as_(data).copy_(data)
@@ -195,12 +205,12 @@ class CNN_train():
                 loss.backward()
                 optimizer.step()
                 _, predicted = torch.max(output.data, 1)
-                total += label_.size(0)
-                correct += predicted.eq(label_.data).cpu().sum()
+                total += float(label_.size(0))
+                correct += float(predicted.eq(label_.data).cpu().sum())
                 ite += 1
             print('Train set : Average loss: {:.4f}'.format(train_loss))
-            print('Train set : Average Acc : {:.4f}'.format(correct/total))
-            print('time ', time.time()-start_time)
+            print('Train set : Average Acc : {:.4f}'.format(correct / total))
+            print('time ', time.time() - start_time)
             if self.validation:
                 if epoch == 30:
                     for param_group in optimizer.param_groups:
@@ -242,12 +252,12 @@ class CNN_train():
     # For validation/test
     def __test_per_std(self, model, criterion, gpuID, input, label):
         test_loss = 0
-        total = 0
-        correct = 0
+        total = 0.
+        correct = 0.
         ite = 0
         for _, (data, target) in enumerate(self.test_dataloader):
             if self.dataset_name == 'mnsit':
-                data = data[:,0:1,:,:]
+                data = data[:, 0:1, :, :]
             data = data.cuda(gpuID)
             target = target.cuda(gpuID)
             input.resize_as_(data).copy_(data)
@@ -261,13 +271,13 @@ class CNN_train():
                 traceback.print_exc()
                 return 0.
             loss = criterion(output, label_)
-            test_loss += loss.data[0]
+            test_loss += loss.item()
             _, predicted = torch.max(output.data, 1)
-            total += label_.size(0)
-            correct += predicted.eq(label_.data).cpu().sum()
+            total += float(label_.size(0))
+            correct += float(predicted.eq(label_.data).cpu().sum())
             ite += 1
         print('Test set : Average loss: {:.4f}'.format(test_loss))
         print('Test set : (%d/%d)' % (correct, total))
-        print('Test set : Average Acc : {:.4f}'.format(correct/total))
+        print('Test set : Average Acc : {:.4f}'.format(correct / total))
 
-        return (correct/total)
+        return correct / total
