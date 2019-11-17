@@ -34,7 +34,7 @@ if __name__ == '__main__':
 
         # Execute evolution
         cgp = CGP(network_info, eval_f, lam=args.lam, imgSize=imgSize, init=args.init)
-        cgp.modified_evolution(max_eval=250, mutation_rate=0.05, log_file=args.log_file)
+        cgp.modified_evolution(max_gen=250, mutation_rate=0.05, log_file=args.log_file)
 
     # --- Retraining evolved architecture ---
     elif args.mode == 'retrain':
@@ -67,9 +67,9 @@ if __name__ == '__main__':
         eval_f = CNNEvaluation(gpu_ids=args.gpu_ids, dataset='cifar10', verbose=True, epoch_num=50, batchsize=128, imgSize=imgSize)
         cgp = CGP(network_info, eval_f, lam=args.lam, imgSize=imgSize)
 
-        data = pd.read_csv('./log_cgp.txt', header=None)
+        data = pd.read_csv(args.log_file, header=None)
         cgp.load_log(list(data.tail(1).values.flatten().astype(int)))
-        cgp.modified_evolution(max_eval=250, mutation_rate=0.1, log_file='./log_restat.txt')
+        cgp.modified_evolution(max_gen=250, mutation_rate=0.1, log_file='./log_restat.txt')
 
     else:
         print('Undefined mode. Please check the "-m evolution or retrain or reevolution" ')
