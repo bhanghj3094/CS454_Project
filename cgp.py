@@ -135,7 +135,7 @@ class Individual(object):
             mutated_gene = min_int + np.random.randint(max_int - min_int)
         return mutated_gene
 
-    def mutation(self, mutation_rate=0.01):
+    def mutation(self, mutation_rate=0.05):
         active_check = False
 
         for n in range(self.net_info.node_num + self.net_info.out_num):
@@ -161,7 +161,7 @@ class Individual(object):
         self.check_active()
         return active_check
 
-    def neutral_mutation(self, mutation_rate=0.01):
+    def neutral_mutation(self, mutation_rate=0.05):
         for n in range(self.net_info.node_num + self.net_info.out_num):
             t = self.gene[n][0]
             # mutation for type gene
@@ -271,7 +271,7 @@ class CGP(object):
     #     - Generate lambda individuals in which at least one active node changes (i.e., forced mutation)
     #     - Mutate the best individual with neutral mutation (unchanging the active nodes)
     #         if the best individual is not updated.
-    def modified_evolution(self, max_eval=100, mutation_rate=0.01, log_file='./log.txt', arch_file='./arch.txt'):
+    def modified_evolution(self, max_eval=250, mutation_rate=0.05, log_file='./log.txt', arch_file='./arch.txt'):
         with open('child.txt', 'w') as fw_c :
             writer_c = csv.writer(fw_c, lineterminator='\n')
             start_time = time.time()
@@ -287,6 +287,8 @@ class CGP(object):
                     _, pool_num= self.pop[0].check_pool()
             self._evaluation([self.pop[0]], np.array([True]))
             print(self._log_data(net_info_type='active_only', start_time=start_time))
+
+            best_is_parent = 0 # for strong neutral mutation
 
             while self.num_gen < max_eval:
                 self.num_gen += 1
@@ -316,12 +318,19 @@ class CGP(object):
                 # replace the parent by the best individual
                 if evaluations[best_arg] > self.pop[0].eval:
                     self.pop[0].copy(self.pop[best_arg + 1])
+                    best_is_parent = 0
                 else:
-                    self.pop[0].neutral_mutation(mutation_rate)  # modify the parent (neutral mutation)
+                    if best_is_parent < 5:
+                        self.pop[0].neutral_mutation(mutation_rate)  # modify the parent (neutral mutation)
+                        best_is_parent += 1
+                    else:
+                        for SNM in range(10):
+                            self.pop[0].neutral_mutation(mutation_rate)  # modify the parent (strong neutral mutation)
+                        best_is_parent  = 0
 
                 temp_f = open('fitness.txt', 'a')
                 temp_writer = csv.writer(temp_f, lineterminator='\n')
-                temp_writer.writerow(self.pop[0].eval)
+                temp_writer.writerow([self.pop[0].eval])
                 temp_f.close()
 
                 # display and save log
