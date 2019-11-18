@@ -272,7 +272,7 @@ class CGP(object):
     #     - Generate lambda individuals in which at least one active node changes (i.e., forced mutation)
     #     - Mutate the best individual with neutral mutation (unchanging the active nodes)
     #         if the best individual is not updated.
-    def modified_evolution(self, max_gen=250, mutation_rate=0.05, log_folder='./log_folder'):
+    def modified_evolution(self, max_gen=250, mutation_rate=0.05, log_folder='./log_folder', neutral_mutation_mode='normal'):
         # variable settings
         start_time = time.time()
         eval_flag = np.empty(self.lam)
@@ -336,9 +336,13 @@ class CGP(object):
                     self.pop[0].neutral_mutation(mutation_rate)  # modify the parent (neutral mutation)
                     best_is_parent += 1
                 else:
-                    for SNM in range(10):
+                    if neutral_mutation_mode == 'normal':
                         self.pop[0].neutral_mutation(mutation_rate)  # modify the parent (strong neutral mutation)
-                    best_is_parent = 0
+                        best_is_parent = 0
+                    else:
+                        for SNM in range(10):
+                            self.pop[0].neutral_mutation(mutation_rate)  # modify the parent (strong neutral mutation)
+                        best_is_parent = 0
 
             # log for each generation
             print(self._log_data(net_info_type='active_only', start_time=start_time))

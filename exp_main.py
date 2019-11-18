@@ -21,6 +21,7 @@ if __name__ == '__main__':
     parser.add_argument('--mode', '-m', default='evolution', help='Mode (evolution / retrain / reevolution)')
     parser.add_argument('--max_gen', '-max', default=250, help='Num. of max evaluations')
     parser.add_argument('--init', '-i', action='store_true')
+    parser.add_argument('--snm', '-snm', type=str, default='normal', choices=['normal', 'strong'], help='Strong Neutral Mutation')
     args = parser.parse_args()
 
     # --- Optimization of the CNN architecture ---
@@ -35,7 +36,7 @@ if __name__ == '__main__':
 
         # Execute evolution
         cgp = CGP(network_info, eval_f, lam=args.lam, imgSize=imgSize, init=args.init)
-        cgp.modified_evolution(max_gen=args.max_gen, mutation_rate=0.05, log_folder=args.log_folder)
+        cgp.modified_evolution(max_gen=args.max_gen, mutation_rate=0.05, log_folder=args.log_folder, neutral_mutation_mode = args.snm)
 
     # --- Retraining evolved architecture ---
     elif args.mode == 'retrain':
