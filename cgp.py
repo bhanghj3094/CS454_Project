@@ -290,6 +290,9 @@ class CGP(object):
 
         best_is_parent = 0 # for strong neutral mutation
         
+        # Create path for log files
+        if not os.path.isdir(log_folder):
+            os.mkdir(log_folder)
         child_path = os.path.join(log_folder, 'child.txt')
         arch_child_path = os.path.join(log_folder, 'arch_child.txt')
         log_cgp_path = os.path.join(log_folder, 'log_cgp.txt')
