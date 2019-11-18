@@ -5,6 +5,7 @@ import csv
 import time
 import numpy as np
 import math
+import os
 
 # gene[f][c] f:function type, c:connection (nodeID)
 class Individual(object):
@@ -271,7 +272,7 @@ class CGP(object):
     #     - Generate lambda individuals in which at least one active node changes (i.e., forced mutation)
     #     - Mutate the best individual with neutral mutation (unchanging the active nodes)
     #         if the best individual is not updated.
-    def modified_evolution(self, max_gen=250, mutation_rate=0.05, log_file='./log_cgp.txt', arch_file='./log_arch.txt'):
+    def modified_evolution(self, max_gen=250, mutation_rate=0.05, log_folder='./log_folder'):
         # variable settings
         start_time = time.time()
         eval_flag = np.empty(self.lam)
@@ -288,6 +289,11 @@ class CGP(object):
         print(self._log_data(net_info_type='active_only', start_time=start_time))
 
         best_is_parent = 0 # for strong neutral mutation
+        
+        child_path = os.path.join(log_folder, 'child.txt')
+        arch_child_path = os.path.join(log_folder, 'arch_child.txt')
+        log_cgp_path = os.path.join(log_folder, 'log_cgp.txt')
+        log_arch_path = os.path.join(log_folder, 'arch.txt')
 
         # condition for termination
         while self.num_gen < max_gen:
@@ -309,8 +315,8 @@ class CGP(object):
             evaluations = self._evaluation(self.pop[1:], eval_flag=eval_flag)
             best_arg = evaluations.argmax()
             # main log file for child and its arch
-            child = open('child.txt', 'a')
-            arch_child = open('arch_child.txt', 'a')
+            child = open(child_path, 'a')
+            arch_child = open(arch_child_path, 'a')
             writer_child = csv.writer(child, lineterminator='\n')
             writer_arch_child = csv.writer(arch_child, lineterminator='\n')
             for c in range(1 + self.lam):
@@ -331,16 +337,10 @@ class CGP(object):
                         self.pop[0].neutral_mutation(mutation_rate)  # modify the parent (strong neutral mutation)
                     best_is_parent = 0
 
-            # only gather fitness
-            temp_f = open('fitness.txt', 'a')
-            temp_writer = csv.writer(temp_f, lineterminator='\n')
-            temp_writer.writerow([self.pop[0].eval])
-            temp_f.close()
-
             # log for each generation
             print(self._log_data(net_info_type='active_only', start_time=start_time))
-            log_cgp = open(log_file, 'a')
-            log_arch = open(arch_file, 'a')
+            log_cgp = open(log_cgp_path, 'a')
+            log_arch = open(log_arch_path, 'a')
             writer_cgp = csv.writer(log_cgp, lineterminator='\n')
             writer_arch = csv.writer(log_arch, lineterminator='\n')
             writer_cgp.writerow(self._log_data(net_info_type='full', start_time=start_time))
