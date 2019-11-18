@@ -308,7 +308,7 @@ class CGP(object):
                 active_num = self.pop[i + 1].count_active_node()
                 _, pool_num= self.pop[i + 1].check_pool()
                 # mutation (forced mutation)
-                while not eval_flag[i] or active_num < self.pop[i + 1].net_info.min_active_num or active_num < self.pop[i + 1].net_info.max_active_num or pool_num > self.max_pool_num:
+                while not eval_flag[i] or active_num < self.pop[i + 1].net_info.min_active_num or active_num > self.pop[i + 1].net_info.max_active_num or pool_num > self.max_pool_num:
                     self.pop[i + 1].copy(self.pop[0])                       # copy a parent
                     eval_flag[i] = self.pop[i + 1].mutation(mutation_rate)  # mutation
                     active_num = self.pop[i + 1].count_active_node()
