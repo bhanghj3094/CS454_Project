@@ -4,9 +4,12 @@ KAIST CS454 project originated from cgp-cnn-PyTorch
 ## Requirement
 
 * Ubuntu 16.04.6 LTS
-* Python version 3.6.2
-* PyTorch version 0.4.1
-* CUDA version 10.0
+* Python version         3.6.2
+* PyTorch version        0.4.1
+* tensorflow             1.9.0
+* CUDA version           10.x (Anything)
+* scikit-image           0.13.0
+* pandas                 0.20.3
 
 # cgp-cnn-PyTorch
 A Genetic Programming Approach to Designing CNN Architectures, In GECCO 2017 (oral presentation, Best Paper Award)
