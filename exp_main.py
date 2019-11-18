@@ -17,6 +17,7 @@ if __name__ == '__main__':
     parser.add_argument('--lam', '-l', type=int, default=1, help='Num. of offsprings')
     parser.add_argument('--net_info_file', default='network_info.pickle', help='Network information file name')
     parser.add_argument('--log_file', default='./log_cgp.txt', help='Log file name')
+    parser.add_argument('--log_folder', default='./log_folder', help="Log folder name')
     parser.add_argument('--mode', '-m', default='evolution', help='Mode (evolution / retrain / reevolution)')
     parser.add_argument('--max_gen', '-max', default=250, help='Num. of max evaluations')
     parser.add_argument('--init', '-i', action='store_true')
@@ -34,7 +35,7 @@ if __name__ == '__main__':
 
         # Execute evolution
         cgp = CGP(network_info, eval_f, lam=args.lam, imgSize=imgSize, init=args.init)
-        cgp.modified_evolution(max_gen=args.max_gen, mutation_rate=0.05, log_file=args.log_file)
+        cgp.modified_evolution(max_gen=args.max_gen, mutation_rate=0.05, log_folder=args.log_folder)
 
     # --- Retraining evolved architecture ---
     elif args.mode == 'retrain':
@@ -69,7 +70,7 @@ if __name__ == '__main__':
 
         data = pd.read_csv(args.log_file, header=None)
         cgp.load_log(list(data.tail(1).values.flatten().astype(int)))
-        cgp.modified_evolution(max_gen=250, mutation_rate=0.1, log_file='./log_restat.txt')
+        cgp.modified_evolution(max_gen=250, mutation_rate=0.1, log_folder='./log_folder.txt')
 
     else:
         print('Undefined mode. Please check the "-m evolution or retrain or reevolution" ')
