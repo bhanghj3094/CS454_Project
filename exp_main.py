@@ -18,7 +18,7 @@ if __name__ == '__main__':
     parser.add_argument('--net_info_file', default='network_info.pickle', help='Network information file name')
     parser.add_argument('--log_file', default='./log_cgp.txt', help='Log file name')
     parser.add_argument('--mode', '-m', default='evolution', help='Mode (evolution / retrain / reevolution)')
-    parser.add_argument('--max_eval', '-e', default=250, help='Num. of max evaluations')
+    parser.add_argument('--max_gen', '-max', default=250, help='Num. of max evaluations')
     parser.add_argument('--init', '-i', action='store_true')
     args = parser.parse_args()
 
@@ -34,7 +34,7 @@ if __name__ == '__main__':
 
         # Execute evolution
         cgp = CGP(network_info, eval_f, lam=args.lam, imgSize=imgSize, init=args.init)
-        cgp.modified_evolution(max_gen=250, mutation_rate=0.05, log_file=args.log_file)
+        cgp.modified_evolution(max_gen=args.max_gen, mutation_rate=0.05, log_file=args.log_file)
 
     # --- Retraining evolved architecture ---
     elif args.mode == 'retrain':
