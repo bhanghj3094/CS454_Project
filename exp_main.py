@@ -4,6 +4,7 @@
 import argparse
 import pickle
 import pandas as pd
+import numpy as np
 
 from cgp import *
 from cgp_config import *
@@ -22,7 +23,10 @@ if __name__ == '__main__':
     parser.add_argument('--max_gen', '-max', default=250, help='Num. of max evaluations')
     parser.add_argument('--init', '-i', action='store_true')
     parser.add_argument('--snm', '-snm', type=str, default='normal', choices=['normal', 'strong'], help='Strong Neutral Mutation')
+    parser.add_argument('--seed', '-s', default=470, help="Numpy random seed")
     args = parser.parse_args()
+    
+    np.random.seed(args.seed)
 
     # --- Optimization of the CNN architecture ---
     if args.mode == 'evolution':
