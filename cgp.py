@@ -281,7 +281,7 @@ class CGP(object):
         if self.init:
             pass
         else: # in the case of not using an init indiviudal
-            while active_num < self.pop[0].net_info.min_active_num or pool_num > self.max_pool_num:
+            while active_num < self.pop[0].net_info.min_active_num or active_num > self.pop[0].net_info.max_active_num or pool_num > self.max_pool_num:
                 self.pop[0].mutation(1.0)
                 active_num = self.pop[0].count_active_node()
                 _, pool_num= self.pop[0].check_pool()
