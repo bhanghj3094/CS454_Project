@@ -1,4 +1,4 @@
-# KAIST CS454 Project - Group 7
+# KAIST CS454 19Fall Project - Group7 
 KAIST CS454 project originated from cgp-cnn-PyTorch
 
 ## Requirement
@@ -21,15 +21,15 @@ This repository contains the code for the following paper:
 Masanori Suganuma, Shinichi Shirakawa, and Tomoharu Nagao, "A Genetic Programming Approach to Designing Convolutional Neural Network Architectures," 
 Proceedings of the Genetic and Evolutionary Computation Conference (GECCO '17, Best paper award), pp. 497-504 (2017) [[paper]](https://doi.org/10.1145/3071178.3071229) [[arXiv]](https://arxiv.org/abs/1704.00764)
 
-## Requirement
-We use the [PyTorch](https://pytorch.org/) framework for neural networks and tested on the following environment:
-
-* PyTorch version 0.2.0_4
-* Python version 3.6.2
-* CUDA version 8.0
-* Ubuntu 14.04 LTS
-
 ## Usage
+
+Server1:	ssh root@49.247.197.194
+  First subtopic   $> nohup python exp_main.py -snm strong > output_strong &
+  Second subtopic  $> nohup ./statistics.sh 0 14 &
+
+Server2:	ssh root@49.247.197.170
+  First subtopic   $> nohup python exp_main.py > output &
+  Second subtopic  $> nohup ./statistics.sh 15 29 &
 
 ### Run the architecture search
 This code can reproduce the experiment for CIFAR-10 dataset with the same setting of the GECCO 2017 paper (by default scenario). The (training) data are split into the training and validation data. The validation data are used for assigning the fitness to the generated architectures.
