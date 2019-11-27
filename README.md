@@ -24,11 +24,15 @@ Proceedings of the Genetic and Evolutionary Computation Conference (GECCO '17, B
 ## Usage
 
 Server1:	ssh root@49.247.197.194
+
   First subtopic   $> nohup python exp_main.py -snm strong > output_strong &
+  
   Second subtopic  $> nohup ./statistics.sh 0 14 &
 
 Server2:	ssh root@49.247.197.170
+
   First subtopic   $> nohup python exp_main.py > output &
+  
   Second subtopic  $> nohup ./statistics.sh 15 29 &
 
 ### Run the architecture search
