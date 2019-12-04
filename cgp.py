@@ -285,17 +285,17 @@ class CGP(object):
             pool_num.append(pool_num_i)
         if self.init:
             pass
-        else: # in the case of not using an init indiviudal
+        # else: # in the case of not using an init indiviudal
             # TODO: change with self.pop_size 'but, currently UNUSED'
-            while active_num < self.pop[0].net_info.min_active_num or active_num > self.pop[0].net_info.max_active_num or pool_num > self.max_pool_num:
-                self.pop[0].mutation(1.0)
-                active_num = self.pop[0].count_active_node()
-                _, pool_num= self.pop[0].check_pool()
+            # while active_num < self.pop[0].net_info.min_active_num or active_num > self.pop[0].net_info.max_active_num or pool_num > self.max_pool_num:
+            #     self.pop[0].mutation(1.0)
+            #     active_num = self.pop[0].count_active_node()
+            #     _, pool_num= self.pop[0].check_pool()
         self._evaluation([self.pop[i] for i in range(self.pop_size)], np.array([True for _ in range(self.pop_size)]))
         print(self._log_data(net_info_type='active_only', start_time=start_time))
 
         best_is_parent = 0 # for strong neutral mutation
-        
+
         # Create path for log files
         if not os.path.isdir(log_folder):
             os.mkdir(log_folder)
@@ -310,15 +310,15 @@ class CGP(object):
             # reproduction
             for k in range(self.pop_size):  # for every parent in population
                 # self.pop = [parent0, parent1, .. , parent(self.pop_size-1), children0-0, children0-1, .. children0-(self.lam-1), children1-0, ...]
-                # starting children index for current parent. 
+                # starting children index for current parent.
                 start_index = self.pop_size + k * self.lam
                 for i in range(self.lam):  # create self.lam child each
                     _i = start_index + i
                     eval_flag[k * self.lam + i] = False
                     self.pop[_i].copy(self.pop[k])  # copy a parent
-                    active_num[k] = self.pop[_i].count_active_node()  # number of active nodes for parent k. 
+                    active_num[k] = self.pop[_i].count_active_node()  # number of active nodes for parent k.
                     _, pool_num_k= self.pop[_i].check_pool()
-                    pool_num[k] = pool_num_k 
+                    pool_num[k] = pool_num_k
                     # mutation (forced mutation)
                     while not eval_flag[k * self.lam + i] or active_num[k] < self.pop[_i].net_info.min_active_num or active_num[k] > self.pop[_i].net_info.max_active_num or pool_num[k] > self.max_pool_num:
                         self.pop[_i].copy(self.pop[k])  # copy a parent
@@ -330,7 +330,7 @@ class CGP(object):
             child = open(child_path, 'a')
             arch_child = open(arch_child_path, 'a')
             writer_child = csv.writer(child, lineterminator='\n')
-            writer_arch_child = csv.writer(arch_child, lineterminator='\n')            
+            writer_arch_child = csv.writer(arch_child, lineterminator='\n')
             for c in range(len(self.pop)):  # writes all including parents
                 writer_child.writerow(self._log_data_children(net_info_type='full', start_time=start_time, pop=self.pop[c]))
                 writer_arch_child.writerow(self._log_data_children(net_info_type='active_only', start_time=start_time, pop=self.pop[c]))
@@ -338,12 +338,12 @@ class CGP(object):
             arch_child.close()
 
             # evaluation and selection
-            # replace the parent by the best individual. 
+            # replace the parent by the best individual.
             child_evaluations = self._evaluation(self.pop[self.pop_size:], eval_flag=eval_flag)
             parent_evaluations = [self.pop[i].eval for i in range(self.pop_size)]
             combined_evaluations = parent_evaluations + child_evaluations
-            # choose bests from parent and children, and iterate. 
-            # if it is survived parent, neutral mutation. if children, pass. 
+            # choose bests from parent and children, and iterate.
+            # if it is survived parent, neutral mutation. if children, pass.
             best_args = np.argpartition(combined_evaluations, -self.pop_size)[-self.pop_size:]
             best_args.sort()  # bring survived parents to the front
             for index, arg in np.ndenumerate(best_args):
