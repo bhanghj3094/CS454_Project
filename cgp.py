@@ -212,9 +212,10 @@ class Individual(object):
 
 # CGP with (1 + \lambda)-ES
 class CGP(object):
-    def __init__(self, net_info, eval_func, lam=4, imgSize=32, init=False):
+    def __init__(self, net_info, eval_func, population=1, lam=4, imgSize=32, init=False):
+        self.pop_size = population
         self.lam = lam
-        self.pop = [Individual(net_info, init) for _ in range(1 + self.lam)]
+        self.pop = [Individual(net_info, init) for _ in range(1 + self.lam) for _ in range(population)]
         self.eval_func = eval_func
         self.num_gen = 0
         self.num_eval = 0
@@ -239,12 +240,12 @@ class CGP(object):
         self.num_eval += len(net_lists)
         return evaluations
 
-    def _log_data(self, net_info_type='active_only', start_time=0):
-        log_list = [self.num_gen, self.num_eval, time.time()-start_time, self.pop[0].eval, self.pop[0].count_active_node()]
+    def _log_data(self, net_info_type='active_only', start_time=0, pop_num=0):
+        log_list = [self.num_gen, self.num_eval, time.time()-start_time, self.pop[pop_num].eval, self.pop[pop_num].count_active_node()]
         if net_info_type == 'active_only':
-            log_list.append(self.pop[0].active_net_list())
+            log_list.append(self.pop[pop_num].active_net_list())
         elif net_info_type == 'full':
-            log_list += self.pop[0].gene.flatten().tolist()
+            log_list += self.pop[pop_num].gene.flatten().tolist()
         else:
             pass
         return log_list
@@ -259,6 +260,7 @@ class CGP(object):
             pass
         return log_list
 
+    # TODO: change with self.pop_size 'but, currently UNUSED'
     def load_log(self, log_data):
         self.num_gen = log_data[0]
         self.num_eval = log_data[1]
@@ -275,17 +277,21 @@ class CGP(object):
     def modified_evolution(self, max_gen=250, mutation_rate=0.05, log_folder='./log_folder', neutral_mutation_mode='normal'):
         # variable settings
         start_time = time.time()
-        eval_flag = np.empty(self.lam)
-        active_num = self.pop[0].count_active_node()
-        _, pool_num= self.pop[0].check_pool()
+        eval_flag = np.empty(self.pop_size * self.lam)
+        active_num = [self.pop[i].count_active_node() for i in range(self.pop_size)]
+        pool_num = []
+        for i in range(self.pop_size):
+            _, pool_num_i = self.pop[i].check_pool()
+            pool_num.append(pool_num_i)
         if self.init:
             pass
         else: # in the case of not using an init indiviudal
+            # TODO: change with self.pop_size 'but, currently UNUSED'
             while active_num < self.pop[0].net_info.min_active_num or active_num > self.pop[0].net_info.max_active_num or pool_num > self.max_pool_num:
                 self.pop[0].mutation(1.0)
                 active_num = self.pop[0].count_active_node()
                 _, pool_num= self.pop[0].check_pool()
-        self._evaluation([self.pop[0]], np.array([True]))
+        self._evaluation([self.pop[i] for i in range(self.pop_size)], np.array([True for _ in range(self.pop_size)]))
         print(self._log_data(net_info_type='active_only', start_time=start_time))
 
         best_is_parent = 0 # for strong neutral mutation
@@ -302,47 +308,51 @@ class CGP(object):
         while self.num_gen < max_gen:
             self.num_gen += 1
             # reproduction
-            for i in range(self.lam):
-                eval_flag[i] = False
-                self.pop[i + 1].copy(self.pop[0])  # copy a parent
-                active_num = self.pop[i + 1].count_active_node()
-                _, pool_num= self.pop[i + 1].check_pool()
-                # mutation (forced mutation)
-                while not eval_flag[i] or active_num < self.pop[i + 1].net_info.min_active_num or active_num > self.pop[i + 1].net_info.max_active_num or pool_num > self.max_pool_num:
-                    self.pop[i + 1].copy(self.pop[0])                       # copy a parent
-                    eval_flag[i] = self.pop[i + 1].mutation(mutation_rate)  # mutation
-                    active_num = self.pop[i + 1].count_active_node()
-                    _, pool_num= self.pop[i + 1].check_pool()
-
-            # evaluation and selection
-            evaluations = self._evaluation(self.pop[1:], eval_flag=eval_flag)
-            best_arg = evaluations.argmax()
+            for k in range(self.pop_size):  # for every parent in population
+                # self.pop = [parent0, parent1, .. , parent(self.pop_size-1), children0-0, children0-1, .. children0-(self.lam-1), children1-0, ...]
+                # starting children index for current parent. 
+                start_index = self.pop_size + k * self.lam
+                for i in range(self.lam):  # create self.lam child each
+                    _i = start_index + i
+                    eval_flag[k * self.lam + i] = False
+                    self.pop[_i].copy(self.pop[k])  # copy a parent
+                    active_num[k] = self.pop[_i].count_active_node()  # number of active nodes for parent k. 
+                    _, pool_num_k= self.pop[_i].check_pool()
+                    pool_num[k] = pool_num_k 
+                    # mutation (forced mutation)
+                    while not eval_flag[k * self.lam + i] or active_num[k] < self.pop[_i].net_info.min_active_num or active_num[k] > self.pop[_i].net_info.max_active_num or pool_num[k] > self.max_pool_num:
+                        self.pop[_i].copy(self.pop[k])  # copy a parent
+                        eval_flag[k * self.lam + i] = self.pop[_i].mutation(mutation_rate)  # mutation
+                        active_num[k] = self.pop[_i].count_active_node()
+                        _, pool_num_k= self.pop[_i].check_pool()
+                        pool_num[k] = pool_num_k
             # main log file for child and its arch
             child = open(child_path, 'a')
             arch_child = open(arch_child_path, 'a')
             writer_child = csv.writer(child, lineterminator='\n')
-            writer_arch_child = csv.writer(arch_child, lineterminator='\n')
-            for c in range(1 + self.lam):
+            writer_arch_child = csv.writer(arch_child, lineterminator='\n')            
+            for c in range(len(self.pop)):  # writes all including parents
                 writer_child.writerow(self._log_data_children(net_info_type='full', start_time=start_time, pop=self.pop[c]))
                 writer_arch_child.writerow(self._log_data_children(net_info_type='active_only', start_time=start_time, pop=self.pop[c]))
             child.close()
             arch_child.close()
-            # replace the parent by the best individual
-            if evaluations[best_arg] > self.pop[0].eval:
-                self.pop[0].copy(self.pop[best_arg + 1])
-                best_is_parent = 0
-            else:
-                if best_is_parent < 5:
-                    self.pop[0].neutral_mutation(mutation_rate)  # modify the parent (neutral mutation)
-                    best_is_parent += 1
-                else:
-                    if neutral_mutation_mode == 'normal':
-                        self.pop[0].neutral_mutation(mutation_rate)  # modify the parent (strong neutral mutation)
-                        best_is_parent = 0
-                    else:
-                        for SNM in range(10):
-                            self.pop[0].neutral_mutation(mutation_rate)  # modify the parent (strong neutral mutation)
-                        best_is_parent = 0
+
+            # evaluation and selection
+            # replace the parent by the best individual. 
+            child_evaluations = self._evaluation(self.pop[self.pop_size:], eval_flag=eval_flag)
+            parent_evaluations = [self.pop[i].eval for i in range(self.pop_size)]
+            combined_evaluations = parent_evaluations + child_evaluations
+            # choose bests from parent and children, and iterate. 
+            # if it is survived parent, neutral mutation. if children, pass. 
+            best_args = np.argpartition(combined_evaluations, -self.pop_size)[-self.pop_size:]
+            best_args.sort()  # bring survived parents to the front
+            for index, arg in np.ndenumerate(best_args):
+                if arg < self.pop_size:  # neutral mutation
+                    self.pop[index].copy(self.pop[arg])
+                    self.pop[index].neutral_mutation(mutation_rate)
+                else:  # replace with children
+                    self.pop[index].copy(self.pop[arg])
+            # TODO: if need strong neutral mutation
 
             # log for each generation
             print(self._log_data(net_info_type='active_only', start_time=start_time))
@@ -350,7 +360,8 @@ class CGP(object):
             log_arch = open(log_arch_path, 'a')
             writer_cgp = csv.writer(log_cgp, lineterminator='\n')
             writer_arch = csv.writer(log_arch, lineterminator='\n')
-            writer_cgp.writerow(self._log_data(net_info_type='full', start_time=start_time))
-            writer_arch.writerow(self._log_data(net_info_type='active_only', start_time=start_time))
+            for i in range(self.pop_size):
+                writer_cgp.writerow(self._log_data(net_info_type='full', start_time=start_time, pop_num=i))
+                writer_arch.writerow(self._log_data(net_info_type='active_only', start_time=start_time, pop_num=i))
             log_cgp.close()
             log_arch.close()
