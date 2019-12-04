@@ -15,6 +15,7 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(description='Evolving CAE structures')
     parser.add_argument('--gpu_ids', '-g', type=int, nargs='+', default=[0], help='List of GPU ids')
+    parser.add_argument('--population', '-p', type=int, default=1, help='Num. of Population')
     parser.add_argument('--lam', '-l', type=int, default=1, help='Num. of offsprings')
     parser.add_argument('--net_info_file', default='network_info.pickle', help='Network information file name')
     parser.add_argument('--log_file', default='./log_cgp.txt', help='Log file name')
@@ -40,7 +41,7 @@ if __name__ == '__main__':
         eval_f = CNNEvaluation(gpu_ids=args.gpu_ids, dataset='cifar10', verbose=True, epoch_num=50, batchsize=128, imgSize=imgSize)
 
         # Execute evolution
-        cgp = CGP(network_info, eval_f, lam=args.lam, imgSize=imgSize, init=args.init)
+        cgp = CGP(network_info, eval_f, population=args.population, lam=args.lam, imgSize=imgSize, init=args.init)
         cgp.modified_evolution(max_gen=args.max_gen, mutation_rate=0.05, log_folder=args.log_folder, neutral_mutation_mode = args.snm)
 
     # --- Retraining evolved architecture ---
