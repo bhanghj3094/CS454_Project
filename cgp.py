@@ -241,14 +241,18 @@ class CGP(object):
         return evaluations
 
     def _log_data(self, net_info_type='active_only', start_time=0):
-        log_list = [self.num_gen, self.num_eval, time.time()-start_time, self.pop[0].eval, self.pop[0].count_active_node()]
-        if net_info_type == 'active_only':
-            log_list.append(self.pop[0].active_net_list())
-        elif net_info_type == 'full':
-            log_list += self.pop[0].gene.flatten().tolist()
-        else:
-            pass
-        return log_list
+        total_list = []
+        
+        for i in range(self.pop_size):
+            log_list = [self.num_gen, self.num_eval, time.time()-start_time, self.pop[0].eval, self.pop[0].count_active_node()]
+            if net_info_type == 'active_only':
+                log_list.append(self.pop[0].active_net_list())
+            elif net_info_type == 'full':
+                log_list += self.pop[0].gene.flatten().tolist()
+            else:
+                pass
+            total_list.append(log_list)
+        return total_list
 
     def _log_data_children(self, net_info_type='active_only', start_time=0, pop=None):
         log_list = [self.num_gen, self.num_eval, time.time()-start_time, pop.eval, pop.count_active_node()]
@@ -293,8 +297,8 @@ class CGP(object):
                     _, pool_num_i = self.pop[i].check_pool()
                     pool_num[i] = pool_num_i
         self._evaluation([self.pop[i] for i in range(self.pop_size)], np.array([True for _ in range(self.pop_size)]))
-        for i in range(self.pop_size):
-            print(self._log_data(net_info_type='active_only', start_time=start_time, pop_num=i))
+        
+        print(self._log_data(net_info_type='active_only', start_time=start_time))
 
         best_is_parent = 0 # for strong neutral mutation
 
