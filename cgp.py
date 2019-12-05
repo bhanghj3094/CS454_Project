@@ -285,14 +285,16 @@ class CGP(object):
             pool_num.append(pool_num_i)
         if self.init:
             pass
-        # else: # in the case of not using an init indiviudal
-            # TODO: change with self.pop_size 'but, currently UNUSED'
-            # while active_num < self.pop[0].net_info.min_active_num or active_num > self.pop[0].net_info.max_active_num or pool_num > self.max_pool_num:
-            #     self.pop[0].mutation(1.0)
-            #     active_num = self.pop[0].count_active_node()
-            #     _, pool_num= self.pop[0].check_pool()
+        else: # in the case of not using an init indiviudal
+            for i in range(self.pop_size):
+                while active_num[i] < self.pop[i].net_info.min_active_num or active_num[i] > self.pop[i].net_info.max_active_num or pool_num[i] > self.max_pool_num:
+                    self.pop[i].mutation(1.0)
+                    active_num[i] = self.pop[i].count_active_node()
+                    _, pool_num_i = self.pop[i].check_pool()
+                    pool_num[i] = pool_num_i
         self._evaluation([self.pop[i] for i in range(self.pop_size)], np.array([True for _ in range(self.pop_size)]))
-        print(self._log_data(net_info_type='active_only', start_time=start_time))
+        for i in range(self.pop_size):
+            print(self._log_data(net_info_type='active_only', start_time=start_time, pop_num=i))
 
         best_is_parent = 0 # for strong neutral mutation
 
