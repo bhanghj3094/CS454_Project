@@ -347,6 +347,7 @@ class CGP(object):
             best_args = np.argpartition(combined_evaluations, -self.pop_size)[-self.pop_size:]
             best_args.sort()  # bring survived parents to the front
             for index, arg in np.ndenumerate(best_args):
+                index = index[0]  # index is tuple
                 if arg < self.pop_size:  # neutral mutation
                     self.pop[index].copy(self.pop[arg])
                     self.pop[index].neutral_mutation(mutation_rate)
