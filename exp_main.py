@@ -79,6 +79,7 @@ if __name__ == '__main__':
         data = pd.read_csv(args.log_file, header=None)
         cgp.load_log(list(data.tail(1).values.flatten().astype(int)))
         cgp.modified_evolution(max_gen=250, mutation_rate=0.1, log_folder='./log_folder.txt')
-'''
     else:
         print('Undefined mode. Please check the "-m evolution or retrain or reevolution" ')
+
+'''
