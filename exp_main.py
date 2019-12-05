@@ -25,6 +25,7 @@ if __name__ == '__main__':
     parser.add_argument('--init', '-i', action='store_true')
     parser.add_argument('--snm', '-snm', type=str, default='normal', choices=['normal', 'strong'], help='Strong Neutral Mutation')
     parser.add_argument('--seed', '-s', type=int, help="Numpy random seed")
+    parser.add_argument('--epoch', '-e', type=int, default=50, help"Training epoch")
     args = parser.parse_args()
     
     if args.seed != None:
@@ -38,12 +39,12 @@ if __name__ == '__main__':
             pickle.dump(network_info, f)
         # Evaluation function for CGP (training CNN and return validation accuracy)
         imgSize = 32
-        eval_f = CNNEvaluation(gpu_ids=args.gpu_ids, dataset='cifar10', verbose=True, epoch_num=50, batchsize=128, imgSize=imgSize)
+        eval_f = CNNEvaluation(gpu_ids=args.gpu_ids, dataset='cifar10', verbose=True, epoch_num=args.epoch, batchsize=128, imgSize=imgSize)
 
         # Execute evolution
         cgp = CGP(network_info, eval_f, population=args.population, lam=args.lam, imgSize=imgSize, init=args.init)
         cgp.modified_evolution(max_gen=args.max_gen, mutation_rate=0.05, log_folder=args.log_folder, neutral_mutation_mode = args.snm)
-
+'''
     # --- Retraining evolved architecture ---
     elif args.mode == 'retrain':
         print('Retrain')
@@ -81,3 +82,4 @@ if __name__ == '__main__':
 
     else:
         print('Undefined mode. Please check the "-m evolution or retrain or reevolution" ')
+'''
