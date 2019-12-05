@@ -328,6 +328,8 @@ class CGP(object):
                         active_num[k] = self.pop[_i].count_active_node()
                         _, pool_num_k= self.pop[_i].check_pool()
                         pool_num[k] = pool_num_k
+            # evaluation and selection
+            child_evaluations = self._evaluation(self.pop[self.pop_size:], eval_flag=eval_flag)
             # main log file for child and its arch
             child = open(child_path, 'a')
             arch_child = open(arch_child_path, 'a')
@@ -339,9 +341,7 @@ class CGP(object):
             child.close()
             arch_child.close()
 
-            # evaluation and selection
             # replace the parent by the best individual.
-            child_evaluations = self._evaluation(self.pop[self.pop_size:], eval_flag=eval_flag)
             parent_evaluations = [self.pop[i].eval for i in range(self.pop_size)]
             combined_evaluations = parent_evaluations + child_evaluations
             # choose bests from parent and children, and iterate.
