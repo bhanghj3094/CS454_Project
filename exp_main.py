@@ -25,7 +25,7 @@ if __name__ == '__main__':
     parser.add_argument('--init', '-i', action='store_true')
     parser.add_argument('--snm', '-snm', type=str, default='normal', choices=['normal', 'strong'], help='Strong Neutral Mutation')
     parser.add_argument('--seed', '-s', type=int, help="Numpy random seed")
-    parser.add_argument('--epoch', '-e', type=int, default=50, help"Training epoch")
+    parser.add_argument('--epoch', '-e', type=int, default=50, help="Training epoch")
     args = parser.parse_args()
     
     if args.seed != None:
@@ -79,7 +79,6 @@ if __name__ == '__main__':
         data = pd.read_csv(args.log_file, header=None)
         cgp.load_log(list(data.tail(1).values.flatten().astype(int)))
         cgp.modified_evolution(max_gen=250, mutation_rate=0.1, log_folder='./log_folder.txt')
-
+'''
     else:
         print('Undefined mode. Please check the "-m evolution or retrain or reevolution" ')
-'''
