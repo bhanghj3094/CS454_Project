@@ -240,12 +240,12 @@ class CGP(object):
         self.num_eval += len(net_lists)
         return evaluations
 
-    def _log_data(self, net_info_type='active_only', start_time=0, pop_num=0):
-        log_list = [self.num_gen, self.num_eval, time.time()-start_time, self.pop[pop_num].eval, self.pop[pop_num].count_active_node()]
+    def _log_data(self, net_info_type='active_only', start_time=0):
+        log_list = [self.num_gen, self.num_eval, time.time()-start_time, self.pop[0].eval, self.pop[0].count_active_node()]
         if net_info_type == 'active_only':
-            log_list.append(self.pop[pop_num].active_net_list())
+            log_list.append(self.pop[0].active_net_list())
         elif net_info_type == 'full':
-            log_list += self.pop[pop_num].gene.flatten().tolist()
+            log_list += self.pop[0].gene.flatten().tolist()
         else:
             pass
         return log_list
@@ -364,7 +364,7 @@ class CGP(object):
             writer_cgp = csv.writer(log_cgp, lineterminator='\n')
             writer_arch = csv.writer(log_arch, lineterminator='\n')
             for i in range(self.pop_size):
-                writer_cgp.writerow(self._log_data(net_info_type='full', start_time=start_time, pop_num=i))
-                writer_arch.writerow(self._log_data(net_info_type='active_only', start_time=start_time, pop_num=i))
+                writer_cgp.writerow(self._log_data_children(net_info_type='full', start_time=start_time, pop=self.pop[i]))
+                writer_arch.writerow(self._log_data_children(net_info_type='active_only', start_time=start_time, pop=self.pop[i]))
             log_cgp.close()
             log_arch.close()
