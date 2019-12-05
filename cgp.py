@@ -244,11 +244,11 @@ class CGP(object):
         total_list = []
         
         for i in range(self.pop_size):
-            log_list = [self.num_gen, self.num_eval, time.time()-start_time, self.pop[0].eval, self.pop[0].count_active_node()]
+            log_list = [self.num_gen, self.num_eval, time.time()-start_time, self.pop[i].eval, self.pop[i].count_active_node()]
             if net_info_type == 'active_only':
-                log_list.append(self.pop[0].active_net_list())
+                log_list.append(self.pop[i].active_net_list())
             elif net_info_type == 'full':
-                log_list += self.pop[0].gene.flatten().tolist()
+                log_list += self.pop[i].gene.flatten().tolist()
             else:
                 pass
             total_list.append(log_list)
