@@ -347,7 +347,7 @@ class CGP(object):
 
             # replace the parent by the best individual.
             parent_evaluations = [self.pop[i].eval for i in range(self.pop_size)]
-            combined_evaluations = parent_evaluations + child_evaluations
+            combined_evaluations = np.concatenate((parent_evaluations, child_evaluations), axis=None)
             # choose bests from parent and children, and iterate.
             # if it is survived parent, neutral mutation. if children, pass.
             best_args = np.argpartition(combined_evaluations, -self.pop_size)[-self.pop_size:]
