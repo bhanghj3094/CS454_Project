@@ -1,0 +1,5285 @@
+	gpu_id: 0 , [['input', 0, 0], ['S_ConvBlock_64_3', 0, 0], ['S_ConvBlock_32_1', 0, 0], ['Max_Pool', 0, 0], ['S_ResBlock_128_5', 2, 3], ['Concat', 3, 1], ['S_ConvBlock_128_1', 5, 5], ['Max_Pool', 6, 4], ['S_ConvBlock_128_1', 4, 7], ['S_ConvBlock_128_1', 7, 8], ['Concat', 8, 9], ['S_ResBlock_128_3', 10, 8], ['full', 11, 11]]
+Files already downloaded and verified
+Files already downloaded and verified
+train num     50000
+GPUID     : 0
+epoch_num : 50
+batch_size: 128
+initialization method [kaiming]
+epoch 1
+[[0, 1, 4.869408845901489, 0.0, 12, [['input', 0, 0], ['S_ConvBlock_64_3', 0, 0], ['S_ConvBlock_32_1', 0, 0], ['Max_Pool', 0, 0], ['S_ResBlock_128_5', 2, 3], ['Concat', 3, 1], ['S_ConvBlock_128_1', 5, 5], ['Max_Pool', 6, 4], ['S_ConvBlock_128_1', 4, 7], ['S_ConvBlock_128_1', 7, 8], ['Concat', 8, 9], ['S_ResBlock_128_3', 10, 8], ['full', 11, 11]]]]
+	gpu_id: 0 , [['input', 0, 0], ['S_ConvBlock_64_3', 0, 0], ['S_ConvBlock_32_1', 0, 0], ['Max_Pool', 0, 0], ['S_ResBlock_128_5', 2, 3], ['Concat', 3, 1], ['S_ConvBlock_128_1', 5, 5], ['S_ResBlock_128_5', 6, 4], ['Max_Pool', 7, 4], ['S_ConvBlock_128_1', 4, 8], ['S_ConvBlock_128_1', 8, 9], ['Concat', 9, 10], ['S_ResBlock_128_3', 11, 9], ['full', 12, 12]]
+Files already downloaded and verified
+Files already downloaded and verified
+train num     50000
+GPUID     : 0
+epoch_num : 50
+batch_size: 128
+initialization method [kaiming]
+epoch 1
+[[1, 2, 9.303654193878174, 0.0, 13, [['input', 0, 0], ['S_ConvBlock_64_3', 0, 0], ['S_ConvBlock_32_1', 0, 0], ['Max_Pool', 0, 0], ['S_ResBlock_128_5', 2, 3], ['Concat', 3, 1], ['S_ConvBlock_128_1', 5, 5], ['S_ResBlock_128_5', 6, 4], ['Max_Pool', 7, 4], ['S_ConvBlock_128_1', 4, 8], ['S_ConvBlock_128_1', 8, 9], ['Concat', 9, 10], ['S_ResBlock_128_3', 11, 9], ['full', 12, 12]]]]
+	gpu_id: 0 , [['input', 0, 0], ['S_ConvBlock_64_3', 0, 0], ['S_ConvBlock_32_1', 0, 0], ['Max_Pool', 0, 0], ['S_ResBlock_128_1', 2, 3], ['Concat', 3, 1], ['S_ConvBlock_128_1', 5, 5], ['S_ResBlock_128_5', 6, 4], ['Max_Pool', 7, 4], ['S_ConvBlock_128_1', 4, 8], ['S_ConvBlock_128_1', 8, 9], ['Concat', 9, 10], ['S_ResBlock_128_3', 11, 9], ['full', 12, 12]]
+Files already downloaded and verified
+Files already downloaded and verified
+train num     50000
+GPUID     : 0
+epoch_num : 50
+batch_size: 128
+initialization method [kaiming]
+epoch 1
+[[2, 3, 13.541939973831177, 0.0, 13, [['input', 0, 0], ['S_ConvBlock_64_3', 0, 0], ['S_ConvBlock_32_1', 0, 0], ['Max_Pool', 0, 0], ['S_ResBlock_128_1', 2, 3], ['Concat', 3, 1], ['S_ConvBlock_128_1', 5, 5], ['S_ResBlock_128_5', 6, 4], ['Max_Pool', 7, 4], ['S_ConvBlock_128_1', 4, 8], ['S_ConvBlock_128_1', 8, 9], ['Concat', 9, 10], ['S_ResBlock_128_3', 11, 9], ['full', 12, 12]]]]
+	gpu_id: 0 , [['input', 0, 0], ['S_ConvBlock_64_3', 0, 0], ['S_ConvBlock_32_1', 0, 0], ['Max_Pool', 0, 0], ['S_ResBlock_64_1', 1, 1], ['S_ResBlock_128_1', 2, 3], ['Concat', 3, 1], ['Concat', 6, 4], ['S_ResBlock_128_5', 7, 5], ['Max_Pool', 8, 5], ['S_ConvBlock_128_1', 5, 9], ['S_ConvBlock_128_1', 9, 10], ['Concat', 10, 11], ['S_ResBlock_128_3', 12, 10], ['full', 13, 13]]
+Files already downloaded and verified
+Files already downloaded and verified
+train num     50000
+GPUID     : 0
+epoch_num : 50
+batch_size: 128
+initialization method [kaiming]
+epoch 1
+[[3, 4, 17.918556690216064, 0.0, 14, [['input', 0, 0], ['S_ConvBlock_64_3', 0, 0], ['S_ConvBlock_32_1', 0, 0], ['Max_Pool', 0, 0], ['S_ResBlock_64_1', 1, 1], ['S_ResBlock_128_1', 2, 3], ['Concat', 3, 1], ['Concat', 6, 4], ['S_ResBlock_128_5', 7, 5], ['Max_Pool', 8, 5], ['S_ConvBlock_128_1', 5, 9], ['S_ConvBlock_128_1', 9, 10], ['Concat', 10, 11], ['S_ResBlock_128_3', 12, 10], ['full', 13, 13]]]]
+	gpu_id: 0 , [['input', 0, 0], ['S_ConvBlock_64_3', 0, 0], ['Max_Pool', 0, 0], ['S_ResBlock_64_1', 1, 1], ['S_ResBlock_32_3', 2, 1], ['S_ConvBlock_64_5', 3, 3], ['S_ConvBlock_128_3', 4, 2], ['S_ConvBlock_32_3', 5, 5], ['S_ConvBlock_64_1', 7, 4], ['S_ResBlock_32_5', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]
+Files already downloaded and verified
+Files already downloaded and verified
+train num     50000
+GPUID     : 0
+epoch_num : 50
+batch_size: 128
+initialization method [kaiming]
+epoch 1
+Train set : Average loss: 1483.7293
+Train set : Average Acc : 0.3636
+time  11.217625379562378
+epoch 2
+Train set : Average loss: 493.2952
+Train set : Average Acc : 0.4977
+time  9.242379903793335
+epoch 3
+Train set : Average loss: 434.7910
+Train set : Average Acc : 0.5612
+time  9.237154006958008
+epoch 4
+Train set : Average loss: 386.7752
+Train set : Average Acc : 0.6146
+time  9.380179166793823
+epoch 5
+Train set : Average loss: 356.2381
+Train set : Average Acc : 0.6438
+time  9.340997219085693
+epoch 6
+Train set : Average loss: 331.9217
+Train set : Average Acc : 0.6677
+time  9.307833433151245
+epoch 7
+Train set : Average loss: 317.5987
+Train set : Average Acc : 0.6824
+time  9.314891576766968
+epoch 8
+Train set : Average loss: 305.9845
+Train set : Average Acc : 0.6972
+time  9.376244068145752
+epoch 9
+Train set : Average loss: 296.7642
+Train set : Average Acc : 0.7062
+time  9.294727087020874
+epoch 10
+Train set : Average loss: 286.5885
+Train set : Average Acc : 0.7172
+time  9.341275930404663
+epoch 11
+Train set : Average loss: 278.0977
+Train set : Average Acc : 0.7246
+time  9.369848012924194
+epoch 12
+Train set : Average loss: 272.3544
+Train set : Average Acc : 0.7312
+time  9.344385862350464
+epoch 13
+Train set : Average loss: 266.9854
+Train set : Average Acc : 0.7360
+time  9.333415746688843
+epoch 14
+Train set : Average loss: 263.3046
+Train set : Average Acc : 0.7417
+time  9.382313013076782
+epoch 15
+Train set : Average loss: 256.6284
+Train set : Average Acc : 0.7482
+time  9.345067977905273
+epoch 16
+Train set : Average loss: 255.0060
+Train set : Average Acc : 0.7491
+time  9.328781843185425
+epoch 17
+Train set : Average loss: 260.5953
+Train set : Average Acc : 0.7458
+time  9.279068231582642
+epoch 18
+Train set : Average loss: 267.6724
+Train set : Average Acc : 0.7361
+time  9.292901515960693
+epoch 19
+Train set : Average loss: 248.3075
+Train set : Average Acc : 0.7577
+time  9.276164531707764
+epoch 20
+Train set : Average loss: 243.3065
+Train set : Average Acc : 0.7624
+time  9.295695781707764
+epoch 21
+Train set : Average loss: 241.0054
+Train set : Average Acc : 0.7634
+time  9.284656286239624
+epoch 22
+Train set : Average loss: 234.2474
+Train set : Average Acc : 0.7706
+time  9.326776266098022
+epoch 23
+Train set : Average loss: 230.5476
+Train set : Average Acc : 0.7725
+time  9.332477331161499
+epoch 24
+Train set : Average loss: 228.2138
+Train set : Average Acc : 0.7767
+time  9.300307273864746
+epoch 25
+Train set : Average loss: 225.5413
+Train set : Average Acc : 0.7772
+time  9.396148204803467
+epoch 26
+Train set : Average loss: 226.3796
+Train set : Average Acc : 0.7795
+time  9.316232442855835
+epoch 27
+Train set : Average loss: 220.0834
+Train set : Average Acc : 0.7866
+time  9.351544380187988
+epoch 28
+Train set : Average loss: 216.8885
+Train set : Average Acc : 0.7884
+time  9.404043197631836
+epoch 29
+Train set : Average loss: 215.6539
+Train set : Average Acc : 0.7904
+time  9.330520629882812
+epoch 30
+Train set : Average loss: 213.9861
+Train set : Average Acc : 0.7904
+time  9.315544843673706
+epoch 31
+Train set : Average loss: 174.2164
+Train set : Average Acc : 0.8287
+time  9.309744834899902
+epoch 32
+Train set : Average loss: 163.1952
+Train set : Average Acc : 0.8388
+time  9.266180515289307
+epoch 33
+Train set : Average loss: 158.5051
+Train set : Average Acc : 0.8444
+time  9.361928939819336
+epoch 34
+Train set : Average loss: 156.2890
+Train set : Average Acc : 0.8451
+time  9.319002389907837
+epoch 35
+Train set : Average loss: 153.2351
+Train set : Average Acc : 0.8499
+time  9.32494044303894
+epoch 36
+Train set : Average loss: 150.5554
+Train set : Average Acc : 0.8537
+time  9.31634259223938
+epoch 37
+Train set : Average loss: 148.2359
+Train set : Average Acc : 0.8541
+time  9.315665483474731
+epoch 38
+Train set : Average loss: 147.6160
+Train set : Average Acc : 0.8557
+time  9.354085922241211
+epoch 39
+Train set : Average loss: 143.7283
+Train set : Average Acc : 0.8584
+time  9.34334683418274
+epoch 40
+Train set : Average loss: 142.6600
+Train set : Average Acc : 0.8591
+time  9.349395036697388
+epoch 41
+Train set : Average loss: 140.5916
+Train set : Average Acc : 0.8621
+time  9.304857730865479
+epoch 42
+Train set : Average loss: 139.9621
+Train set : Average Acc : 0.8611
+time  9.262810707092285
+epoch 43
+Train set : Average loss: 138.7916
+Train set : Average Acc : 0.8650
+time  9.317230224609375
+epoch 44
+Train set : Average loss: 137.7619
+Train set : Average Acc : 0.8643
+time  9.372263193130493
+epoch 45
+Train set : Average loss: 136.7267
+Train set : Average Acc : 0.8686
+time  9.402097702026367
+epoch 46
+Train set : Average loss: 133.3572
+Train set : Average Acc : 0.8661
+time  9.317114114761353
+epoch 47
+Train set : Average loss: 134.0510
+Train set : Average Acc : 0.8698
+time  9.259237051010132
+epoch 48
+Train set : Average loss: 133.8811
+Train set : Average Acc : 0.8680
+time  9.321221590042114
+epoch 49
+Train set : Average loss: 131.1961
+Train set : Average Acc : 0.8709
+time  9.328347206115723
+epoch 50
+Train set : Average loss: 130.5693
+Train set : Average Acc : 0.8740
+time  9.395955085754395
+[[4, 5, 489.9482319355011, 0.8388, 11, [['input', 0, 0], ['S_ConvBlock_64_3', 0, 0], ['Max_Pool', 0, 0], ['S_ResBlock_64_1', 1, 1], ['S_ResBlock_32_3', 2, 1], ['S_ConvBlock_64_5', 3, 3], ['S_ConvBlock_128_3', 4, 2], ['S_ConvBlock_32_3', 5, 5], ['S_ConvBlock_64_1', 7, 4], ['S_ResBlock_32_5', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]]]
+	gpu_id: 0 , [['input', 0, 0], ['S_ConvBlock_64_3', 0, 0], ['Max_Pool', 0, 0], ['S_ResBlock_64_1', 1, 1], ['S_ConvBlock_128_3', 2, 1], ['S_ConvBlock_64_5', 3, 3], ['S_ConvBlock_128_3', 4, 2], ['S_ConvBlock_32_1', 5, 5], ['S_ConvBlock_64_1', 7, 4], ['S_ResBlock_32_5', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]
+Files already downloaded and verified
+Files already downloaded and verified
+train num     50000
+GPUID     : 0
+epoch_num : 50
+batch_size: 128
+initialization method [kaiming]
+epoch 1
+Train set : Average loss: 1547.5145
+Train set : Average Acc : 0.4006
+time  10.835591554641724
+epoch 2
+Train set : Average loss: 461.2256
+Train set : Average Acc : 0.5311
+time  9.02171802520752
+epoch 3
+Train set : Average loss: 415.1549
+Train set : Average Acc : 0.5832
+time  9.096031904220581
+epoch 4
+Train set : Average loss: 386.4017
+Train set : Average Acc : 0.6094
+time  9.137677907943726
+epoch 5
+Train set : Average loss: 365.3421
+Train set : Average Acc : 0.6335
+time  9.055950403213501
+epoch 6
+Train set : Average loss: 348.5863
+Train set : Average Acc : 0.6514
+time  9.127637386322021
+epoch 7
+Train set : Average loss: 333.4322
+Train set : Average Acc : 0.6678
+time  9.110927104949951
+epoch 8
+Train set : Average loss: 324.4997
+Train set : Average Acc : 0.6785
+time  9.095419883728027
+epoch 9
+Train set : Average loss: 316.3710
+Train set : Average Acc : 0.6887
+time  9.09157109260559
+epoch 10
+Train set : Average loss: 307.8397
+Train set : Average Acc : 0.6950
+time  9.056105375289917
+epoch 11
+Train set : Average loss: 301.0341
+Train set : Average Acc : 0.7009
+time  9.088427066802979
+epoch 12
+Train set : Average loss: 293.1747
+Train set : Average Acc : 0.7090
+time  9.07808518409729
+epoch 13
+Train set : Average loss: 283.9307
+Train set : Average Acc : 0.7188
+time  9.045933485031128
+epoch 14
+Train set : Average loss: 280.2917
+Train set : Average Acc : 0.7246
+time  9.015897274017334
+epoch 15
+Train set : Average loss: 275.5491
+Train set : Average Acc : 0.7267
+time  9.047505378723145
+epoch 16
+Train set : Average loss: 269.1897
+Train set : Average Acc : 0.7331
+time  9.052241325378418
+epoch 17
+Train set : Average loss: 263.5952
+Train set : Average Acc : 0.7394
+time  9.095079898834229
+epoch 18
+Train set : Average loss: 261.9960
+Train set : Average Acc : 0.7418
+time  8.98902416229248
+epoch 19
+Train set : Average loss: 258.5456
+Train set : Average Acc : 0.7451
+time  9.047474145889282
+epoch 20
+Train set : Average loss: 252.4932
+Train set : Average Acc : 0.7484
+time  9.028577327728271
+epoch 21
+Train set : Average loss: 255.6097
+Train set : Average Acc : 0.7497
+time  9.030987024307251
+epoch 22
+Train set : Average loss: 248.4753
+Train set : Average Acc : 0.7563
+time  9.088733911514282
+epoch 23
+Train set : Average loss: 244.0360
+Train set : Average Acc : 0.7586
+time  9.037735939025879
+epoch 24
+Train set : Average loss: 242.4168
+Train set : Average Acc : 0.7605
+time  9.04215407371521
+epoch 25
+Train set : Average loss: 238.1180
+Train set : Average Acc : 0.7647
+time  9.026301145553589
+epoch 26
+Train set : Average loss: 239.1238
+Train set : Average Acc : 0.7657
+time  9.084527492523193
+epoch 27
+Train set : Average loss: 234.2304
+Train set : Average Acc : 0.7691
+time  9.107074737548828
+epoch 28
+Train set : Average loss: 229.4231
+Train set : Average Acc : 0.7762
+time  9.042231559753418
+epoch 29
+Train set : Average loss: 227.5286
+Train set : Average Acc : 0.7770
+time  9.029803037643433
+epoch 30
+Train set : Average loss: 225.8987
+Train set : Average Acc : 0.7771
+time  9.087633609771729
+epoch 31
+Train set : Average loss: 183.1461
+Train set : Average Acc : 0.8180
+time  9.001716613769531
+epoch 32
+Train set : Average loss: 170.4744
+Train set : Average Acc : 0.8310
+time  9.08645510673523
+epoch 33
+Train set : Average loss: 165.0914
+Train set : Average Acc : 0.8367
+time  9.003952503204346
+epoch 34
+Train set : Average loss: 162.8456
+Train set : Average Acc : 0.8391
+time  8.998181343078613
+epoch 35
+Train set : Average loss: 159.9216
+Train set : Average Acc : 0.8410
+time  9.087547063827515
+epoch 36
+Train set : Average loss: 155.9589
+Train set : Average Acc : 0.8469
+time  8.998685359954834
+epoch 37
+Train set : Average loss: 154.0914
+Train set : Average Acc : 0.8476
+time  9.005530834197998
+epoch 38
+Train set : Average loss: 151.4760
+Train set : Average Acc : 0.8496
+time  9.039275646209717
+epoch 39
+Train set : Average loss: 148.1728
+Train set : Average Acc : 0.8533
+time  9.050772190093994
+epoch 40
+Train set : Average loss: 148.5031
+Train set : Average Acc : 0.8523
+time  9.095066547393799
+epoch 41
+Train set : Average loss: 146.2926
+Train set : Average Acc : 0.8558
+time  9.103069543838501
+epoch 42
+Train set : Average loss: 142.7895
+Train set : Average Acc : 0.8582
+time  9.05036997795105
+epoch 43
+Train set : Average loss: 142.7246
+Train set : Average Acc : 0.8570
+time  9.101300239562988
+epoch 44
+Train set : Average loss: 138.7393
+Train set : Average Acc : 0.8614
+time  9.063751459121704
+epoch 45
+Train set : Average loss: 140.3836
+Train set : Average Acc : 0.8611
+time  9.061149597167969
+epoch 46
+Train set : Average loss: 137.4553
+Train set : Average Acc : 0.8647
+time  9.009953260421753
+epoch 47
+Train set : Average loss: 135.9793
+Train set : Average Acc : 0.8656
+time  9.003229856491089
+epoch 48
+Train set : Average loss: 135.9316
+Train set : Average Acc : 0.8650
+time  9.070349931716919
+epoch 49
+Train set : Average loss: 133.5374
+Train set : Average Acc : 0.8680
+time  9.019940614700317
+epoch 50
+Train set : Average loss: 132.6274
+Train set : Average Acc : 0.8679
+time  9.063822984695435
+[[5, 6, 948.304848909378, 0.8388, 11, [['input', 0, 0], ['S_ConvBlock_64_3', 0, 0], ['Max_Pool', 0, 0], ['S_ResBlock_64_1', 1, 1], ['S_ResBlock_32_3', 2, 1], ['S_ConvBlock_64_5', 3, 3], ['S_ConvBlock_128_3', 4, 2], ['S_ConvBlock_32_3', 5, 5], ['S_ConvBlock_64_1', 7, 4], ['S_ResBlock_32_5', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]]]
+	gpu_id: 0 , [['input', 0, 0], ['S_ConvBlock_64_3', 0, 0], ['S_ConvBlock_128_3', 0, 0], ['S_ResBlock_64_1', 1, 1], ['S_ResBlock_32_3', 2, 1], ['S_ResBlock_128_3', 3, 4], ['S_ConvBlock_128_3', 4, 2], ['Max_Pool', 5, 5], ['S_ConvBlock_64_1', 7, 4], ['S_ResBlock_32_5', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]
+Files already downloaded and verified
+Files already downloaded and verified
+train num     50000
+GPUID     : 0
+epoch_num : 50
+batch_size: 128
+initialization method [kaiming]
+epoch 1
+Train set : Average loss: 1513.3463
+Train set : Average Acc : 0.3942
+time  25.21638560295105
+epoch 2
+Train set : Average loss: 429.1521
+Train set : Average Acc : 0.5644
+time  22.6118586063385
+epoch 3
+Train set : Average loss: 375.6851
+Train set : Average Acc : 0.6233
+time  22.5316379070282
+epoch 4
+Train set : Average loss: 347.0950
+Train set : Average Acc : 0.6570
+time  22.470593214035034
+epoch 5
+Train set : Average loss: 332.0308
+Train set : Average Acc : 0.6710
+time  22.565680027008057
+epoch 6
+Train set : Average loss: 317.2155
+Train set : Average Acc : 0.6850
+time  22.56395697593689
+epoch 7
+Train set : Average loss: 307.7453
+Train set : Average Acc : 0.6968
+time  22.505213499069214
+epoch 8
+Train set : Average loss: 297.2170
+Train set : Average Acc : 0.7062
+time  22.489574909210205
+epoch 9
+Train set : Average loss: 288.7392
+Train set : Average Acc : 0.7134
+time  22.45388698577881
+epoch 10
+Train set : Average loss: 282.6746
+Train set : Average Acc : 0.7214
+time  22.505885124206543
+epoch 11
+Train set : Average loss: 276.5036
+Train set : Average Acc : 0.7273
+time  22.487744569778442
+epoch 12
+Train set : Average loss: 269.1593
+Train set : Average Acc : 0.7346
+time  22.480597257614136
+epoch 13
+Train set : Average loss: 264.5225
+Train set : Average Acc : 0.7378
+time  22.51693367958069
+epoch 14
+Train set : Average loss: 261.7273
+Train set : Average Acc : 0.7432
+time  22.544971227645874
+epoch 15
+Train set : Average loss: 253.9818
+Train set : Average Acc : 0.7498
+time  22.411518096923828
+epoch 16
+Train set : Average loss: 249.6942
+Train set : Average Acc : 0.7533
+time  22.535533905029297
+epoch 17
+Train set : Average loss: 246.4372
+Train set : Average Acc : 0.7570
+time  22.4639310836792
+epoch 18
+Train set : Average loss: 241.0737
+Train set : Average Acc : 0.7649
+time  22.45540499687195
+epoch 19
+Train set : Average loss: 240.7689
+Train set : Average Acc : 0.7638
+time  22.458153247833252
+epoch 20
+Train set : Average loss: 236.1163
+Train set : Average Acc : 0.7691
+time  22.550676584243774
+epoch 21
+Train set : Average loss: 232.2154
+Train set : Average Acc : 0.7723
+time  22.442031621932983
+epoch 22
+Train set : Average loss: 227.4597
+Train set : Average Acc : 0.7786
+time  22.530969381332397
+epoch 23
+Train set : Average loss: 230.1574
+Train set : Average Acc : 0.7751
+time  22.519439220428467
+epoch 24
+Train set : Average loss: 231.6753
+Train set : Average Acc : 0.7798
+time  22.485858917236328
+epoch 25
+Train set : Average loss: 223.4157
+Train set : Average Acc : 0.7824
+time  22.445510149002075
+epoch 26
+Train set : Average loss: 218.8132
+Train set : Average Acc : 0.7852
+time  22.41666293144226
+epoch 27
+Train set : Average loss: 219.2203
+Train set : Average Acc : 0.7868
+time  22.478525161743164
+epoch 28
+Train set : Average loss: 213.9270
+Train set : Average Acc : 0.7923
+time  22.468653917312622
+epoch 29
+Train set : Average loss: 212.1443
+Train set : Average Acc : 0.7911
+time  22.545980215072632
+epoch 30
+Train set : Average loss: 209.0021
+Train set : Average Acc : 0.7962
+time  22.461459398269653
+epoch 31
+Train set : Average loss: 168.8919
+Train set : Average Acc : 0.8334
+time  22.528472423553467
+epoch 32
+Train set : Average loss: 156.9128
+Train set : Average Acc : 0.8463
+time  22.4142005443573
+epoch 33
+Train set : Average loss: 153.4877
+Train set : Average Acc : 0.8464
+time  22.50120759010315
+epoch 34
+Train set : Average loss: 150.2512
+Train set : Average Acc : 0.8515
+time  22.521735429763794
+epoch 35
+Train set : Average loss: 146.5344
+Train set : Average Acc : 0.8558
+time  22.52184510231018
+epoch 36
+Train set : Average loss: 144.4168
+Train set : Average Acc : 0.8580
+time  22.392225742340088
+epoch 37
+Train set : Average loss: 140.2299
+Train set : Average Acc : 0.8627
+time  22.481141567230225
+epoch 38
+Train set : Average loss: 139.6903
+Train set : Average Acc : 0.8618
+time  22.436782598495483
+epoch 39
+Train set : Average loss: 136.4131
+Train set : Average Acc : 0.8658
+time  22.400580406188965
+epoch 40
+Train set : Average loss: 135.6913
+Train set : Average Acc : 0.8670
+time  22.39790654182434
+epoch 41
+Train set : Average loss: 131.7849
+Train set : Average Acc : 0.8696
+time  22.459285497665405
+epoch 42
+Train set : Average loss: 132.8616
+Train set : Average Acc : 0.8701
+time  22.53208827972412
+epoch 43
+Train set : Average loss: 130.3630
+Train set : Average Acc : 0.8723
+time  22.45283818244934
+epoch 44
+Train set : Average loss: 127.2400
+Train set : Average Acc : 0.8740
+time  22.439027070999146
+epoch 45
+Train set : Average loss: 126.4584
+Train set : Average Acc : 0.8743
+time  22.48309588432312
+epoch 46
+Train set : Average loss: 124.5687
+Train set : Average Acc : 0.8767
+time  22.51596736907959
+epoch 47
+Train set : Average loss: 125.3353
+Train set : Average Acc : 0.8753
+time  22.487754106521606
+epoch 48
+Train set : Average loss: 122.2235
+Train set : Average Acc : 0.8801
+time  22.417810678482056
+epoch 49
+Train set : Average loss: 121.0164
+Train set : Average Acc : 0.8796
+time  22.480557680130005
+epoch 50
+Train set : Average loss: 119.9397
+Train set : Average Acc : 0.8818
+time  22.468096256256104
+[[6, 7, 2079.4842925071716, 0.8484, 11, [['input', 0, 0], ['S_ConvBlock_64_3', 0, 0], ['S_ConvBlock_128_3', 0, 0], ['S_ResBlock_64_1', 1, 1], ['S_ResBlock_32_3', 2, 1], ['S_ResBlock_128_3', 3, 4], ['S_ConvBlock_128_3', 4, 2], ['Max_Pool', 5, 5], ['S_ConvBlock_64_1', 7, 4], ['S_ResBlock_32_5', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]]]
+	gpu_id: 0 , [['input', 0, 0], ['S_ConvBlock_64_3', 0, 0], ['S_ConvBlock_128_5', 0, 0], ['S_ConvBlock_128_3', 0, 0], ['S_ResBlock_64_1', 1, 2], ['Concat', 3, 2], ['S_ResBlock_32_3', 5, 2], ['S_ResBlock_128_3', 4, 6], ['S_ConvBlock_128_3', 6, 3], ['Max_Pool', 7, 7], ['S_ConvBlock_64_1', 9, 6], ['S_ResBlock_32_5', 8, 8], ['Sum', 10, 11], ['full', 12, 12]]
+Files already downloaded and verified
+Files already downloaded and verified
+train num     50000
+GPUID     : 0
+epoch_num : 50
+batch_size: 128
+initialization method [kaiming]
+epoch 1
+Train set : Average loss: 1640.2103
+Train set : Average Acc : 0.4040
+time  31.2520592212677
+epoch 2
+Train set : Average loss: 422.4467
+Train set : Average Acc : 0.5754
+time  27.791419982910156
+epoch 3
+Train set : Average loss: 374.8252
+Train set : Average Acc : 0.6246
+time  27.750295639038086
+epoch 4
+Train set : Average loss: 347.0888
+Train set : Average Acc : 0.6553
+time  27.80961036682129
+epoch 5
+Train set : Average loss: 329.3933
+Train set : Average Acc : 0.6729
+time  27.86643886566162
+epoch 6
+Train set : Average loss: 315.4076
+Train set : Average Acc : 0.6876
+time  27.83732318878174
+epoch 7
+Train set : Average loss: 303.7707
+Train set : Average Acc : 0.6990
+time  27.796257257461548
+epoch 8
+Train set : Average loss: 291.7019
+Train set : Average Acc : 0.7104
+time  27.795968770980835
+epoch 9
+Train set : Average loss: 284.3329
+Train set : Average Acc : 0.7201
+time  27.80823850631714
+epoch 10
+Train set : Average loss: 278.4627
+Train set : Average Acc : 0.7253
+time  27.810845613479614
+epoch 11
+Train set : Average loss: 270.8499
+Train set : Average Acc : 0.7345
+time  27.737178564071655
+epoch 12
+Train set : Average loss: 266.0570
+Train set : Average Acc : 0.7370
+time  27.792015314102173
+epoch 13
+Train set : Average loss: 261.9512
+Train set : Average Acc : 0.7415
+time  27.69975733757019
+epoch 14
+Train set : Average loss: 256.8116
+Train set : Average Acc : 0.7471
+time  27.84724235534668
+epoch 15
+Train set : Average loss: 253.6055
+Train set : Average Acc : 0.7509
+time  27.708842992782593
+epoch 16
+Train set : Average loss: 250.5200
+Train set : Average Acc : 0.7512
+time  27.659630298614502
+epoch 17
+Train set : Average loss: 245.1204
+Train set : Average Acc : 0.7585
+time  27.710572719573975
+epoch 18
+Train set : Average loss: 246.5257
+Train set : Average Acc : 0.7637
+time  27.613420009613037
+epoch 19
+Train set : Average loss: 239.3253
+Train set : Average Acc : 0.7648
+time  27.612391710281372
+epoch 20
+Train set : Average loss: 234.8352
+Train set : Average Acc : 0.7701
+time  27.697311878204346
+epoch 21
+Train set : Average loss: 232.0533
+Train set : Average Acc : 0.7726
+time  27.643702507019043
+epoch 22
+Train set : Average loss: 226.7259
+Train set : Average Acc : 0.7767
+time  27.63891625404358
+epoch 23
+Train set : Average loss: 224.3106
+Train set : Average Acc : 0.7796
+time  27.60461163520813
+epoch 24
+Train set : Average loss: 221.5350
+Train set : Average Acc : 0.7820
+time  27.693536043167114
+epoch 25
+Train set : Average loss: 218.6042
+Train set : Average Acc : 0.7862
+time  27.637813806533813
+epoch 26
+Train set : Average loss: 213.7973
+Train set : Average Acc : 0.7904
+time  27.626301527023315
+epoch 27
+Train set : Average loss: 212.0793
+Train set : Average Acc : 0.7910
+time  27.64602828025818
+epoch 28
+Train set : Average loss: 207.1756
+Train set : Average Acc : 0.7972
+time  27.644147634506226
+epoch 29
+Train set : Average loss: 207.9213
+Train set : Average Acc : 0.7936
+time  27.585193634033203
+epoch 30
+Train set : Average loss: 204.2395
+Train set : Average Acc : 0.8005
+time  27.618066549301147
+epoch 31
+Train set : Average loss: 161.5087
+Train set : Average Acc : 0.8400
+time  27.67594861984253
+epoch 32
+Train set : Average loss: 151.8769
+Train set : Average Acc : 0.8515
+time  27.654370069503784
+epoch 33
+Train set : Average loss: 146.2151
+Train set : Average Acc : 0.8576
+time  27.58271884918213
+epoch 34
+Train set : Average loss: 143.8462
+Train set : Average Acc : 0.8575
+time  27.670718669891357
+epoch 35
+Train set : Average loss: 140.9513
+Train set : Average Acc : 0.8616
+time  27.685017108917236
+epoch 36
+Train set : Average loss: 137.4727
+Train set : Average Acc : 0.8632
+time  27.713786363601685
+epoch 37
+Train set : Average loss: 135.9306
+Train set : Average Acc : 0.8672
+time  27.683663606643677
+epoch 38
+Train set : Average loss: 133.9811
+Train set : Average Acc : 0.8657
+time  27.60976266860962
+epoch 39
+Train set : Average loss: 130.3287
+Train set : Average Acc : 0.8720
+time  27.53578758239746
+epoch 40
+Train set : Average loss: 128.6579
+Train set : Average Acc : 0.8725
+time  27.67846441268921
+epoch 41
+Train set : Average loss: 128.4283
+Train set : Average Acc : 0.8749
+time  27.638975143432617
+epoch 42
+Train set : Average loss: 125.4330
+Train set : Average Acc : 0.8766
+time  27.62547254562378
+epoch 43
+Train set : Average loss: 125.1329
+Train set : Average Acc : 0.8766
+time  27.7419114112854
+epoch 44
+Train set : Average loss: 124.0783
+Train set : Average Acc : 0.8796
+time  27.574395418167114
+epoch 45
+Train set : Average loss: 121.2178
+Train set : Average Acc : 0.8808
+time  27.68008542060852
+epoch 46
+Train set : Average loss: 121.1343
+Train set : Average Acc : 0.8804
+time  27.580739974975586
+epoch 47
+Train set : Average loss: 118.4727
+Train set : Average Acc : 0.8831
+time  27.691816806793213
+epoch 48
+Train set : Average loss: 117.0613
+Train set : Average Acc : 0.8846
+time  27.663806915283203
+epoch 49
+Train set : Average loss: 114.4431
+Train set : Average Acc : 0.8877
+time  27.647690773010254
+epoch 50
+Train set : Average loss: 113.7700
+Train set : Average Acc : 0.8867
+time  27.680644512176514
+[[7, 8, 3472.169070959091, 0.8484, 11, [['input', 0, 0], ['S_ConvBlock_64_3', 0, 0], ['S_ConvBlock_128_3', 0, 0], ['S_ResBlock_64_1', 1, 1], ['S_ResBlock_32_3', 2, 1], ['S_ResBlock_128_3', 3, 4], ['S_ConvBlock_128_3', 4, 2], ['Max_Pool', 5, 5], ['S_ConvBlock_64_1', 7, 4], ['S_ResBlock_32_5', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]]]
+	gpu_id: 0 , [['input', 0, 0], ['S_ConvBlock_128_5', 0, 0], ['S_ConvBlock_128_3', 0, 0], ['S_ResBlock_64_1', 1, 1], ['S_ResBlock_32_3', 2, 3], ['S_ResBlock_128_3', 3, 4], ['S_ConvBlock_128_3', 4, 2], ['Max_Pool', 5, 5], ['S_ConvBlock_64_1', 7, 4], ['S_ResBlock_32_5', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]
+Files already downloaded and verified
+Files already downloaded and verified
+train num     50000
+GPUID     : 0
+epoch_num : 50
+batch_size: 128
+initialization method [kaiming]
+epoch 1
+Train set : Average loss: 1543.3763
+Train set : Average Acc : 0.4066
+time  27.173423051834106
+epoch 2
+Train set : Average loss: 437.3400
+Train set : Average Acc : 0.5572
+time  24.841345071792603
+epoch 3
+Train set : Average loss: 386.4365
+Train set : Average Acc : 0.6117
+time  24.750250577926636
+epoch 4
+Train set : Average loss: 356.9963
+Train set : Average Acc : 0.6463
+time  24.831597566604614
+epoch 5
+Train set : Average loss: 339.1097
+Train set : Average Acc : 0.6652
+time  24.833849906921387
+epoch 6
+Train set : Average loss: 323.0183
+Train set : Average Acc : 0.6782
+time  24.780900478363037
+epoch 7
+Train set : Average loss: 310.1633
+Train set : Average Acc : 0.6908
+time  24.778048515319824
+epoch 8
+Train set : Average loss: 300.0472
+Train set : Average Acc : 0.7045
+time  24.8077232837677
+epoch 9
+Train set : Average loss: 295.1089
+Train set : Average Acc : 0.7093
+time  24.755817890167236
+epoch 10
+Train set : Average loss: 285.8252
+Train set : Average Acc : 0.7165
+time  24.764246225357056
+epoch 11
+Train set : Average loss: 277.6191
+Train set : Average Acc : 0.7248
+time  24.759577751159668
+epoch 12
+Train set : Average loss: 274.5225
+Train set : Average Acc : 0.7300
+time  24.72051167488098
+epoch 13
+Train set : Average loss: 265.1588
+Train set : Average Acc : 0.7378
+time  24.720383167266846
+epoch 14
+Train set : Average loss: 260.9830
+Train set : Average Acc : 0.7437
+time  24.708579063415527
+epoch 15
+Train set : Average loss: 259.5177
+Train set : Average Acc : 0.7433
+time  24.724828720092773
+epoch 16
+Train set : Average loss: 252.5134
+Train set : Average Acc : 0.7525
+time  24.710908889770508
+epoch 17
+Train set : Average loss: 250.3599
+Train set : Average Acc : 0.7549
+time  24.6911563873291
+epoch 18
+Train set : Average loss: 247.8800
+Train set : Average Acc : 0.7576
+time  24.67580795288086
+epoch 19
+Train set : Average loss: 245.7460
+Train set : Average Acc : 0.7622
+time  24.678749561309814
+epoch 20
+Train set : Average loss: 241.0573
+Train set : Average Acc : 0.7624
+time  24.716735124588013
+epoch 21
+Train set : Average loss: 236.9985
+Train set : Average Acc : 0.7661
+time  24.668530464172363
+epoch 22
+Train set : Average loss: 231.8814
+Train set : Average Acc : 0.7746
+time  24.717703342437744
+epoch 23
+Train set : Average loss: 229.4001
+Train set : Average Acc : 0.7747
+time  24.640122175216675
+epoch 24
+Train set : Average loss: 226.9888
+Train set : Average Acc : 0.7777
+time  24.64748215675354
+epoch 25
+Train set : Average loss: 223.8578
+Train set : Average Acc : 0.7787
+time  24.691104650497437
+epoch 26
+Train set : Average loss: 219.0676
+Train set : Average Acc : 0.7862
+time  24.70367956161499
+epoch 27
+Train set : Average loss: 218.3339
+Train set : Average Acc : 0.7863
+time  24.634096384048462
+epoch 28
+Train set : Average loss: 214.0813
+Train set : Average Acc : 0.7909
+time  24.72662925720215
+epoch 29
+Train set : Average loss: 215.9889
+Train set : Average Acc : 0.7886
+time  24.618849277496338
+epoch 30
+Train set : Average loss: 209.4639
+Train set : Average Acc : 0.7947
+time  24.759961366653442
+epoch 31
+Train set : Average loss: 167.5950
+Train set : Average Acc : 0.8359
+time  24.713680505752563
+epoch 32
+Train set : Average loss: 158.6952
+Train set : Average Acc : 0.8437
+time  24.679038763046265
+epoch 33
+Train set : Average loss: 152.7832
+Train set : Average Acc : 0.8506
+time  24.687403440475464
+epoch 34
+Train set : Average loss: 149.3458
+Train set : Average Acc : 0.8533
+time  24.696282148361206
+epoch 35
+Train set : Average loss: 146.7773
+Train set : Average Acc : 0.8543
+time  24.715200424194336
+epoch 36
+Train set : Average loss: 142.7872
+Train set : Average Acc : 0.8595
+time  24.654752492904663
+epoch 37
+Train set : Average loss: 141.2771
+Train set : Average Acc : 0.8615
+time  24.707504987716675
+epoch 38
+Train set : Average loss: 138.6599
+Train set : Average Acc : 0.8636
+time  24.622114896774292
+epoch 39
+Train set : Average loss: 135.9430
+Train set : Average Acc : 0.8660
+time  24.741628885269165
+epoch 40
+Train set : Average loss: 134.4720
+Train set : Average Acc : 0.8668
+time  24.633187294006348
+epoch 41
+Train set : Average loss: 133.4196
+Train set : Average Acc : 0.8680
+time  24.757330656051636
+epoch 42
+Train set : Average loss: 130.3585
+Train set : Average Acc : 0.8707
+time  24.604161977767944
+epoch 43
+Train set : Average loss: 130.9349
+Train set : Average Acc : 0.8713
+time  24.654750108718872
+epoch 44
+Train set : Average loss: 127.1068
+Train set : Average Acc : 0.8730
+time  24.640854358673096
+epoch 45
+Train set : Average loss: 127.5832
+Train set : Average Acc : 0.8734
+time  24.609151124954224
+epoch 46
+Train set : Average loss: 123.7599
+Train set : Average Acc : 0.8771
+time  24.70638346672058
+epoch 47
+Train set : Average loss: 122.9749
+Train set : Average Acc : 0.8783
+time  24.638330221176147
+epoch 48
+Train set : Average loss: 122.4876
+Train set : Average Acc : 0.8799
+time  24.66216230392456
+epoch 49
+Train set : Average loss: 120.2358
+Train set : Average Acc : 0.8809
+time  24.684576272964478
+epoch 50
+Train set : Average loss: 118.3998
+Train set : Average Acc : 0.8822
+time  24.7192645072937
+[[8, 9, 4714.127457141876, 0.8484, 11, [['input', 0, 0], ['S_ConvBlock_128_5', 0, 0], ['S_ConvBlock_128_3', 0, 0], ['S_ResBlock_64_1', 1, 1], ['S_ResBlock_32_3', 2, 3], ['S_ResBlock_128_3', 3, 4], ['S_ConvBlock_128_3', 4, 2], ['Max_Pool', 5, 5], ['S_ConvBlock_64_1', 7, 4], ['S_ResBlock_32_5', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]]]
+	gpu_id: 0 , [['input', 0, 0], ['S_ConvBlock_128_5', 0, 0], ['S_ConvBlock_128_3', 0, 0], ['S_ResBlock_64_1', 1, 1], ['S_ResBlock_32_3', 2, 3], ['S_ResBlock_128_1', 3, 4], ['S_ConvBlock_128_3', 4, 2], ['Max_Pool', 5, 5], ['S_ConvBlock_64_1', 7, 4], ['S_ResBlock_32_5', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]
+Files already downloaded and verified
+Files already downloaded and verified
+train num     50000
+GPUID     : 0
+epoch_num : 50
+batch_size: 128
+initialization method [kaiming]
+epoch 1
+Train set : Average loss: 1606.9446
+Train set : Average Acc : 0.4071
+time  23.63419795036316
+epoch 2
+Train set : Average loss: 440.2246
+Train set : Average Acc : 0.5547
+time  21.116785764694214
+epoch 3
+Train set : Average loss: 395.1649
+Train set : Average Acc : 0.6057
+time  21.16962456703186
+epoch 4
+Train set : Average loss: 376.0853
+Train set : Average Acc : 0.6254
+time  21.081663846969604
+epoch 5
+Train set : Average loss: 360.3000
+Train set : Average Acc : 0.6429
+time  21.148054599761963
+epoch 6
+Train set : Average loss: 346.7659
+Train set : Average Acc : 0.6581
+time  21.114855766296387
+epoch 7
+Train set : Average loss: 350.7886
+Train set : Average Acc : 0.6574
+time  21.1877384185791
+epoch 8
+Train set : Average loss: 354.4425
+Train set : Average Acc : 0.6460
+time  21.175699710845947
+epoch 9
+Train set : Average loss: 327.4318
+Train set : Average Acc : 0.6763
+time  21.157491445541382
+epoch 10
+Train set : Average loss: 315.6204
+Train set : Average Acc : 0.6900
+time  21.178735971450806
+epoch 11
+Train set : Average loss: 310.4024
+Train set : Average Acc : 0.6938
+time  21.08236598968506
+epoch 12
+Train set : Average loss: 305.0886
+Train set : Average Acc : 0.6990
+time  21.11146116256714
+epoch 13
+Train set : Average loss: 300.0363
+Train set : Average Acc : 0.7055
+time  21.132696628570557
+epoch 14
+Train set : Average loss: 294.8698
+Train set : Average Acc : 0.7101
+time  21.0612473487854
+epoch 15
+Train set : Average loss: 292.5123
+Train set : Average Acc : 0.7123
+time  20.993330717086792
+epoch 16
+Train set : Average loss: 290.3173
+Train set : Average Acc : 0.7151
+time  21.051254510879517
+epoch 17
+Train set : Average loss: 283.2337
+Train set : Average Acc : 0.7216
+time  21.11067843437195
+epoch 18
+Train set : Average loss: 277.9817
+Train set : Average Acc : 0.7277
+time  20.963189363479614
+epoch 19
+Train set : Average loss: 277.6937
+Train set : Average Acc : 0.7276
+time  21.186943531036377
+epoch 20
+Train set : Average loss: 273.3090
+Train set : Average Acc : 0.7329
+time  21.04374885559082
+epoch 21
+Train set : Average loss: 270.1830
+Train set : Average Acc : 0.7364
+time  20.984421253204346
+epoch 22
+Train set : Average loss: 264.8817
+Train set : Average Acc : 0.7406
+time  21.016037702560425
+epoch 23
+Train set : Average loss: 262.3874
+Train set : Average Acc : 0.7441
+time  21.031084060668945
+epoch 24
+Train set : Average loss: 261.0403
+Train set : Average Acc : 0.7445
+time  21.012609481811523
+epoch 25
+Train set : Average loss: 257.0804
+Train set : Average Acc : 0.7472
+time  21.038477420806885
+epoch 26
+Train set : Average loss: 254.0415
+Train set : Average Acc : 0.7536
+time  21.10949993133545
+epoch 27
+Train set : Average loss: 253.7197
+Train set : Average Acc : 0.7520
+time  20.986687898635864
+epoch 28
+Train set : Average loss: 248.5146
+Train set : Average Acc : 0.7569
+time  20.970169067382812
+epoch 29
+Train set : Average loss: 245.0689
+Train set : Average Acc : 0.7625
+time  21.0273015499115
+epoch 30
+Train set : Average loss: 244.1449
+Train set : Average Acc : 0.7629
+time  21.04663586616516
+epoch 31
+Train set : Average loss: 202.9342
+Train set : Average Acc : 0.8020
+time  21.02090358734131
+epoch 32
+Train set : Average loss: 191.6345
+Train set : Average Acc : 0.8118
+time  20.98473024368286
+epoch 33
+Train set : Average loss: 186.1040
+Train set : Average Acc : 0.8165
+time  21.009550094604492
+epoch 34
+Train set : Average loss: 183.2183
+Train set : Average Acc : 0.8200
+time  21.059050798416138
+epoch 35
+Train set : Average loss: 180.4563
+Train set : Average Acc : 0.8235
+time  21.074723958969116
+epoch 36
+Train set : Average loss: 177.9157
+Train set : Average Acc : 0.8249
+time  21.131362199783325
+epoch 37
+Train set : Average loss: 174.8310
+Train set : Average Acc : 0.8274
+time  21.028021812438965
+epoch 38
+Train set : Average loss: 171.7278
+Train set : Average Acc : 0.8308
+time  21.040900230407715
+epoch 39
+Train set : Average loss: 170.0923
+Train set : Average Acc : 0.8332
+time  21.042287826538086
+epoch 40
+Train set : Average loss: 169.3375
+Train set : Average Acc : 0.8342
+time  21.03652811050415
+epoch 41
+Train set : Average loss: 166.2847
+Train set : Average Acc : 0.8378
+time  21.093048334121704
+epoch 42
+Train set : Average loss: 165.1655
+Train set : Average Acc : 0.8389
+time  21.11188244819641
+epoch 43
+Train set : Average loss: 164.4745
+Train set : Average Acc : 0.8401
+time  21.033228874206543
+epoch 44
+Train set : Average loss: 163.0232
+Train set : Average Acc : 0.8402
+time  21.118919610977173
+epoch 45
+Train set : Average loss: 159.8875
+Train set : Average Acc : 0.8417
+time  21.04150152206421
+epoch 46
+Train set : Average loss: 159.3134
+Train set : Average Acc : 0.8422
+time  21.08262038230896
+epoch 47
+Train set : Average loss: 157.5368
+Train set : Average Acc : 0.8442
+time  20.9850172996521
+epoch 48
+Train set : Average loss: 157.1467
+Train set : Average Acc : 0.8459
+time  21.068079233169556
+epoch 49
+Train set : Average loss: 155.2889
+Train set : Average Acc : 0.8471
+time  21.082948207855225
+epoch 50
+Train set : Average loss: 154.5448
+Train set : Average Acc : 0.8496
+time  21.007860898971558
+[[9, 10, 5774.259112596512, 0.8484, 11, [['input', 0, 0], ['S_ConvBlock_128_5', 0, 0], ['S_ConvBlock_128_3', 0, 0], ['S_ResBlock_64_1', 1, 1], ['S_ResBlock_32_3', 2, 3], ['S_ResBlock_128_3', 3, 4], ['S_ConvBlock_128_3', 4, 2], ['Max_Pool', 5, 5], ['S_ConvBlock_64_1', 7, 4], ['S_ResBlock_32_5', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]]]
+	gpu_id: 0 , [['input', 0, 0], ['S_ConvBlock_128_5', 0, 0], ['S_ConvBlock_128_3', 0, 0], ['S_ResBlock_64_1', 1, 1], ['S_ResBlock_32_3', 2, 3], ['S_ResBlock_128_3', 3, 4], ['S_ConvBlock_128_1', 4, 2], ['Max_Pool', 5, 5], ['S_ConvBlock_64_1', 7, 4], ['S_ResBlock_32_5', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]
+Files already downloaded and verified
+Files already downloaded and verified
+train num     50000
+GPUID     : 0
+epoch_num : 50
+batch_size: 128
+initialization method [kaiming]
+epoch 1
+Train set : Average loss: 1615.1394
+Train set : Average Acc : 0.4141
+time  25.376397609710693
+epoch 2
+Train set : Average loss: 443.0105
+Train set : Average Acc : 0.5545
+time  22.803906202316284
+epoch 3
+Train set : Average loss: 398.0218
+Train set : Average Acc : 0.6041
+time  22.835068464279175
+epoch 4
+Train set : Average loss: 371.9024
+Train set : Average Acc : 0.6316
+time  22.892653703689575
+epoch 5
+Train set : Average loss: 352.8855
+Train set : Average Acc : 0.6477
+time  22.871718168258667
+epoch 6
+Train set : Average loss: 340.3423
+Train set : Average Acc : 0.6616
+time  22.868030548095703
+epoch 7
+Train set : Average loss: 329.8168
+Train set : Average Acc : 0.6743
+time  22.889286518096924
+epoch 8
+Train set : Average loss: 317.9143
+Train set : Average Acc : 0.6865
+time  22.88692879676819
+epoch 9
+Train set : Average loss: 309.4911
+Train set : Average Acc : 0.6959
+time  22.856019258499146
+epoch 10
+Train set : Average loss: 303.7972
+Train set : Average Acc : 0.6992
+time  22.819185733795166
+epoch 11
+Train set : Average loss: 296.8700
+Train set : Average Acc : 0.7067
+time  22.800524950027466
+epoch 12
+Train set : Average loss: 287.5506
+Train set : Average Acc : 0.7174
+time  22.80915379524231
+epoch 13
+Train set : Average loss: 284.9130
+Train set : Average Acc : 0.7215
+time  22.76529312133789
+epoch 14
+Train set : Average loss: 276.9084
+Train set : Average Acc : 0.7296
+time  22.86559796333313
+epoch 15
+Train set : Average loss: 271.6465
+Train set : Average Acc : 0.7340
+time  22.775981664657593
+epoch 16
+Train set : Average loss: 265.7674
+Train set : Average Acc : 0.7419
+time  22.789920568466187
+epoch 17
+Train set : Average loss: 266.2267
+Train set : Average Acc : 0.7401
+time  22.807289123535156
+epoch 18
+Train set : Average loss: 259.8161
+Train set : Average Acc : 0.7480
+time  22.794406414031982
+epoch 19
+Train set : Average loss: 252.2687
+Train set : Average Acc : 0.7506
+time  22.732388257980347
+epoch 20
+Train set : Average loss: 250.4625
+Train set : Average Acc : 0.7564
+time  22.801526308059692
+epoch 21
+Train set : Average loss: 246.9547
+Train set : Average Acc : 0.7588
+time  22.81847882270813
+epoch 22
+Train set : Average loss: 242.4383
+Train set : Average Acc : 0.7646
+time  22.703397750854492
+epoch 23
+Train set : Average loss: 240.3339
+Train set : Average Acc : 0.7656
+time  22.78469729423523
+epoch 24
+Train set : Average loss: 236.7492
+Train set : Average Acc : 0.7696
+time  22.810279846191406
+epoch 25
+Train set : Average loss: 234.3715
+Train set : Average Acc : 0.7734
+time  22.771761655807495
+epoch 26
+Train set : Average loss: 229.8819
+Train set : Average Acc : 0.7769
+time  22.745950937271118
+epoch 27
+Train set : Average loss: 229.6138
+Train set : Average Acc : 0.7767
+time  22.76776933670044
+epoch 28
+Train set : Average loss: 225.1949
+Train set : Average Acc : 0.7812
+time  22.73986792564392
+epoch 29
+Train set : Average loss: 222.7965
+Train set : Average Acc : 0.7837
+time  22.7416410446167
+epoch 30
+Train set : Average loss: 220.9145
+Train set : Average Acc : 0.7844
+time  22.726303815841675
+epoch 31
+Train set : Average loss: 175.7029
+Train set : Average Acc : 0.8269
+time  22.723069190979004
+epoch 32
+Train set : Average loss: 164.2857
+Train set : Average Acc : 0.8398
+time  22.779881715774536
+epoch 33
+Train set : Average loss: 160.5607
+Train set : Average Acc : 0.8438
+time  22.752501487731934
+epoch 34
+Train set : Average loss: 156.6678
+Train set : Average Acc : 0.8461
+time  22.744351148605347
+epoch 35
+Train set : Average loss: 154.0643
+Train set : Average Acc : 0.8513
+time  22.768285512924194
+epoch 36
+Train set : Average loss: 152.7450
+Train set : Average Acc : 0.8502
+time  22.698575258255005
+epoch 37
+Train set : Average loss: 149.0932
+Train set : Average Acc : 0.8539
+time  22.731014728546143
+epoch 38
+Train set : Average loss: 145.5743
+Train set : Average Acc : 0.8569
+time  22.831626892089844
+epoch 39
+Train set : Average loss: 144.2436
+Train set : Average Acc : 0.8589
+time  22.694915771484375
+epoch 40
+Train set : Average loss: 141.9842
+Train set : Average Acc : 0.8604
+time  22.77880573272705
+epoch 41
+Train set : Average loss: 141.1982
+Train set : Average Acc : 0.8628
+time  22.76424527168274
+epoch 42
+Train set : Average loss: 138.8779
+Train set : Average Acc : 0.8632
+time  22.69299340248108
+epoch 43
+Train set : Average loss: 137.7886
+Train set : Average Acc : 0.8652
+time  22.759019136428833
+epoch 44
+Train set : Average loss: 135.9215
+Train set : Average Acc : 0.8674
+time  22.759130716323853
+epoch 45
+Train set : Average loss: 133.1839
+Train set : Average Acc : 0.8697
+time  22.72162365913391
+epoch 46
+Train set : Average loss: 132.7847
+Train set : Average Acc : 0.8695
+time  22.796427011489868
+epoch 47
+Train set : Average loss: 131.0434
+Train set : Average Acc : 0.8710
+time  22.73355722427368
+epoch 48
+Train set : Average loss: 129.1478
+Train set : Average Acc : 0.8731
+time  22.698149919509888
+epoch 49
+Train set : Average loss: 129.0710
+Train set : Average Acc : 0.8747
+time  22.75834560394287
+epoch 50
+Train set : Average loss: 126.0946
+Train set : Average Acc : 0.8760
+time  22.752874851226807
+[[10, 11, 6920.629461765289, 0.8526, 11, [['input', 0, 0], ['S_ConvBlock_128_5', 0, 0], ['S_ConvBlock_128_3', 0, 0], ['S_ResBlock_64_1', 1, 1], ['S_ResBlock_32_3', 2, 3], ['S_ResBlock_128_3', 3, 4], ['S_ConvBlock_128_1', 4, 2], ['Max_Pool', 5, 5], ['S_ConvBlock_64_1', 7, 4], ['S_ResBlock_32_5', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]]]
+	gpu_id: 0 , [['input', 0, 0], ['S_ConvBlock_128_5', 0, 0], ['S_ConvBlock_128_3', 0, 0], ['S_ResBlock_64_1', 1, 1], ['S_ConvBlock_64_1', 2, 3], ['S_ResBlock_64_5', 3, 4], ['S_ConvBlock_128_1', 4, 2], ['Max_Pool', 5, 5], ['S_ConvBlock_64_1', 7, 4], ['S_ResBlock_32_5', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]
+Files already downloaded and verified
+Files already downloaded and verified
+train num     50000
+GPUID     : 0
+epoch_num : 50
+batch_size: 128
+initialization method [kaiming]
+epoch 1
+Train set : Average loss: 1880.4581
+Train set : Average Acc : 0.3868
+time  22.733210802078247
+epoch 2
+Train set : Average loss: 466.3888
+Train set : Average Acc : 0.5266
+time  20.181846857070923
+epoch 3
+Train set : Average loss: 408.5313
+Train set : Average Acc : 0.5877
+time  20.20785689353943
+epoch 4
+Train set : Average loss: 374.4349
+Train set : Average Acc : 0.6268
+time  20.204370737075806
+epoch 5
+Train set : Average loss: 350.6755
+Train set : Average Acc : 0.6506
+time  20.27405285835266
+epoch 6
+Train set : Average loss: 331.4639
+Train set : Average Acc : 0.6692
+time  20.145806550979614
+epoch 7
+Train set : Average loss: 316.8089
+Train set : Average Acc : 0.6836
+time  20.263505220413208
+epoch 8
+Train set : Average loss: 304.7629
+Train set : Average Acc : 0.6960
+time  20.141040325164795
+epoch 9
+Train set : Average loss: 293.7637
+Train set : Average Acc : 0.7085
+time  20.186198472976685
+epoch 10
+Train set : Average loss: 287.4934
+Train set : Average Acc : 0.7156
+time  20.183517932891846
+epoch 11
+Train set : Average loss: 278.7941
+Train set : Average Acc : 0.7254
+time  20.127806425094604
+epoch 12
+Train set : Average loss: 272.0904
+Train set : Average Acc : 0.7300
+time  20.193929433822632
+epoch 13
+Train set : Average loss: 266.0076
+Train set : Average Acc : 0.7377
+time  20.11805295944214
+epoch 14
+Train set : Average loss: 259.6308
+Train set : Average Acc : 0.7456
+time  20.145363330841064
+epoch 15
+Train set : Average loss: 255.6590
+Train set : Average Acc : 0.7484
+time  20.12026858329773
+epoch 16
+Train set : Average loss: 250.4803
+Train set : Average Acc : 0.7527
+time  20.20407485961914
+epoch 17
+Train set : Average loss: 244.1738
+Train set : Average Acc : 0.7613
+time  20.140759468078613
+epoch 18
+Train set : Average loss: 242.5995
+Train set : Average Acc : 0.7626
+time  20.11526083946228
+epoch 19
+Train set : Average loss: 238.2530
+Train set : Average Acc : 0.7651
+time  20.124125957489014
+epoch 20
+Train set : Average loss: 235.6356
+Train set : Average Acc : 0.7708
+time  20.20866298675537
+epoch 21
+Train set : Average loss: 228.4918
+Train set : Average Acc : 0.7774
+time  20.11553168296814
+epoch 22
+Train set : Average loss: 225.8440
+Train set : Average Acc : 0.7810
+time  20.0881245136261
+epoch 23
+Train set : Average loss: 222.8672
+Train set : Average Acc : 0.7831
+time  20.100258111953735
+epoch 24
+Train set : Average loss: 220.3583
+Train set : Average Acc : 0.7842
+time  20.090795516967773
+epoch 25
+Train set : Average loss: 222.5585
+Train set : Average Acc : 0.7841
+time  20.10147452354431
+epoch 26
+Train set : Average loss: 216.3074
+Train set : Average Acc : 0.7900
+time  20.05056118965149
+epoch 27
+Train set : Average loss: 212.4760
+Train set : Average Acc : 0.7936
+time  20.10743236541748
+epoch 28
+Train set : Average loss: 207.2644
+Train set : Average Acc : 0.7952
+time  20.147102117538452
+epoch 29
+Train set : Average loss: 205.3105
+Train set : Average Acc : 0.7996
+time  20.133572816848755
+epoch 30
+Train set : Average loss: 198.4798
+Train set : Average Acc : 0.8062
+time  20.07954478263855
+epoch 31
+Train set : Average loss: 159.5056
+Train set : Average Acc : 0.8424
+time  20.07356834411621
+epoch 32
+Train set : Average loss: 150.6650
+Train set : Average Acc : 0.8520
+time  20.117966651916504
+epoch 33
+Train set : Average loss: 147.7374
+Train set : Average Acc : 0.8547
+time  20.086354732513428
+epoch 34
+Train set : Average loss: 145.6724
+Train set : Average Acc : 0.8541
+time  20.042197227478027
+epoch 35
+Train set : Average loss: 140.9308
+Train set : Average Acc : 0.8615
+time  20.08081030845642
+epoch 36
+Train set : Average loss: 139.9598
+Train set : Average Acc : 0.8636
+time  20.116725206375122
+epoch 37
+Train set : Average loss: 138.0839
+Train set : Average Acc : 0.8645
+time  20.083712100982666
+epoch 38
+Train set : Average loss: 136.4606
+Train set : Average Acc : 0.8657
+time  20.11930823326111
+epoch 39
+Train set : Average loss: 133.4152
+Train set : Average Acc : 0.8692
+time  20.131513357162476
+epoch 40
+Train set : Average loss: 131.9043
+Train set : Average Acc : 0.8700
+time  20.04541277885437
+epoch 41
+Train set : Average loss: 129.8814
+Train set : Average Acc : 0.8725
+time  20.102407693862915
+epoch 42
+Train set : Average loss: 130.0000
+Train set : Average Acc : 0.8717
+time  20.07012414932251
+epoch 43
+Train set : Average loss: 129.3710
+Train set : Average Acc : 0.8731
+time  20.086910247802734
+epoch 44
+Train set : Average loss: 125.9265
+Train set : Average Acc : 0.8742
+time  20.067452430725098
+epoch 45
+Train set : Average loss: 125.1707
+Train set : Average Acc : 0.8774
+time  20.05200743675232
+epoch 46
+Train set : Average loss: 125.2867
+Train set : Average Acc : 0.8761
+time  20.143165588378906
+epoch 47
+Train set : Average loss: 121.5526
+Train set : Average Acc : 0.8787
+time  20.143877744674683
+epoch 48
+Train set : Average loss: 122.7746
+Train set : Average Acc : 0.8793
+time  20.04601263999939
+epoch 49
+Train set : Average loss: 119.4099
+Train set : Average Acc : 0.8819
+time  20.080330848693848
+epoch 50
+Train set : Average loss: 118.1964
+Train set : Average Acc : 0.8838
+time  20.05868887901306
+[[11, 12, 7933.397073030472, 0.8526, 11, [['input', 0, 0], ['S_ConvBlock_128_5', 0, 0], ['S_ConvBlock_128_3', 0, 0], ['S_ResBlock_64_1', 1, 1], ['S_ResBlock_32_3', 2, 3], ['S_ResBlock_128_3', 3, 4], ['S_ConvBlock_128_1', 4, 2], ['Max_Pool', 5, 5], ['S_ConvBlock_64_1', 7, 4], ['S_ResBlock_32_5', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]]]
+	gpu_id: 0 , [['input', 0, 0], ['Avg_Pool', 0, 0], ['S_ConvBlock_128_3', 0, 0], ['S_ResBlock_64_1', 1, 1], ['S_ResBlock_32_3', 2, 3], ['S_ResBlock_128_3', 3, 4], ['S_ConvBlock_128_1', 4, 2], ['Max_Pool', 5, 5], ['S_ConvBlock_64_1', 7, 4], ['S_ResBlock_32_5', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]
+Files already downloaded and verified
+Files already downloaded and verified
+train num     50000
+GPUID     : 0
+epoch_num : 50
+batch_size: 128
+initialization method [kaiming]
+epoch 1
+[[12, 13, 7937.979135990143, 0.8526, 11, [['input', 0, 0], ['S_ConvBlock_128_5', 0, 0], ['S_ConvBlock_128_3', 0, 0], ['S_ResBlock_64_1', 1, 1], ['S_ResBlock_32_3', 2, 3], ['S_ResBlock_128_3', 3, 0], ['S_ConvBlock_128_1', 4, 2], ['Max_Pool', 5, 5], ['S_ConvBlock_64_1', 7, 4], ['S_ResBlock_32_5', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]]]
+	gpu_id: 0 , [['input', 0, 0], ['S_ConvBlock_128_3', 0, 0], ['Max_Pool', 0, 0], ['S_ResBlock_64_1', 2, 0], ['S_ResBlock_32_3', 1, 3], ['S_ResBlock_128_3', 3, 0], ['S_ConvBlock_128_1', 4, 1], ['S_ResBlock_32_5', 5, 5], ['S_ConvBlock_64_1', 7, 4], ['S_ResBlock_32_5', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]
+Files already downloaded and verified
+Files already downloaded and verified
+train num     50000
+GPUID     : 0
+epoch_num : 50
+batch_size: 128
+initialization method [kaiming]
+epoch 1
+Train set : Average loss: 1523.8997
+Train set : Average Acc : 0.3909
+time  17.748619556427002
+epoch 2
+Train set : Average loss: 456.4994
+Train set : Average Acc : 0.5389
+time  15.387145519256592
+epoch 3
+Train set : Average loss: 404.2524
+Train set : Average Acc : 0.5970
+time  15.381099700927734
+epoch 4
+Train set : Average loss: 376.4778
+Train set : Average Acc : 0.6257
+time  15.449546337127686
+epoch 5
+Train set : Average loss: 353.0109
+Train set : Average Acc : 0.6524
+time  15.452319383621216
+epoch 6
+Train set : Average loss: 337.8844
+Train set : Average Acc : 0.6641
+time  15.437651872634888
+epoch 7
+Train set : Average loss: 329.7727
+Train set : Average Acc : 0.6766
+time  15.42732286453247
+epoch 8
+Train set : Average loss: 316.7222
+Train set : Average Acc : 0.6878
+time  15.438501834869385
+epoch 9
+Train set : Average loss: 311.7042
+Train set : Average Acc : 0.6923
+time  15.43925666809082
+epoch 10
+Train set : Average loss: 306.9918
+Train set : Average Acc : 0.6993
+time  15.431171894073486
+epoch 11
+Train set : Average loss: 300.7383
+Train set : Average Acc : 0.7061
+time  15.435827732086182
+epoch 12
+Train set : Average loss: 294.5726
+Train set : Average Acc : 0.7121
+time  15.369867324829102
+epoch 13
+Train set : Average loss: 290.3020
+Train set : Average Acc : 0.7173
+time  15.438141822814941
+epoch 14
+Train set : Average loss: 284.8095
+Train set : Average Acc : 0.7237
+time  15.377960920333862
+epoch 15
+Train set : Average loss: 284.8539
+Train set : Average Acc : 0.7216
+time  15.416643619537354
+epoch 16
+Train set : Average loss: 279.3801
+Train set : Average Acc : 0.7276
+time  15.410891771316528
+epoch 17
+Train set : Average loss: 273.7542
+Train set : Average Acc : 0.7309
+time  15.364037990570068
+epoch 18
+Train set : Average loss: 273.2978
+Train set : Average Acc : 0.7320
+time  15.37175965309143
+epoch 19
+Train set : Average loss: 266.0930
+Train set : Average Acc : 0.7406
+time  15.353277683258057
+epoch 20
+Train set : Average loss: 264.9287
+Train set : Average Acc : 0.7408
+time  15.406214714050293
+epoch 21
+Train set : Average loss: 259.8790
+Train set : Average Acc : 0.7467
+time  15.408949136734009
+epoch 22
+Train set : Average loss: 259.8853
+Train set : Average Acc : 0.7484
+time  15.434545993804932
+epoch 23
+Train set : Average loss: 256.8788
+Train set : Average Acc : 0.7512
+time  15.402808666229248
+epoch 24
+Train set : Average loss: 262.0475
+Train set : Average Acc : 0.7473
+time  15.394381284713745
+epoch 25
+Train set : Average loss: 254.4003
+Train set : Average Acc : 0.7526
+time  15.380264282226562
+epoch 26
+Train set : Average loss: 252.4775
+Train set : Average Acc : 0.7554
+time  15.431668758392334
+epoch 27
+Train set : Average loss: 243.9534
+Train set : Average Acc : 0.7635
+time  15.333793878555298
+epoch 28
+Train set : Average loss: 242.8867
+Train set : Average Acc : 0.7630
+time  15.382461309432983
+epoch 29
+Train set : Average loss: 242.0587
+Train set : Average Acc : 0.7646
+time  15.353287696838379
+epoch 30
+Train set : Average loss: 236.7500
+Train set : Average Acc : 0.7709
+time  15.319898128509521
+epoch 31
+Train set : Average loss: 191.0516
+Train set : Average Acc : 0.8136
+time  15.31572937965393
+epoch 32
+Train set : Average loss: 180.9710
+Train set : Average Acc : 0.8245
+time  15.383546352386475
+epoch 33
+Train set : Average loss: 174.8497
+Train set : Average Acc : 0.8273
+time  15.403331279754639
+epoch 34
+Train set : Average loss: 173.5186
+Train set : Average Acc : 0.8300
+time  15.318294286727905
+epoch 35
+Train set : Average loss: 168.2520
+Train set : Average Acc : 0.8350
+time  15.410890817642212
+epoch 36
+Train set : Average loss: 165.9140
+Train set : Average Acc : 0.8374
+time  15.359839677810669
+epoch 37
+Train set : Average loss: 164.3982
+Train set : Average Acc : 0.8378
+time  15.415950536727905
+epoch 38
+Train set : Average loss: 160.5796
+Train set : Average Acc : 0.8425
+time  15.38803219795227
+epoch 39
+Train set : Average loss: 160.2669
+Train set : Average Acc : 0.8415
+time  15.382941246032715
+epoch 40
+Train set : Average loss: 158.3052
+Train set : Average Acc : 0.8445
+time  15.380980968475342
+epoch 41
+Train set : Average loss: 157.1128
+Train set : Average Acc : 0.8455
+time  15.396965265274048
+epoch 42
+Train set : Average loss: 154.5506
+Train set : Average Acc : 0.8466
+time  15.418057203292847
+epoch 43
+Train set : Average loss: 151.4257
+Train set : Average Acc : 0.8501
+time  15.36249589920044
+epoch 44
+Train set : Average loss: 151.2723
+Train set : Average Acc : 0.8510
+time  15.323617696762085
+epoch 45
+Train set : Average loss: 148.7277
+Train set : Average Acc : 0.8545
+time  15.435955047607422
+epoch 46
+Train set : Average loss: 148.3494
+Train set : Average Acc : 0.8545
+time  15.38172960281372
+epoch 47
+Train set : Average loss: 146.1855
+Train set : Average Acc : 0.8547
+time  15.325145721435547
+epoch 48
+Train set : Average loss: 146.9985
+Train set : Average Acc : 0.8553
+time  15.392500400543213
+epoch 49
+Train set : Average loss: 143.7391
+Train set : Average Acc : 0.8584
+time  15.398316860198975
+epoch 50
+Train set : Average loss: 143.0443
+Train set : Average Acc : 0.8603
+time  15.356303215026855
+[[13, 14, 8713.856090545654, 0.8526, 11, [['input', 0, 0], ['S_ConvBlock_128_5', 0, 0], ['S_ConvBlock_128_3', 0, 0], ['S_ResBlock_64_1', 1, 1], ['S_ResBlock_32_3', 2, 3], ['S_ResBlock_128_3', 3, 0], ['S_ConvBlock_128_1', 4, 2], ['Max_Pool', 5, 5], ['S_ConvBlock_64_1', 7, 4], ['S_ResBlock_32_5', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]]]
+	gpu_id: 0 , [['input', 0, 0], ['S_ResBlock_64_1', 0, 0], ['S_ConvBlock_128_3', 0, 0], ['S_ResBlock_64_1', 1, 1], ['S_ResBlock_32_3', 2, 3], ['S_ResBlock_128_3', 3, 0], ['S_ResBlock_128_5', 4, 2], ['Max_Pool', 5, 5], ['S_ConvBlock_64_1', 7, 4], ['S_ResBlock_32_5', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]
+Files already downloaded and verified
+Files already downloaded and verified
+train num     50000
+GPUID     : 0
+epoch_num : 50
+batch_size: 128
+initialization method [kaiming]
+epoch 1
+Train set : Average loss: 2264.3329
+Train set : Average Acc : 0.3829
+time  33.37684512138367
+epoch 2
+Train set : Average loss: 466.2580
+Train set : Average Acc : 0.5254
+time  30.32714033126831
+epoch 3
+Train set : Average loss: 416.3300
+Train set : Average Acc : 0.5812
+time  30.38880205154419
+epoch 4
+Train set : Average loss: 387.2707
+Train set : Average Acc : 0.6146
+time  30.351818084716797
+epoch 5
+Train set : Average loss: 362.1734
+Train set : Average Acc : 0.6389
+time  30.3729510307312
+epoch 6
+Train set : Average loss: 341.4683
+Train set : Average Acc : 0.6602
+time  30.38116455078125
+epoch 7
+Train set : Average loss: 318.4995
+Train set : Average Acc : 0.6843
+time  30.368073225021362
+epoch 8
+Train set : Average loss: 303.2278
+Train set : Average Acc : 0.7032
+time  30.437246561050415
+epoch 9
+Train set : Average loss: 288.3788
+Train set : Average Acc : 0.7162
+time  30.330751180648804
+epoch 10
+Train set : Average loss: 277.7962
+Train set : Average Acc : 0.7280
+time  30.306889057159424
+epoch 11
+Train set : Average loss: 270.2444
+Train set : Average Acc : 0.7368
+time  30.265822172164917
+epoch 12
+Train set : Average loss: 261.0934
+Train set : Average Acc : 0.7466
+time  30.406615495681763
+epoch 13
+Train set : Average loss: 256.6006
+Train set : Average Acc : 0.7519
+time  30.26417088508606
+epoch 14
+Train set : Average loss: 249.1245
+Train set : Average Acc : 0.7571
+time  30.297958850860596
+epoch 15
+Train set : Average loss: 241.7859
+Train set : Average Acc : 0.7663
+time  30.281452655792236
+epoch 16
+Train set : Average loss: 236.1266
+Train set : Average Acc : 0.7681
+time  30.21414875984192
+epoch 17
+Train set : Average loss: 232.3151
+Train set : Average Acc : 0.7748
+time  30.233920574188232
+epoch 18
+Train set : Average loss: 228.1280
+Train set : Average Acc : 0.7779
+time  30.21453022956848
+epoch 19
+Train set : Average loss: 223.6729
+Train set : Average Acc : 0.7835
+time  30.246150255203247
+epoch 20
+Train set : Average loss: 218.3700
+Train set : Average Acc : 0.7869
+time  30.323709726333618
+epoch 21
+Train set : Average loss: 211.8327
+Train set : Average Acc : 0.7954
+time  30.228837490081787
+epoch 22
+Train set : Average loss: 210.8878
+Train set : Average Acc : 0.7953
+time  30.253560781478882
+epoch 23
+Train set : Average loss: 204.8612
+Train set : Average Acc : 0.8027
+time  30.164655685424805
+epoch 24
+Train set : Average loss: 202.9101
+Train set : Average Acc : 0.8060
+time  30.207226514816284
+epoch 25
+Train set : Average loss: 198.6921
+Train set : Average Acc : 0.8086
+time  30.136425018310547
+epoch 26
+Train set : Average loss: 197.8238
+Train set : Average Acc : 0.8095
+time  30.237640857696533
+epoch 27
+Train set : Average loss: 194.4592
+Train set : Average Acc : 0.8132
+time  30.181331396102905
+epoch 28
+Train set : Average loss: 189.7830
+Train set : Average Acc : 0.8186
+time  30.244167804718018
+epoch 29
+Train set : Average loss: 188.5499
+Train set : Average Acc : 0.8176
+time  30.20825982093811
+epoch 30
+Train set : Average loss: 184.3353
+Train set : Average Acc : 0.8234
+time  30.204820156097412
+epoch 31
+Train set : Average loss: 137.0577
+Train set : Average Acc : 0.8655
+time  30.18796682357788
+epoch 32
+Train set : Average loss: 123.8321
+Train set : Average Acc : 0.8795
+time  30.21124505996704
+epoch 33
+Train set : Average loss: 120.1440
+Train set : Average Acc : 0.8838
+time  30.203181982040405
+epoch 34
+Train set : Average loss: 116.4708
+Train set : Average Acc : 0.8882
+time  30.200751304626465
+epoch 35
+Train set : Average loss: 111.4263
+Train set : Average Acc : 0.8912
+time  30.219959497451782
+epoch 36
+Train set : Average loss: 109.4776
+Train set : Average Acc : 0.8920
+time  30.23542356491089
+epoch 37
+Train set : Average loss: 109.8604
+Train set : Average Acc : 0.8932
+time  30.12949562072754
+epoch 38
+Train set : Average loss: 105.5216
+Train set : Average Acc : 0.8973
+time  30.24214482307434
+epoch 39
+Train set : Average loss: 102.4220
+Train set : Average Acc : 0.8995
+time  30.15186381340027
+epoch 40
+Train set : Average loss: 101.8350
+Train set : Average Acc : 0.9008
+time  30.2244873046875
+epoch 41
+Train set : Average loss: 100.7766
+Train set : Average Acc : 0.8999
+time  30.222230672836304
+epoch 42
+Train set : Average loss: 95.4934
+Train set : Average Acc : 0.9074
+time  30.183536767959595
+epoch 43
+Train set : Average loss: 96.7276
+Train set : Average Acc : 0.9052
+time  30.201125144958496
+epoch 44
+Train set : Average loss: 94.1604
+Train set : Average Acc : 0.9081
+time  30.181082010269165
+epoch 45
+Train set : Average loss: 91.7795
+Train set : Average Acc : 0.9099
+time  30.176564931869507
+epoch 46
+Train set : Average loss: 89.3214
+Train set : Average Acc : 0.9122
+time  30.242294311523438
+epoch 47
+Train set : Average loss: 88.1452
+Train set : Average Acc : 0.9128
+time  30.16773247718811
+epoch 48
+Train set : Average loss: 87.4925
+Train set : Average Acc : 0.9151
+time  30.22588610649109
+epoch 49
+Train set : Average loss: 86.0302
+Train set : Average Acc : 0.9150
+time  30.20094108581543
+epoch 50
+Train set : Average loss: 83.4180
+Train set : Average Acc : 0.9191
+time  30.195135831832886
+[[14, 15, 10234.148947954178, 0.87, 11, [['input', 0, 0], ['S_ResBlock_64_1', 0, 0], ['S_ConvBlock_128_3', 0, 0], ['S_ResBlock_64_1', 1, 1], ['S_ResBlock_32_3', 2, 3], ['S_ResBlock_128_3', 3, 0], ['S_ResBlock_128_5', 4, 2], ['Max_Pool', 5, 5], ['S_ConvBlock_64_1', 7, 4], ['S_ResBlock_32_5', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]]]
+	gpu_id: 0 , [['input', 0, 0], ['S_ResBlock_64_1', 0, 0], ['Max_Pool', 0, 0], ['S_ResBlock_64_1', 1, 0], ['S_ConvBlock_64_3', 2, 1], ['S_ConvBlock_64_3', 4, 4], ['S_ResBlock_128_5', 5, 4], ['S_ResBlock_128_3', 3, 1], ['Max_Pool', 7, 7], ['S_ConvBlock_64_1', 8, 6], ['S_ConvBlock_32_3', 6, 7], ['S_ResBlock_32_5', 10, 7], ['Sum', 9, 11], ['full', 12, 11]]
+Files already downloaded and verified
+Files already downloaded and verified
+train num     50000
+GPUID     : 0
+epoch_num : 50
+batch_size: 128
+initialization method [kaiming]
+epoch 1
+Train set : Average loss: 850.2440
+Train set : Average Acc : 0.3926
+time  17.223474979400635
+epoch 2
+Train set : Average loss: 492.1934
+Train set : Average Acc : 0.4954
+time  14.941859722137451
+epoch 3
+Train set : Average loss: 450.8562
+Train set : Average Acc : 0.5372
+time  14.933779001235962
+epoch 4
+Train set : Average loss: 416.4910
+Train set : Average Acc : 0.5817
+time  15.004325866699219
+epoch 5
+Train set : Average loss: 407.9527
+Train set : Average Acc : 0.5930
+time  14.981960773468018
+epoch 6
+Train set : Average loss: 379.3387
+Train set : Average Acc : 0.6188
+time  15.006517171859741
+epoch 7
+Train set : Average loss: 354.8951
+Train set : Average Acc : 0.6450
+time  14.9591383934021
+epoch 8
+Train set : Average loss: 336.3503
+Train set : Average Acc : 0.6659
+time  14.928162097930908
+epoch 9
+Train set : Average loss: 325.3920
+Train set : Average Acc : 0.6774
+time  14.938830614089966
+epoch 10
+Train set : Average loss: 315.1354
+Train set : Average Acc : 0.6878
+time  14.957085371017456
+epoch 11
+Train set : Average loss: 303.2549
+Train set : Average Acc : 0.7013
+time  14.892197608947754
+epoch 12
+Train set : Average loss: 296.9627
+Train set : Average Acc : 0.7061
+time  14.955246448516846
+epoch 13
+Train set : Average loss: 287.2819
+Train set : Average Acc : 0.7155
+time  14.902009010314941
+epoch 14
+Train set : Average loss: 282.0617
+Train set : Average Acc : 0.7210
+time  14.958727598190308
+epoch 15
+Train set : Average loss: 274.7562
+Train set : Average Acc : 0.7288
+time  14.961126327514648
+epoch 16
+Train set : Average loss: 265.8681
+Train set : Average Acc : 0.7382
+time  14.990804433822632
+epoch 17
+Train set : Average loss: 262.8060
+Train set : Average Acc : 0.7410
+time  14.917118787765503
+epoch 18
+Train set : Average loss: 259.3231
+Train set : Average Acc : 0.7462
+time  14.89070177078247
+epoch 19
+Train set : Average loss: 267.7085
+Train set : Average Acc : 0.7459
+time  14.889984607696533
+epoch 20
+Train set : Average loss: 250.8368
+Train set : Average Acc : 0.7538
+time  14.921855926513672
+epoch 21
+Train set : Average loss: 240.9201
+Train set : Average Acc : 0.7637
+time  14.944253921508789
+epoch 22
+Train set : Average loss: 237.0548
+Train set : Average Acc : 0.7664
+time  14.90010142326355
+epoch 23
+Train set : Average loss: 230.9054
+Train set : Average Acc : 0.7730
+time  14.870298862457275
+epoch 24
+Train set : Average loss: 227.7660
+Train set : Average Acc : 0.7784
+time  14.896452903747559
+epoch 25
+Train set : Average loss: 225.3067
+Train set : Average Acc : 0.7787
+time  14.915873289108276
+epoch 26
+Train set : Average loss: 221.0806
+Train set : Average Acc : 0.7846
+time  14.913012504577637
+epoch 27
+Train set : Average loss: 215.5502
+Train set : Average Acc : 0.7901
+time  14.880667924880981
+epoch 28
+Train set : Average loss: 215.6459
+Train set : Average Acc : 0.7891
+time  14.876776695251465
+epoch 29
+Train set : Average loss: 207.2450
+Train set : Average Acc : 0.7952
+time  14.876657485961914
+epoch 30
+Train set : Average loss: 204.5050
+Train set : Average Acc : 0.7989
+time  14.965984344482422
+epoch 31
+Train set : Average loss: 164.0609
+Train set : Average Acc : 0.8380
+time  14.919997930526733
+epoch 32
+Train set : Average loss: 151.7963
+Train set : Average Acc : 0.8486
+time  14.92783784866333
+epoch 33
+Train set : Average loss: 147.3749
+Train set : Average Acc : 0.8557
+time  14.921350717544556
+epoch 34
+Train set : Average loss: 144.2605
+Train set : Average Acc : 0.8569
+time  14.924073219299316
+epoch 35
+Train set : Average loss: 142.7341
+Train set : Average Acc : 0.8573
+time  14.874623775482178
+epoch 36
+Train set : Average loss: 140.6039
+Train set : Average Acc : 0.8613
+time  14.916038036346436
+epoch 37
+Train set : Average loss: 137.8239
+Train set : Average Acc : 0.8634
+time  14.89988899230957
+epoch 38
+Train set : Average loss: 136.0273
+Train set : Average Acc : 0.8651
+time  14.904069662094116
+epoch 39
+Train set : Average loss: 134.3877
+Train set : Average Acc : 0.8675
+time  14.947840929031372
+epoch 40
+Train set : Average loss: 134.3146
+Train set : Average Acc : 0.8664
+time  14.978674173355103
+epoch 41
+Train set : Average loss: 132.4993
+Train set : Average Acc : 0.8689
+time  14.921403169631958
+epoch 42
+Train set : Average loss: 130.0228
+Train set : Average Acc : 0.8720
+time  14.888416528701782
+epoch 43
+Train set : Average loss: 126.9095
+Train set : Average Acc : 0.8733
+time  14.925781726837158
+epoch 44
+Train set : Average loss: 127.1052
+Train set : Average Acc : 0.8737
+time  14.925084829330444
+epoch 45
+Train set : Average loss: 127.2306
+Train set : Average Acc : 0.8745
+time  14.918469667434692
+epoch 46
+Train set : Average loss: 125.0432
+Train set : Average Acc : 0.8753
+time  14.886474847793579
+epoch 47
+Train set : Average loss: 123.5864
+Train set : Average Acc : 0.8770
+time  14.920685291290283
+epoch 48
+Train set : Average loss: 121.2801
+Train set : Average Acc : 0.8787
+time  14.923028230667114
+epoch 49
+Train set : Average loss: 120.6613
+Train set : Average Acc : 0.8802
+time  14.971924304962158
+epoch 50
+Train set : Average loss: 119.2973
+Train set : Average Acc : 0.8823
+time  14.995935916900635
+[[15, 16, 10986.74106144905, 0.87, 11, [['input', 0, 0], ['S_ResBlock_64_1', 0, 0], ['S_ConvBlock_128_3', 0, 0], ['S_ResBlock_64_1', 1, 1], ['S_ResBlock_32_3', 2, 3], ['S_ResBlock_128_3', 3, 0], ['S_ResBlock_128_5', 4, 5], ['Max_Pool', 5, 5], ['S_ConvBlock_64_1', 7, 4], ['S_ResBlock_32_5', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]]]
+	gpu_id: 0 , [['input', 0, 0], ['S_ResBlock_64_1', 0, 0], ['S_ConvBlock_128_3', 0, 0], ['S_ResBlock_64_1', 1, 1], ['S_ResBlock_32_3', 2, 3], ['Avg_Pool', 3, 4], ['S_ResBlock_128_5', 4, 5], ['Max_Pool', 5, 5], ['S_ConvBlock_64_1', 7, 4], ['Avg_Pool', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]
+Files already downloaded and verified
+Files already downloaded and verified
+train num     50000
+GPUID     : 0
+epoch_num : 50
+batch_size: 128
+initialization method [kaiming]
+epoch 1
+Train set : Average loss: 947.9409
+Train set : Average Acc : 0.4182
+time  20.887064456939697
+epoch 2
+Train set : Average loss: 426.2676
+Train set : Average Acc : 0.5708
+time  18.644635915756226
+epoch 3
+Train set : Average loss: 365.3734
+Train set : Average Acc : 0.6367
+time  18.547056674957275
+epoch 4
+Train set : Average loss: 320.4127
+Train set : Average Acc : 0.6842
+time  18.591386556625366
+epoch 5
+Train set : Average loss: 290.4403
+Train set : Average Acc : 0.7128
+time  18.657482862472534
+epoch 6
+Train set : Average loss: 267.4938
+Train set : Average Acc : 0.7347
+time  18.82659673690796
+epoch 7
+Train set : Average loss: 250.3000
+Train set : Average Acc : 0.7532
+time  18.616767406463623
+epoch 8
+Train set : Average loss: 237.0443
+Train set : Average Acc : 0.7675
+time  18.722667455673218
+epoch 9
+Train set : Average loss: 228.2911
+Train set : Average Acc : 0.7762
+time  18.633869886398315
+epoch 10
+Train set : Average loss: 217.3749
+Train set : Average Acc : 0.7873
+time  18.668376922607422
+epoch 11
+Train set : Average loss: 209.3652
+Train set : Average Acc : 0.7939
+time  18.614973783493042
+epoch 12
+Train set : Average loss: 201.2765
+Train set : Average Acc : 0.8024
+time  18.63295578956604
+epoch 13
+Train set : Average loss: 196.1580
+Train set : Average Acc : 0.8070
+time  18.545903205871582
+epoch 14
+Train set : Average loss: 189.9117
+Train set : Average Acc : 0.8141
+time  18.59604263305664
+epoch 15
+Train set : Average loss: 183.9450
+Train set : Average Acc : 0.8217
+time  18.628832578659058
+epoch 16
+Train set : Average loss: 181.4054
+Train set : Average Acc : 0.8237
+time  18.58193063735962
+epoch 17
+Train set : Average loss: 176.0319
+Train set : Average Acc : 0.8286
+time  18.54119324684143
+epoch 18
+Train set : Average loss: 170.4410
+Train set : Average Acc : 0.8330
+time  18.601584911346436
+epoch 19
+Train set : Average loss: 166.2519
+Train set : Average Acc : 0.8366
+time  18.62631845474243
+epoch 20
+Train set : Average loss: 162.0023
+Train set : Average Acc : 0.8424
+time  18.598094940185547
+epoch 21
+Train set : Average loss: 160.1676
+Train set : Average Acc : 0.8425
+time  18.62788462638855
+epoch 22
+Train set : Average loss: 156.4795
+Train set : Average Acc : 0.8482
+time  18.52840566635132
+epoch 23
+Train set : Average loss: 150.3518
+Train set : Average Acc : 0.8527
+time  18.64990520477295
+epoch 24
+Train set : Average loss: 149.7780
+Train set : Average Acc : 0.8523
+time  18.67873978614807
+epoch 25
+Train set : Average loss: 146.6992
+Train set : Average Acc : 0.8573
+time  18.51784873008728
+epoch 26
+Train set : Average loss: 142.3635
+Train set : Average Acc : 0.8612
+time  18.606574058532715
+epoch 27
+Train set : Average loss: 137.0247
+Train set : Average Acc : 0.8653
+time  18.54322123527527
+epoch 28
+Train set : Average loss: 135.0052
+Train set : Average Acc : 0.8693
+time  18.663235425949097
+epoch 29
+Train set : Average loss: 133.1615
+Train set : Average Acc : 0.8714
+time  18.648857593536377
+epoch 30
+Train set : Average loss: 129.6453
+Train set : Average Acc : 0.8741
+time  18.61622667312622
+epoch 31
+Train set : Average loss: 93.2748
+Train set : Average Acc : 0.9092
+time  18.667738676071167
+epoch 32
+Train set : Average loss: 81.6354
+Train set : Average Acc : 0.9174
+time  18.590128898620605
+epoch 33
+Train set : Average loss: 79.2831
+Train set : Average Acc : 0.9229
+time  18.610317707061768
+epoch 34
+Train set : Average loss: 76.6278
+Train set : Average Acc : 0.9244
+time  18.608415842056274
+epoch 35
+Train set : Average loss: 72.9435
+Train set : Average Acc : 0.9275
+time  18.587810754776
+epoch 36
+Train set : Average loss: 71.9091
+Train set : Average Acc : 0.9287
+time  18.538366317749023
+epoch 37
+Train set : Average loss: 69.0902
+Train set : Average Acc : 0.9323
+time  18.573875665664673
+epoch 38
+Train set : Average loss: 67.3834
+Train set : Average Acc : 0.9334
+time  18.647785902023315
+epoch 39
+Train set : Average loss: 65.7039
+Train set : Average Acc : 0.9338
+time  18.63617467880249
+epoch 40
+Train set : Average loss: 64.1363
+Train set : Average Acc : 0.9367
+time  18.70413637161255
+epoch 41
+Train set : Average loss: 63.4968
+Train set : Average Acc : 0.9377
+time  18.569642305374146
+epoch 42
+Train set : Average loss: 61.1100
+Train set : Average Acc : 0.9398
+time  18.618228435516357
+epoch 43
+Train set : Average loss: 59.1116
+Train set : Average Acc : 0.9412
+time  18.511515140533447
+epoch 44
+Train set : Average loss: 57.9332
+Train set : Average Acc : 0.9427
+time  18.63327717781067
+epoch 45
+Train set : Average loss: 56.3998
+Train set : Average Acc : 0.9443
+time  18.62000012397766
+epoch 46
+Train set : Average loss: 57.1348
+Train set : Average Acc : 0.9436
+time  18.551180362701416
+epoch 47
+Train set : Average loss: 54.6936
+Train set : Average Acc : 0.9452
+time  18.594710111618042
+epoch 48
+Train set : Average loss: 52.9768
+Train set : Average Acc : 0.9476
+time  18.764326333999634
+epoch 49
+Train set : Average loss: 53.7048
+Train set : Average Acc : 0.9472
+time  18.54557514190674
+epoch 50
+Train set : Average loss: 50.5873
+Train set : Average Acc : 0.9504
+time  18.59608507156372
+[[16, 17, 11923.659647464752, 0.8752, 11, [['input', 0, 0], ['S_ResBlock_64_1', 0, 0], ['S_ConvBlock_128_3', 0, 0], ['S_ResBlock_64_1', 1, 1], ['S_ResBlock_32_3', 2, 3], ['Avg_Pool', 3, 4], ['S_ResBlock_128_5', 4, 5], ['Max_Pool', 5, 5], ['S_ConvBlock_64_1', 7, 4], ['Avg_Pool', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]]]
+	gpu_id: 0 , [['input', 0, 0], ['S_ConvBlock_128_1', 0, 0], ['S_ConvBlock_128_3', 0, 0], ['S_ResBlock_64_1', 1, 1], ['S_ResBlock_32_3', 2, 3], ['Avg_Pool', 3, 4], ['S_ResBlock_128_5', 4, 5], ['Max_Pool', 5, 5], ['S_ConvBlock_64_1', 7, 4], ['Avg_Pool', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]
+Files already downloaded and verified
+Files already downloaded and verified
+train num     50000
+GPUID     : 0
+epoch_num : 50
+batch_size: 128
+initialization method [kaiming]
+epoch 1
+Train set : Average loss: 973.5315
+Train set : Average Acc : 0.4137
+time  21.350629568099976
+epoch 2
+Train set : Average loss: 421.3791
+Train set : Average Acc : 0.5750
+time  19.10402011871338
+epoch 3
+Train set : Average loss: 352.8012
+Train set : Average Acc : 0.6490
+time  19.167612075805664
+epoch 4
+Train set : Average loss: 307.9651
+Train set : Average Acc : 0.6951
+time  19.11512589454651
+epoch 5
+Train set : Average loss: 275.1351
+Train set : Average Acc : 0.7274
+time  19.133159637451172
+epoch 6
+Train set : Average loss: 254.6388
+Train set : Average Acc : 0.7474
+time  19.077522039413452
+epoch 7
+Train set : Average loss: 237.7798
+Train set : Average Acc : 0.7656
+time  19.05771040916443
+epoch 8
+Train set : Average loss: 222.7760
+Train set : Average Acc : 0.7790
+time  19.070348024368286
+epoch 9
+Train set : Average loss: 214.7120
+Train set : Average Acc : 0.7885
+time  19.067961931228638
+epoch 10
+Train set : Average loss: 207.7659
+Train set : Average Acc : 0.7980
+time  19.109295129776
+epoch 11
+Train set : Average loss: 199.4463
+Train set : Average Acc : 0.8041
+time  19.082529067993164
+epoch 12
+Train set : Average loss: 191.1184
+Train set : Average Acc : 0.8130
+time  19.16256356239319
+epoch 13
+Train set : Average loss: 187.7801
+Train set : Average Acc : 0.8178
+time  19.06871461868286
+epoch 14
+Train set : Average loss: 180.6776
+Train set : Average Acc : 0.8206
+time  19.06893229484558
+epoch 15
+Train set : Average loss: 174.3332
+Train set : Average Acc : 0.8286
+time  19.055782079696655
+epoch 16
+Train set : Average loss: 169.6568
+Train set : Average Acc : 0.8339
+time  19.01849675178528
+epoch 17
+Train set : Average loss: 166.0253
+Train set : Average Acc : 0.8374
+time  19.009572744369507
+epoch 18
+Train set : Average loss: 160.6812
+Train set : Average Acc : 0.8440
+time  19.084728240966797
+epoch 19
+Train set : Average loss: 158.6326
+Train set : Average Acc : 0.8441
+time  19.043692588806152
+epoch 20
+Train set : Average loss: 154.4681
+Train set : Average Acc : 0.8491
+time  19.020489931106567
+epoch 21
+Train set : Average loss: 148.4613
+Train set : Average Acc : 0.8557
+time  19.010039567947388
+epoch 22
+Train set : Average loss: 145.7039
+Train set : Average Acc : 0.8559
+time  19.00687575340271
+epoch 23
+Train set : Average loss: 143.5439
+Train set : Average Acc : 0.8600
+time  19.05205798149109
+epoch 24
+Train set : Average loss: 139.8445
+Train set : Average Acc : 0.8622
+time  19.053534030914307
+epoch 25
+Train set : Average loss: 137.0636
+Train set : Average Acc : 0.8670
+time  19.032393217086792
+epoch 26
+Train set : Average loss: 133.5110
+Train set : Average Acc : 0.8699
+time  19.04482865333557
+epoch 27
+Train set : Average loss: 129.1015
+Train set : Average Acc : 0.8749
+time  19.001933574676514
+epoch 28
+Train set : Average loss: 125.8202
+Train set : Average Acc : 0.8767
+time  19.021270036697388
+epoch 29
+Train set : Average loss: 125.9111
+Train set : Average Acc : 0.8788
+time  19.018304109573364
+epoch 30
+Train set : Average loss: 121.0124
+Train set : Average Acc : 0.8808
+time  19.099060773849487
+epoch 31
+Train set : Average loss: 83.7392
+Train set : Average Acc : 0.9183
+time  19.02563714981079
+epoch 32
+Train set : Average loss: 74.9762
+Train set : Average Acc : 0.9255
+time  19.04776430130005
+epoch 33
+Train set : Average loss: 70.6314
+Train set : Average Acc : 0.9311
+time  18.991201162338257
+epoch 34
+Train set : Average loss: 68.3512
+Train set : Average Acc : 0.9338
+time  19.040902614593506
+epoch 35
+Train set : Average loss: 65.4266
+Train set : Average Acc : 0.9361
+time  19.108994483947754
+epoch 36
+Train set : Average loss: 62.8619
+Train set : Average Acc : 0.9391
+time  19.056048154830933
+epoch 37
+Train set : Average loss: 62.2665
+Train set : Average Acc : 0.9378
+time  19.074756622314453
+epoch 38
+Train set : Average loss: 60.0756
+Train set : Average Acc : 0.9407
+time  19.01882553100586
+epoch 39
+Train set : Average loss: 59.7511
+Train set : Average Acc : 0.9414
+time  19.05044960975647
+epoch 40
+Train set : Average loss: 57.3450
+Train set : Average Acc : 0.9447
+time  19.04849076271057
+epoch 41
+Train set : Average loss: 54.7513
+Train set : Average Acc : 0.9469
+time  19.148091077804565
+epoch 42
+Train set : Average loss: 53.5575
+Train set : Average Acc : 0.9490
+time  19.07012963294983
+epoch 43
+Train set : Average loss: 52.1804
+Train set : Average Acc : 0.9488
+time  19.043670415878296
+epoch 44
+Train set : Average loss: 50.2012
+Train set : Average Acc : 0.9503
+time  19.072040557861328
+epoch 45
+Train set : Average loss: 50.9293
+Train set : Average Acc : 0.9498
+time  19.06851601600647
+epoch 46
+Train set : Average loss: 49.2657
+Train set : Average Acc : 0.9518
+time  19.05743169784546
+epoch 47
+Train set : Average loss: 47.5556
+Train set : Average Acc : 0.9531
+time  19.007512092590332
+epoch 48
+Train set : Average loss: 46.4890
+Train set : Average Acc : 0.9539
+time  18.969699144363403
+epoch 49
+Train set : Average loss: 45.7502
+Train set : Average Acc : 0.9550
+time  19.077234506607056
+epoch 50
+Train set : Average loss: 45.3081
+Train set : Average Acc : 0.9542
+time  19.056333780288696
+[[17, 18, 12882.922731399536, 0.8794, 11, [['input', 0, 0], ['S_ConvBlock_128_1', 0, 0], ['S_ConvBlock_128_3', 0, 0], ['S_ResBlock_64_1', 1, 1], ['S_ResBlock_32_3', 2, 3], ['Avg_Pool', 3, 4], ['S_ResBlock_128_5', 4, 5], ['Max_Pool', 5, 5], ['S_ConvBlock_64_1', 7, 4], ['Avg_Pool', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]]]
+	gpu_id: 0 , [['input', 0, 0], ['S_ConvBlock_64_1', 0, 0], ['S_ConvBlock_128_3', 0, 0], ['S_ResBlock_64_1', 1, 1], ['S_ResBlock_32_3', 2, 3], ['Avg_Pool', 3, 4], ['S_ResBlock_128_5', 4, 5], ['Max_Pool', 5, 5], ['S_ConvBlock_64_1', 7, 4], ['Avg_Pool', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]
+Files already downloaded and verified
+Files already downloaded and verified
+train num     50000
+GPUID     : 0
+epoch_num : 50
+batch_size: 128
+initialization method [kaiming]
+epoch 1
+Train set : Average loss: 870.0933
+Train set : Average Acc : 0.4238
+time  19.580267906188965
+epoch 2
+Train set : Average loss: 425.9326
+Train set : Average Acc : 0.5689
+time  17.42821717262268
+epoch 3
+Train set : Average loss: 362.3435
+Train set : Average Acc : 0.6359
+time  17.487324237823486
+epoch 4
+Train set : Average loss: 320.4777
+Train set : Average Acc : 0.6818
+time  17.50987482070923
+epoch 5
+Train set : Average loss: 293.4132
+Train set : Average Acc : 0.7094
+time  17.52108097076416
+epoch 6
+Train set : Average loss: 271.4990
+Train set : Average Acc : 0.7304
+time  17.449021816253662
+epoch 7
+Train set : Average loss: 257.1452
+Train set : Average Acc : 0.7468
+time  17.471576929092407
+epoch 8
+Train set : Average loss: 244.0972
+Train set : Average Acc : 0.7607
+time  17.523037433624268
+epoch 9
+Train set : Average loss: 232.9370
+Train set : Average Acc : 0.7718
+time  17.47088599205017
+epoch 10
+Train set : Average loss: 225.9929
+Train set : Average Acc : 0.7787
+time  17.459996223449707
+epoch 11
+Train set : Average loss: 214.7264
+Train set : Average Acc : 0.7892
+time  17.380382537841797
+epoch 12
+Train set : Average loss: 208.3585
+Train set : Average Acc : 0.7963
+time  17.468770742416382
+epoch 13
+Train set : Average loss: 201.4300
+Train set : Average Acc : 0.8024
+time  17.50951099395752
+epoch 14
+Train set : Average loss: 194.7390
+Train set : Average Acc : 0.8108
+time  17.50906491279602
+epoch 15
+Train set : Average loss: 188.9694
+Train set : Average Acc : 0.8146
+time  17.484480142593384
+epoch 16
+Train set : Average loss: 184.5487
+Train set : Average Acc : 0.8184
+time  17.470171689987183
+epoch 17
+Train set : Average loss: 178.0823
+Train set : Average Acc : 0.8243
+time  17.43740200996399
+epoch 18
+Train set : Average loss: 174.2951
+Train set : Average Acc : 0.8293
+time  17.40717077255249
+epoch 19
+Train set : Average loss: 170.1262
+Train set : Average Acc : 0.8356
+time  17.47120499610901
+epoch 20
+Train set : Average loss: 164.8683
+Train set : Average Acc : 0.8395
+time  17.407548904418945
+epoch 21
+Train set : Average loss: 161.6483
+Train set : Average Acc : 0.8424
+time  17.427066802978516
+epoch 22
+Train set : Average loss: 157.6385
+Train set : Average Acc : 0.8460
+time  17.446153163909912
+epoch 23
+Train set : Average loss: 155.4821
+Train set : Average Acc : 0.8484
+time  17.53834056854248
+epoch 24
+Train set : Average loss: 149.5271
+Train set : Average Acc : 0.8539
+time  17.492061853408813
+epoch 25
+Train set : Average loss: 147.5495
+Train set : Average Acc : 0.8548
+time  17.44475245475769
+epoch 26
+Train set : Average loss: 143.9770
+Train set : Average Acc : 0.8597
+time  17.383727550506592
+epoch 27
+Train set : Average loss: 138.4874
+Train set : Average Acc : 0.8649
+time  17.424237966537476
+epoch 28
+Train set : Average loss: 136.7568
+Train set : Average Acc : 0.8668
+time  17.40397024154663
+epoch 29
+Train set : Average loss: 133.3348
+Train set : Average Acc : 0.8696
+time  17.40669560432434
+epoch 30
+Train set : Average loss: 132.1736
+Train set : Average Acc : 0.8703
+time  17.47426724433899
+epoch 31
+Train set : Average loss: 93.6130
+Train set : Average Acc : 0.9088
+time  17.41532254219055
+epoch 32
+Train set : Average loss: 85.9909
+Train set : Average Acc : 0.9162
+time  17.375577449798584
+epoch 33
+Train set : Average loss: 80.6205
+Train set : Average Acc : 0.9220
+time  17.41280746459961
+epoch 34
+Train set : Average loss: 78.4262
+Train set : Average Acc : 0.9239
+time  17.460697174072266
+epoch 35
+Train set : Average loss: 76.1292
+Train set : Average Acc : 0.9256
+time  17.38413429260254
+epoch 36
+Train set : Average loss: 72.5974
+Train set : Average Acc : 0.9278
+time  17.481243133544922
+epoch 37
+Train set : Average loss: 70.2370
+Train set : Average Acc : 0.9319
+time  17.453416109085083
+epoch 38
+Train set : Average loss: 70.5884
+Train set : Average Acc : 0.9310
+time  17.41928219795227
+epoch 39
+Train set : Average loss: 67.9140
+Train set : Average Acc : 0.9343
+time  17.423661708831787
+epoch 40
+Train set : Average loss: 66.0883
+Train set : Average Acc : 0.9359
+time  17.413636684417725
+epoch 41
+Train set : Average loss: 65.4173
+Train set : Average Acc : 0.9360
+time  17.473798274993896
+epoch 42
+Train set : Average loss: 63.6935
+Train set : Average Acc : 0.9384
+time  17.409260511398315
+epoch 43
+Train set : Average loss: 60.6392
+Train set : Average Acc : 0.9406
+time  17.429211378097534
+epoch 44
+Train set : Average loss: 60.8908
+Train set : Average Acc : 0.9398
+time  17.326115608215332
+epoch 45
+Train set : Average loss: 59.7207
+Train set : Average Acc : 0.9417
+time  17.44469165802002
+epoch 46
+Train set : Average loss: 57.9680
+Train set : Average Acc : 0.9425
+time  17.44429612159729
+epoch 47
+Train set : Average loss: 57.9970
+Train set : Average Acc : 0.9437
+time  17.419012546539307
+epoch 48
+Train set : Average loss: 55.3254
+Train set : Average Acc : 0.9458
+time  17.424253463745117
+epoch 49
+Train set : Average loss: 54.1980
+Train set : Average Acc : 0.9472
+time  17.492348670959473
+epoch 50
+Train set : Average loss: 54.6753
+Train set : Average Acc : 0.9462
+time  17.4009907245636
+[[18, 19, 13761.459425449371, 0.8876, 11, [['input', 0, 0], ['S_ConvBlock_64_1', 0, 0], ['S_ConvBlock_128_3', 0, 0], ['S_ResBlock_64_1', 1, 1], ['S_ResBlock_32_3', 2, 3], ['Avg_Pool', 3, 4], ['S_ResBlock_128_5', 4, 5], ['Max_Pool', 5, 5], ['S_ConvBlock_64_1', 7, 4], ['Avg_Pool', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]]]
+	gpu_id: 0 , [['input', 0, 0], ['S_ConvBlock_64_3', 0, 0], ['S_ConvBlock_64_1', 0, 0], ['S_ResBlock_64_1', 2, 2], ['S_ConvBlock_32_5', 1, 3], ['Avg_Pool', 3, 3], ['S_ResBlock_128_5', 4, 5], ['Max_Pool', 5, 5], ['S_ConvBlock_64_1', 7, 4], ['Avg_Pool', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]
+Files already downloaded and verified
+Files already downloaded and verified
+train num     50000
+GPUID     : 0
+epoch_num : 50
+batch_size: 128
+initialization method [kaiming]
+epoch 1
+Train set : Average loss: 706.5981
+Train set : Average Acc : 0.4245
+time  16.39682173728943
+epoch 2
+Train set : Average loss: 428.8016
+Train set : Average Acc : 0.5646
+time  14.159081935882568
+epoch 3
+Train set : Average loss: 357.4229
+Train set : Average Acc : 0.6414
+time  14.264243364334106
+epoch 4
+Train set : Average loss: 319.9183
+Train set : Average Acc : 0.6806
+time  14.26508641242981
+epoch 5
+Train set : Average loss: 291.8891
+Train set : Average Acc : 0.7098
+time  14.127323389053345
+epoch 6
+Train set : Average loss: 275.6469
+Train set : Average Acc : 0.7277
+time  14.192985534667969
+epoch 7
+Train set : Average loss: 261.1152
+Train set : Average Acc : 0.7422
+time  14.146779775619507
+epoch 8
+Train set : Average loss: 246.4527
+Train set : Average Acc : 0.7576
+time  14.277334451675415
+epoch 9
+Train set : Average loss: 237.5433
+Train set : Average Acc : 0.7645
+time  14.126708984375
+epoch 10
+Train set : Average loss: 227.8870
+Train set : Average Acc : 0.7772
+time  14.247979402542114
+epoch 11
+Train set : Average loss: 221.2662
+Train set : Average Acc : 0.7817
+time  14.212007999420166
+epoch 12
+Train set : Average loss: 215.3476
+Train set : Average Acc : 0.7898
+time  14.255603790283203
+epoch 13
+Train set : Average loss: 208.0133
+Train set : Average Acc : 0.7949
+time  14.13654088973999
+epoch 14
+Train set : Average loss: 203.0857
+Train set : Average Acc : 0.7996
+time  14.188854694366455
+epoch 15
+Train set : Average loss: 198.5392
+Train set : Average Acc : 0.8052
+time  14.18083667755127
+epoch 16
+Train set : Average loss: 196.2318
+Train set : Average Acc : 0.8086
+time  14.17082405090332
+epoch 17
+Train set : Average loss: 188.6366
+Train set : Average Acc : 0.8160
+time  14.195258617401123
+epoch 18
+Train set : Average loss: 184.9797
+Train set : Average Acc : 0.8189
+time  14.171715259552002
+epoch 19
+Train set : Average loss: 183.6267
+Train set : Average Acc : 0.8210
+time  14.177850008010864
+epoch 20
+Train set : Average loss: 178.9204
+Train set : Average Acc : 0.8274
+time  14.13442087173462
+epoch 21
+Train set : Average loss: 177.6869
+Train set : Average Acc : 0.8254
+time  14.225399017333984
+epoch 22
+Train set : Average loss: 171.5105
+Train set : Average Acc : 0.8323
+time  14.176366090774536
+epoch 23
+Train set : Average loss: 169.2966
+Train set : Average Acc : 0.8334
+time  14.1767418384552
+epoch 24
+Train set : Average loss: 167.3873
+Train set : Average Acc : 0.8390
+time  14.16491174697876
+epoch 25
+Train set : Average loss: 164.9436
+Train set : Average Acc : 0.8383
+time  14.201898574829102
+epoch 26
+Train set : Average loss: 161.2286
+Train set : Average Acc : 0.8427
+time  14.227206707000732
+epoch 27
+Train set : Average loss: 157.0775
+Train set : Average Acc : 0.8456
+time  14.209683895111084
+epoch 28
+Train set : Average loss: 154.4300
+Train set : Average Acc : 0.8482
+time  14.164102792739868
+epoch 29
+Train set : Average loss: 151.8815
+Train set : Average Acc : 0.8521
+time  14.166690587997437
+epoch 30
+Train set : Average loss: 150.9471
+Train set : Average Acc : 0.8516
+time  14.1584153175354
+epoch 31
+Train set : Average loss: 114.7123
+Train set : Average Acc : 0.8877
+time  14.107784032821655
+epoch 32
+Train set : Average loss: 105.3046
+Train set : Average Acc : 0.8965
+time  14.16478943824768
+epoch 33
+Train set : Average loss: 102.5222
+Train set : Average Acc : 0.8989
+time  14.209126949310303
+epoch 34
+Train set : Average loss: 98.8594
+Train set : Average Acc : 0.9037
+time  14.19042181968689
+epoch 35
+Train set : Average loss: 97.1208
+Train set : Average Acc : 0.9054
+time  14.149989366531372
+epoch 36
+Train set : Average loss: 94.5520
+Train set : Average Acc : 0.9066
+time  14.163625240325928
+epoch 37
+Train set : Average loss: 93.0766
+Train set : Average Acc : 0.9083
+time  14.10039210319519
+epoch 38
+Train set : Average loss: 92.3108
+Train set : Average Acc : 0.9085
+time  14.11570692062378
+epoch 39
+Train set : Average loss: 88.3202
+Train set : Average Acc : 0.9129
+time  14.164728164672852
+epoch 40
+Train set : Average loss: 86.3103
+Train set : Average Acc : 0.9146
+time  14.1188485622406
+epoch 41
+Train set : Average loss: 87.4762
+Train set : Average Acc : 0.9141
+time  14.174915790557861
+epoch 42
+Train set : Average loss: 84.9769
+Train set : Average Acc : 0.9172
+time  14.199713945388794
+epoch 43
+Train set : Average loss: 85.2007
+Train set : Average Acc : 0.9160
+time  14.13561224937439
+epoch 44
+Train set : Average loss: 83.7754
+Train set : Average Acc : 0.9169
+time  14.106276988983154
+epoch 45
+Train set : Average loss: 81.6071
+Train set : Average Acc : 0.9191
+time  14.158084392547607
+epoch 46
+Train set : Average loss: 82.1508
+Train set : Average Acc : 0.9199
+time  14.176027774810791
+epoch 47
+Train set : Average loss: 81.2970
+Train set : Average Acc : 0.9204
+time  14.197539806365967
+epoch 48
+Train set : Average loss: 78.3263
+Train set : Average Acc : 0.9213
+time  14.1768057346344
+epoch 49
+Train set : Average loss: 77.8143
+Train set : Average Acc : 0.9228
+time  14.11618685722351
+epoch 50
+Train set : Average loss: 76.7315
+Train set : Average Acc : 0.9249
+time  14.139648199081421
+[[19, 20, 14476.310792922974, 0.8876, 11, [['input', 0, 0], ['S_ConvBlock_64_1', 0, 0], ['S_ConvBlock_128_3', 0, 0], ['S_ResBlock_64_1', 1, 1], ['S_ResBlock_32_3', 2, 3], ['Avg_Pool', 3, 4], ['S_ResBlock_128_5', 4, 5], ['Max_Pool', 5, 5], ['S_ConvBlock_64_1', 7, 4], ['Avg_Pool', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]]]
+	gpu_id: 0 , [['input', 0, 0], ['S_ConvBlock_64_1', 0, 0], ['S_ConvBlock_128_3', 0, 0], ['S_ConvBlock_128_5', 1, 0], ['S_ResBlock_32_3', 2, 2], ['S_ResBlock_128_5', 0, 4], ['S_ResBlock_32_3', 3, 3], ['S_ResBlock_128_5', 4, 6], ['Avg_Pool', 7, 7], ['S_ResBlock_128_3', 5, 4], ['S_ResBlock_64_1', 6, 7], ['Concat', 10, 9], ['Sum', 11, 8], ['full', 12, 12]]
+Files already downloaded and verified
+Files already downloaded and verified
+train num     50000
+GPUID     : 0
+epoch_num : 50
+batch_size: 128
+initialization method [kaiming]
+epoch 1
+Train set : Average loss: 4622.0429
+Train set : Average Acc : 0.3800
+time  41.73182988166809
+epoch 2
+Train set : Average loss: 461.0673
+Train set : Average Acc : 0.5316
+time  38.90624713897705
+epoch 3
+Train set : Average loss: 401.3381
+Train set : Average Acc : 0.5961
+time  38.950942516326904
+epoch 4
+Train set : Average loss: 355.8814
+Train set : Average Acc : 0.6431
+time  38.938254833221436
+epoch 5
+Train set : Average loss: 324.6378
+Train set : Average Acc : 0.6775
+time  38.84659814834595
+epoch 6
+Train set : Average loss: 298.1193
+Train set : Average Acc : 0.7059
+time  38.94147086143494
+epoch 7
+Train set : Average loss: 282.7116
+Train set : Average Acc : 0.7203
+time  38.86435103416443
+epoch 8
+Train set : Average loss: 265.2434
+Train set : Average Acc : 0.7376
+time  38.87187075614929
+epoch 9
+Train set : Average loss: 253.2303
+Train set : Average Acc : 0.7512
+time  38.9036979675293
+epoch 10
+Train set : Average loss: 244.7727
+Train set : Average Acc : 0.7612
+time  38.875890016555786
+epoch 11
+Train set : Average loss: 235.4156
+Train set : Average Acc : 0.7700
+time  38.86034870147705
+epoch 12
+Train set : Average loss: 226.8073
+Train set : Average Acc : 0.7789
+time  38.87125492095947
+epoch 13
+Train set : Average loss: 219.3481
+Train set : Average Acc : 0.7867
+time  38.83069682121277
+epoch 14
+Train set : Average loss: 215.5813
+Train set : Average Acc : 0.7910
+time  38.761707067489624
+epoch 15
+Train set : Average loss: 210.3875
+Train set : Average Acc : 0.7950
+time  38.82403326034546
+epoch 16
+Train set : Average loss: 206.5738
+Train set : Average Acc : 0.7997
+time  38.7317111492157
+epoch 17
+Train set : Average loss: 198.5886
+Train set : Average Acc : 0.8075
+time  38.83100342750549
+epoch 18
+Train set : Average loss: 194.4833
+Train set : Average Acc : 0.8117
+time  38.8140594959259
+epoch 19
+Train set : Average loss: 189.1371
+Train set : Average Acc : 0.8159
+time  38.73914361000061
+epoch 20
+Train set : Average loss: 217.4914
+Train set : Average Acc : 0.8072
+time  38.657437801361084
+epoch 21
+Train set : Average loss: 184.8068
+Train set : Average Acc : 0.8228
+time  38.689183473587036
+epoch 22
+Train set : Average loss: 179.4574
+Train set : Average Acc : 0.8273
+time  38.57278919219971
+epoch 23
+Train set : Average loss: 176.3077
+Train set : Average Acc : 0.8328
+time  38.660337924957275
+epoch 24
+Train set : Average loss: 171.3940
+Train set : Average Acc : 0.8344
+time  38.6539261341095
+epoch 25
+Train set : Average loss: 168.8050
+Train set : Average Acc : 0.8381
+time  38.6786322593689
+epoch 26
+Train set : Average loss: 163.3371
+Train set : Average Acc : 0.8412
+time  38.71009278297424
+epoch 27
+Train set : Average loss: 162.3057
+Train set : Average Acc : 0.8421
+time  38.51256799697876
+epoch 28
+Train set : Average loss: 157.2718
+Train set : Average Acc : 0.8476
+time  38.55304288864136
+epoch 29
+Train set : Average loss: 155.0111
+Train set : Average Acc : 0.8508
+time  38.675896644592285
+epoch 30
+Train set : Average loss: 148.1839
+Train set : Average Acc : 0.8574
+time  38.61773324012756
+epoch 31
+Train set : Average loss: 112.8159
+Train set : Average Acc : 0.8893
+time  38.60287094116211
+epoch 32
+Train set : Average loss: 99.2519
+Train set : Average Acc : 0.9040
+time  38.66868209838867
+epoch 33
+Train set : Average loss: 97.0520
+Train set : Average Acc : 0.9060
+time  38.6593554019928
+epoch 34
+Train set : Average loss: 91.4581
+Train set : Average Acc : 0.9099
+time  38.61688017845154
+epoch 35
+Train set : Average loss: 90.8390
+Train set : Average Acc : 0.9106
+time  38.55207705497742
+epoch 36
+Train set : Average loss: 88.1352
+Train set : Average Acc : 0.9134
+time  38.658137798309326
+epoch 37
+Train set : Average loss: 85.4525
+Train set : Average Acc : 0.9160
+time  38.56418585777283
+epoch 38
+Train set : Average loss: 82.0701
+Train set : Average Acc : 0.9195
+time  38.63185429573059
+epoch 39
+Train set : Average loss: 81.4557
+Train set : Average Acc : 0.9208
+time  38.636199712753296
+epoch 40
+Train set : Average loss: 78.9895
+Train set : Average Acc : 0.9219
+time  38.630643129348755
+epoch 41
+Train set : Average loss: 79.0233
+Train set : Average Acc : 0.9222
+time  38.671324729919434
+epoch 42
+Train set : Average loss: 75.9284
+Train set : Average Acc : 0.9254
+time  38.568687200546265
+epoch 43
+Train set : Average loss: 74.2344
+Train set : Average Acc : 0.9264
+time  38.634766578674316
+epoch 44
+Train set : Average loss: 71.6477
+Train set : Average Acc : 0.9302
+time  38.538350343704224
+epoch 45
+Train set : Average loss: 71.0952
+Train set : Average Acc : 0.9312
+time  38.60581946372986
+epoch 46
+Train set : Average loss: 69.5981
+Train set : Average Acc : 0.9319
+time  38.55047273635864
+epoch 47
+Train set : Average loss: 67.0284
+Train set : Average Acc : 0.9342
+time  38.64404225349426
+epoch 48
+Train set : Average loss: 65.6949
+Train set : Average Acc : 0.9363
+time  38.59579801559448
+epoch 49
+Train set : Average loss: 65.4484
+Train set : Average Acc : 0.9360
+time  38.66014528274536
+epoch 50
+Train set : Average loss: 64.4128
+Train set : Average Acc : 0.9368
+time  38.648460388183594
+[[20, 21, 16419.680951833725, 0.8876, 11, [['input', 0, 0], ['S_ConvBlock_64_1', 0, 0], ['S_ConvBlock_128_3', 0, 0], ['S_ResBlock_64_1', 1, 1], ['S_ResBlock_32_3', 2, 3], ['Avg_Pool', 3, 4], ['S_ResBlock_128_5', 4, 5], ['Max_Pool', 5, 5], ['S_ConvBlock_64_1', 7, 4], ['Avg_Pool', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]]]
+	gpu_id: 0 , [['input', 0, 0], ['S_ConvBlock_64_1', 0, 0], ['S_ConvBlock_128_3', 0, 0], ['S_ResBlock_64_1', 1, 1], ['S_ConvBlock_64_3', 2, 0], ['Concat', 4, 3], ['S_ConvBlock_128_1', 5, 4], ['Avg_Pool', 3, 6], ['S_ResBlock_128_5', 6, 1], ['Max_Pool', 7, 7], ['S_ConvBlock_64_1', 9, 6], ['Avg_Pool', 8, 8], ['Sum', 10, 11], ['full', 12, 12]]
+Files already downloaded and verified
+Files already downloaded and verified
+train num     50000
+GPUID     : 0
+epoch_num : 50
+batch_size: 128
+initialization method [kaiming]
+epoch 1
+Train set : Average loss: 794.9728
+Train set : Average Acc : 0.4243
+time  20.417522430419922
+epoch 2
+Train set : Average loss: 423.2458
+Train set : Average Acc : 0.5715
+time  18.264728784561157
+epoch 3
+Train set : Average loss: 359.5878
+Train set : Average Acc : 0.6403
+time  18.50245952606201
+epoch 4
+Train set : Average loss: 322.5396
+Train set : Average Acc : 0.6784
+time  18.343271732330322
+epoch 5
+Train set : Average loss: 298.6491
+Train set : Average Acc : 0.7051
+time  18.352831602096558
+epoch 6
+Train set : Average loss: 277.6083
+Train set : Average Acc : 0.7268
+time  18.415042400360107
+epoch 7
+Train set : Average loss: 259.0785
+Train set : Average Acc : 0.7444
+time  18.411357641220093
+epoch 8
+Train set : Average loss: 247.4412
+Train set : Average Acc : 0.7563
+time  18.35272455215454
+epoch 9
+Train set : Average loss: 232.8425
+Train set : Average Acc : 0.7707
+time  18.320422410964966
+epoch 10
+Train set : Average loss: 223.5209
+Train set : Average Acc : 0.7821
+time  18.293898105621338
+epoch 11
+Train set : Average loss: 212.2848
+Train set : Average Acc : 0.7930
+time  18.37516450881958
+epoch 12
+Train set : Average loss: 204.2224
+Train set : Average Acc : 0.7999
+time  18.254209518432617
+epoch 13
+Train set : Average loss: 198.1073
+Train set : Average Acc : 0.8063
+time  18.41908884048462
+epoch 14
+Train set : Average loss: 192.2444
+Train set : Average Acc : 0.8114
+time  18.381617307662964
+epoch 15
+Train set : Average loss: 185.5023
+Train set : Average Acc : 0.8198
+time  18.265541791915894
+epoch 16
+Train set : Average loss: 180.5668
+Train set : Average Acc : 0.8232
+time  18.240185022354126
+epoch 17
+Train set : Average loss: 173.0813
+Train set : Average Acc : 0.8301
+time  18.254344701766968
+epoch 18
+Train set : Average loss: 168.6853
+Train set : Average Acc : 0.8353
+time  18.28550934791565
+epoch 19
+Train set : Average loss: 164.2100
+Train set : Average Acc : 0.8392
+time  18.228408813476562
+epoch 20
+Train set : Average loss: 159.8689
+Train set : Average Acc : 0.8439
+time  18.227569818496704
+epoch 21
+Train set : Average loss: 155.5506
+Train set : Average Acc : 0.8498
+time  18.174492597579956
+epoch 22
+Train set : Average loss: 152.9650
+Train set : Average Acc : 0.8516
+time  18.30582284927368
+epoch 23
+Train set : Average loss: 148.1432
+Train set : Average Acc : 0.8545
+time  18.305340051651
+epoch 24
+Train set : Average loss: 144.0678
+Train set : Average Acc : 0.8597
+time  18.273862838745117
+epoch 25
+Train set : Average loss: 142.4020
+Train set : Average Acc : 0.8609
+time  18.310718297958374
+epoch 26
+Train set : Average loss: 138.8749
+Train set : Average Acc : 0.8657
+time  18.326964855194092
+epoch 27
+Train set : Average loss: 136.4223
+Train set : Average Acc : 0.8676
+time  18.26921510696411
+epoch 28
+Train set : Average loss: 131.2024
+Train set : Average Acc : 0.8724
+time  18.263413667678833
+epoch 29
+Train set : Average loss: 129.1718
+Train set : Average Acc : 0.8742
+time  18.28971242904663
+epoch 30
+Train set : Average loss: 124.9007
+Train set : Average Acc : 0.8781
+time  18.278244495391846
+epoch 31
+Train set : Average loss: 87.7348
+Train set : Average Acc : 0.9136
+time  18.416341066360474
+epoch 32
+Train set : Average loss: 78.9525
+Train set : Average Acc : 0.9228
+time  18.1740140914917
+epoch 33
+Train set : Average loss: 74.4668
+Train set : Average Acc : 0.9256
+time  18.317546367645264
+epoch 34
+Train set : Average loss: 70.1065
+Train set : Average Acc : 0.9306
+time  18.201127290725708
+epoch 35
+Train set : Average loss: 68.6750
+Train set : Average Acc : 0.9328
+time  18.19412112236023
+epoch 36
+Train set : Average loss: 66.8503
+Train set : Average Acc : 0.9348
+time  18.284834623336792
+epoch 37
+Train set : Average loss: 63.7325
+Train set : Average Acc : 0.9370
+time  18.271294832229614
+epoch 38
+Train set : Average loss: 63.2456
+Train set : Average Acc : 0.9385
+time  18.400776386260986
+epoch 39
+Train set : Average loss: 60.6236
+Train set : Average Acc : 0.9402
+time  18.248040676116943
+epoch 40
+Train set : Average loss: 60.0760
+Train set : Average Acc : 0.9408
+time  18.236404418945312
+epoch 41
+Train set : Average loss: 57.8651
+Train set : Average Acc : 0.9431
+time  18.367804050445557
+epoch 42
+Train set : Average loss: 56.0888
+Train set : Average Acc : 0.9442
+time  18.2300386428833
+epoch 43
+Train set : Average loss: 54.2664
+Train set : Average Acc : 0.9462
+time  18.314319610595703
+epoch 44
+Train set : Average loss: 53.9091
+Train set : Average Acc : 0.9468
+time  18.299725770950317
+epoch 45
+Train set : Average loss: 52.6305
+Train set : Average Acc : 0.9481
+time  18.205724477767944
+epoch 46
+Train set : Average loss: 51.0923
+Train set : Average Acc : 0.9492
+time  18.24558186531067
+epoch 47
+Train set : Average loss: 50.6681
+Train set : Average Acc : 0.9498
+time  18.2842857837677
+epoch 48
+Train set : Average loss: 49.8782
+Train set : Average Acc : 0.9511
+time  18.258962869644165
+epoch 49
+Train set : Average loss: 49.8486
+Train set : Average Acc : 0.9515
+time  18.38430428504944
+epoch 50
+Train set : Average loss: 47.1964
+Train set : Average Acc : 0.9535
+time  18.350191354751587
+[[21, 22, 17341.331560134888, 0.8876, 11, [['input', 0, 0], ['S_ConvBlock_64_1', 0, 0], ['S_ConvBlock_128_3', 0, 0], ['S_ResBlock_64_1', 1, 1], ['S_ResBlock_32_3', 2, 3], ['Avg_Pool', 3, 4], ['S_ResBlock_128_5', 4, 5], ['Max_Pool', 5, 5], ['S_ConvBlock_64_1', 7, 4], ['Avg_Pool', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]]]
+	gpu_id: 0 , [['input', 0, 0], ['S_ConvBlock_32_5', 0, 0], ['S_ConvBlock_128_3', 0, 0], ['S_ResBlock_128_5', 1, 1], ['S_ResBlock_32_3', 2, 3], ['Avg_Pool', 3, 4], ['S_ResBlock_128_5', 4, 5], ['Max_Pool', 5, 5], ['S_ConvBlock_64_1', 7, 4], ['S_ConvBlock_32_1', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]
+Files already downloaded and verified
+Files already downloaded and verified
+train num     50000
+GPUID     : 0
+epoch_num : 50
+batch_size: 128
+initialization method [kaiming]
+epoch 1
+[[22, 23, 17345.903448343277, 0.8876, 11, [['input', 0, 0], ['S_ConvBlock_64_1', 0, 0], ['S_ConvBlock_128_3', 0, 0], ['S_ResBlock_64_1', 1, 1], ['S_ResBlock_32_3', 2, 3], ['Avg_Pool', 3, 4], ['S_ResBlock_128_5', 4, 5], ['Max_Pool', 5, 5], ['S_ConvBlock_64_1', 7, 4], ['Avg_Pool', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]]]
+	gpu_id: 0 , [['input', 0, 0], ['S_ConvBlock_64_1', 0, 0], ['S_ConvBlock_128_3', 0, 0], ['S_ResBlock_64_1', 1, 1], ['S_ConvBlock_64_3', 2, 0], ['Sum', 4, 3], ['S_ConvBlock_128_1', 5, 4], ['S_ResBlock_64_3', 6, 5], ['S_ConvBlock_128_5', 7, 6], ['S_ConvBlock_32_5', 8, 7], ['full', 9, 8]]
+Files already downloaded and verified
+Files already downloaded and verified
+train num     50000
+GPUID     : 0
+epoch_num : 50
+batch_size: 128
+initialization method [kaiming]
+epoch 1
+Train set : Average loss: 878.1745
+Train set : Average Acc : 0.3325
+time  21.799829959869385
+epoch 2
+Train set : Average loss: 516.6288
+Train set : Average Acc : 0.4628
+time  19.155853271484375
+epoch 3
+Train set : Average loss: 465.2945
+Train set : Average Acc : 0.5229
+time  19.24540138244629
+epoch 4
+Train set : Average loss: 420.4132
+Train set : Average Acc : 0.5722
+time  19.24432373046875
+epoch 5
+Train set : Average loss: 391.4374
+Train set : Average Acc : 0.6053
+time  19.239320039749146
+epoch 6
+Train set : Average loss: 367.7964
+Train set : Average Acc : 0.6311
+time  19.239423274993896
+epoch 7
+Train set : Average loss: 354.0974
+Train set : Average Acc : 0.6451
+time  19.279325246810913
+epoch 8
+Train set : Average loss: 329.8547
+Train set : Average Acc : 0.6715
+time  19.20771098136902
+epoch 9
+Train set : Average loss: 315.4555
+Train set : Average Acc : 0.6873
+time  19.245449542999268
+epoch 10
+Train set : Average loss: 310.8467
+Train set : Average Acc : 0.6894
+time  19.28009033203125
+epoch 11
+Train set : Average loss: 296.9326
+Train set : Average Acc : 0.7047
+time  19.268779754638672
+epoch 12
+Train set : Average loss: 290.3837
+Train set : Average Acc : 0.7110
+time  19.27713918685913
+epoch 13
+Train set : Average loss: 274.2703
+Train set : Average Acc : 0.7261
+time  19.231792211532593
+epoch 14
+Train set : Average loss: 266.2515
+Train set : Average Acc : 0.7363
+time  19.199747562408447
+epoch 15
+Train set : Average loss: 256.5490
+Train set : Average Acc : 0.7466
+time  19.230616092681885
+epoch 16
+Train set : Average loss: 819.3649
+Train set : Average Acc : 0.1448
+time  18.886571645736694
+epoch 17
+Train set : Average loss: 810.8075
+Train set : Average Acc : 0.0999
+time  18.978185176849365
+epoch 18
+Train set : Average loss: 810.7980
+Train set : Average Acc : 0.0998
+time  18.86858606338501
+epoch 19
+Train set : Average loss: 810.7671
+Train set : Average Acc : 0.0988
+time  18.871970891952515
+epoch 20
+Train set : Average loss: 810.7967
+Train set : Average Acc : 0.0983
+time  18.862017154693604
+epoch 21
+Train set : Average loss: 810.7312
+Train set : Average Acc : 0.1002
+time  18.866994857788086
+epoch 22
+Train set : Average loss: 810.8382
+Train set : Average Acc : 0.0983
+time  18.8914737701416
+epoch 23
+Train set : Average loss: 810.7676
+Train set : Average Acc : 0.0990
+time  18.911689043045044
+epoch 24
+Train set : Average loss: 810.8108
+Train set : Average Acc : 0.0975
+time  18.844671726226807
+epoch 25
+Train set : Average loss: 810.7739
+Train set : Average Acc : 0.1004
+time  18.8876531124115
+epoch 26
+Train set : Average loss: 810.7768
+Train set : Average Acc : 0.0981
+time  18.854081392288208
+epoch 27
+Train set : Average loss: 810.8034
+Train set : Average Acc : 0.0981
+time  18.907183170318604
+epoch 28
+Train set : Average loss: 810.7348
+Train set : Average Acc : 0.0983
+time  19.12178611755371
+epoch 29
+Train set : Average loss: 810.7890
+Train set : Average Acc : 0.0999
+time  18.761584997177124
+epoch 30
+Train set : Average loss: 810.7855
+Train set : Average Acc : 0.0997
+time  18.77271294593811
+epoch 31
+Train set : Average loss: 810.5710
+Train set : Average Acc : 0.0983
+time  18.921271800994873
+epoch 32
+Train set : Average loss: 810.5452
+Train set : Average Acc : 0.1000
+time  18.945940732955933
+epoch 33
+Train set : Average loss: 810.5464
+Train set : Average Acc : 0.0987
+time  18.814846992492676
+epoch 34
+Train set : Average loss: 810.5501
+Train set : Average Acc : 0.0977
+time  18.88167667388916
+epoch 35
+Train set : Average loss: 810.5464
+Train set : Average Acc : 0.0985
+time  18.843823432922363
+epoch 36
+Train set : Average loss: 810.5466
+Train set : Average Acc : 0.0971
+time  18.848251819610596
+epoch 37
+Train set : Average loss: 810.5490
+Train set : Average Acc : 0.0979
+time  19.044677734375
+epoch 38
+Train set : Average loss: 810.5447
+Train set : Average Acc : 0.1000
+time  18.983887672424316
+epoch 39
+Train set : Average loss: 810.5477
+Train set : Average Acc : 0.0973
+time  18.91367530822754
+epoch 40
+Train set : Average loss: 810.5482
+Train set : Average Acc : 0.0978
+time  18.89090609550476
+epoch 41
+Train set : Average loss: 810.5450
+Train set : Average Acc : 0.0972
+time  18.81686019897461
+epoch 42
+Train set : Average loss: 810.5471
+Train set : Average Acc : 0.0973
+time  18.896676063537598
+epoch 43
+Train set : Average loss: 810.5477
+Train set : Average Acc : 0.0962
+time  18.84409809112549
+epoch 44
+Train set : Average loss: 810.5504
+Train set : Average Acc : 0.0974
+time  18.855746269226074
+epoch 45
+Train set : Average loss: 810.5490
+Train set : Average Acc : 0.0977
+time  18.91297459602356
+epoch 46
+Train set : Average loss: 810.5455
+Train set : Average Acc : 0.0994
+time  18.870286226272583
+epoch 47
+Train set : Average loss: 810.5515
+Train set : Average Acc : 0.0975
+time  18.93620491027832
+epoch 48
+Train set : Average loss: 810.5472
+Train set : Average Acc : 0.0978
+time  18.844271183013916
+epoch 49
+Train set : Average loss: 810.5496
+Train set : Average Acc : 0.0985
+time  18.929367065429688
+epoch 50
+Train set : Average loss: 810.5398
+Train set : Average Acc : 0.0992
+time  18.83250331878662
+[[23, 24, 18302.17918920517, 0.8876, 11, [['input', 0, 0], ['S_ConvBlock_64_1', 0, 0], ['S_ConvBlock_128_3', 0, 0], ['S_ResBlock_64_1', 1, 1], ['S_ResBlock_32_3', 2, 3], ['Avg_Pool', 3, 4], ['S_ResBlock_128_5', 4, 5], ['Max_Pool', 5, 5], ['S_ConvBlock_64_1', 7, 4], ['Avg_Pool', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]]]
+	gpu_id: 0 , [['input', 0, 0], ['S_ConvBlock_64_1', 0, 0], ['S_ConvBlock_128_3', 0, 0], ['S_ConvBlock_64_1', 1, 1], ['S_ResBlock_32_3', 2, 3], ['Avg_Pool', 3, 4], ['S_ResBlock_128_5', 4, 5], ['Max_Pool', 5, 5], ['S_ConvBlock_64_1', 7, 4], ['Avg_Pool', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]
+Files already downloaded and verified
+Files already downloaded and verified
+train num     50000
+GPUID     : 0
+epoch_num : 50
+batch_size: 128
+initialization method [kaiming]
+epoch 1
+Train set : Average loss: 906.0473
+Train set : Average Acc : 0.4202
+time  18.48202109336853
+epoch 2
+Train set : Average loss: 424.3793
+Train set : Average Acc : 0.5726
+time  16.41559624671936
+epoch 3
+Train set : Average loss: 358.5674
+Train set : Average Acc : 0.6438
+time  16.512020349502563
+epoch 4
+Train set : Average loss: 317.1477
+Train set : Average Acc : 0.6848
+time  16.45149254798889
+epoch 5
+Train set : Average loss: 289.1778
+Train set : Average Acc : 0.7138
+time  16.531436681747437
+epoch 6
+Train set : Average loss: 268.4245
+Train set : Average Acc : 0.7374
+time  16.482614040374756
+epoch 7
+Train set : Average loss: 252.0860
+Train set : Average Acc : 0.7546
+time  16.465988874435425
+epoch 8
+Train set : Average loss: 239.4170
+Train set : Average Acc : 0.7657
+time  16.477513551712036
+epoch 9
+Train set : Average loss: 226.7584
+Train set : Average Acc : 0.7773
+time  16.431171655654907
+epoch 10
+Train set : Average loss: 219.4961
+Train set : Average Acc : 0.7853
+time  16.447087287902832
+epoch 11
+Train set : Average loss: 211.8396
+Train set : Average Acc : 0.7933
+time  16.459978342056274
+epoch 12
+Train set : Average loss: 204.9951
+Train set : Average Acc : 0.7995
+time  16.465453147888184
+epoch 13
+Train set : Average loss: 197.8965
+Train set : Average Acc : 0.8082
+time  16.447850227355957
+epoch 14
+Train set : Average loss: 190.9296
+Train set : Average Acc : 0.8124
+time  16.403584480285645
+epoch 15
+Train set : Average loss: 186.0651
+Train set : Average Acc : 0.8182
+time  16.46400260925293
+epoch 16
+Train set : Average loss: 178.3099
+Train set : Average Acc : 0.8273
+time  16.411947011947632
+epoch 17
+Train set : Average loss: 174.7984
+Train set : Average Acc : 0.8280
+time  16.449827909469604
+epoch 18
+Train set : Average loss: 169.7793
+Train set : Average Acc : 0.8349
+time  16.417324781417847
+epoch 19
+Train set : Average loss: 164.7087
+Train set : Average Acc : 0.8368
+time  16.432788610458374
+epoch 20
+Train set : Average loss: 159.7683
+Train set : Average Acc : 0.8447
+time  16.41204047203064
+epoch 21
+Train set : Average loss: 156.8264
+Train set : Average Acc : 0.8461
+time  16.419906854629517
+epoch 22
+Train set : Average loss: 154.4710
+Train set : Average Acc : 0.8486
+time  16.46227765083313
+epoch 23
+Train set : Average loss: 149.2829
+Train set : Average Acc : 0.8554
+time  16.462209701538086
+epoch 24
+Train set : Average loss: 146.6682
+Train set : Average Acc : 0.8566
+time  16.413124561309814
+epoch 25
+Train set : Average loss: 144.1425
+Train set : Average Acc : 0.8611
+time  16.372986793518066
+epoch 26
+Train set : Average loss: 139.0989
+Train set : Average Acc : 0.8630
+time  16.413315057754517
+epoch 27
+Train set : Average loss: 136.1984
+Train set : Average Acc : 0.8666
+time  16.395374536514282
+epoch 28
+Train set : Average loss: 134.4673
+Train set : Average Acc : 0.8687
+time  16.439812421798706
+epoch 29
+Train set : Average loss: 132.1100
+Train set : Average Acc : 0.8702
+time  16.388671875
+epoch 30
+Train set : Average loss: 129.1036
+Train set : Average Acc : 0.8722
+time  16.365127563476562
+epoch 31
+Train set : Average loss: 92.5590
+Train set : Average Acc : 0.9080
+time  16.398961067199707
+epoch 32
+Train set : Average loss: 81.5825
+Train set : Average Acc : 0.9202
+time  16.431610822677612
+epoch 33
+Train set : Average loss: 78.7203
+Train set : Average Acc : 0.9234
+time  16.421844720840454
+epoch 34
+Train set : Average loss: 75.7149
+Train set : Average Acc : 0.9260
+time  16.40501832962036
+epoch 35
+Train set : Average loss: 74.0496
+Train set : Average Acc : 0.9271
+time  16.41747498512268
+epoch 36
+Train set : Average loss: 72.3570
+Train set : Average Acc : 0.9295
+time  16.36056399345398
+epoch 37
+Train set : Average loss: 70.0157
+Train set : Average Acc : 0.9296
+time  16.411219120025635
+epoch 38
+Train set : Average loss: 67.6447
+Train set : Average Acc : 0.9336
+time  16.38047480583191
+epoch 39
+Train set : Average loss: 64.6732
+Train set : Average Acc : 0.9373
+time  16.417338132858276
+epoch 40
+Train set : Average loss: 64.0796
+Train set : Average Acc : 0.9369
+time  16.410977125167847
+epoch 41
+Train set : Average loss: 62.3168
+Train set : Average Acc : 0.9375
+time  16.42684030532837
+epoch 42
+Train set : Average loss: 61.2874
+Train set : Average Acc : 0.9390
+time  16.42440414428711
+epoch 43
+Train set : Average loss: 61.3878
+Train set : Average Acc : 0.9403
+time  16.416215896606445
+epoch 44
+Train set : Average loss: 59.1456
+Train set : Average Acc : 0.9422
+time  16.38147282600403
+epoch 45
+Train set : Average loss: 58.4880
+Train set : Average Acc : 0.9428
+time  16.418567419052124
+epoch 46
+Train set : Average loss: 56.6373
+Train set : Average Acc : 0.9444
+time  16.437454223632812
+epoch 47
+Train set : Average loss: 55.1025
+Train set : Average Acc : 0.9468
+time  16.448241233825684
+epoch 48
+Train set : Average loss: 54.4665
+Train set : Average Acc : 0.9476
+time  16.40143918991089
+epoch 49
+Train set : Average loss: 53.3666
+Train set : Average Acc : 0.9469
+time  16.40452480316162
+epoch 50
+Train set : Average loss: 53.3084
+Train set : Average Acc : 0.9467
+time  16.413302659988403
+[[24, 25, 19129.480535268784, 0.8876, 11, [['input', 0, 0], ['S_ConvBlock_64_1', 0, 0], ['S_ConvBlock_128_3', 0, 0], ['S_ResBlock_64_1', 1, 1], ['S_ResBlock_32_3', 2, 3], ['Avg_Pool', 3, 4], ['S_ResBlock_128_5', 4, 5], ['Max_Pool', 5, 5], ['S_ConvBlock_64_1', 7, 4], ['Avg_Pool', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]]]
+	gpu_id: 0 , [['input', 0, 0], ['S_ConvBlock_64_1', 0, 0], ['S_ConvBlock_128_3', 0, 0], ['Max_Pool', 0, 0], ['S_ResBlock_64_1', 1, 1], ['Sum', 2, 0], ['S_ResBlock_64_3', 3, 3], ['S_ConvBlock_64_5', 5, 2], ['S_ConvBlock_32_5', 6, 7], ['S_ConvBlock_128_1', 8, 7], ['Avg_Pool', 4, 8], ['S_ResBlock_64_5', 9, 9], ['S_ResBlock_128_5', 11, 10], ['S_ResBlock_64_1', 7, 7], ['Max_Pool', 10, 10], ['S_ConvBlock_64_1', 14, 9], ['Sum', 12, 13], ['Sum', 15, 16], ['full', 17, 17]]
+Files already downloaded and verified
+Files already downloaded and verified
+train num     50000
+GPUID     : 0
+epoch_num : 50
+batch_size: 128
+initialization method [kaiming]
+epoch 1
+Train set : Average loss: 1108.9770
+Train set : Average Acc : 0.3987
+time  18.378695964813232
+epoch 2
+Train set : Average loss: 438.5382
+Train set : Average Acc : 0.5570
+time  16.081191778182983
+epoch 3
+Train set : Average loss: 382.5044
+Train set : Average Acc : 0.6174
+time  16.218688249588013
+epoch 4
+Train set : Average loss: 353.0250
+Train set : Average Acc : 0.6477
+time  16.293969869613647
+epoch 5
+Train set : Average loss: 335.0625
+Train set : Average Acc : 0.6701
+time  16.225717782974243
+epoch 6
+Train set : Average loss: 322.7814
+Train set : Average Acc : 0.6774
+time  16.181472539901733
+epoch 7
+Train set : Average loss: 311.7283
+Train set : Average Acc : 0.6905
+time  16.184380531311035
+epoch 8
+Train set : Average loss: 306.2038
+Train set : Average Acc : 0.6957
+time  16.22826838493347
+epoch 9
+Train set : Average loss: 299.0524
+Train set : Average Acc : 0.7023
+time  16.098774194717407
+epoch 10
+Train set : Average loss: 292.2882
+Train set : Average Acc : 0.7097
+time  16.137022495269775
+epoch 11
+Train set : Average loss: 286.3003
+Train set : Average Acc : 0.7162
+time  16.122190237045288
+epoch 12
+Train set : Average loss: 283.0989
+Train set : Average Acc : 0.7196
+time  16.12512183189392
+epoch 13
+Train set : Average loss: 278.8963
+Train set : Average Acc : 0.7222
+time  16.241441011428833
+epoch 14
+Train set : Average loss: 276.3616
+Train set : Average Acc : 0.7281
+time  16.154741764068604
+epoch 15
+Train set : Average loss: 274.7082
+Train set : Average Acc : 0.7318
+time  16.16013216972351
+epoch 16
+Train set : Average loss: 268.5344
+Train set : Average Acc : 0.7336
+time  16.083432912826538
+epoch 17
+Train set : Average loss: 266.2525
+Train set : Average Acc : 0.7383
+time  16.026551246643066
+epoch 18
+Train set : Average loss: 262.0249
+Train set : Average Acc : 0.7411
+time  16.100382089614868
+epoch 19
+Train set : Average loss: 258.6373
+Train set : Average Acc : 0.7462
+time  16.064639568328857
+epoch 20
+Train set : Average loss: 258.6162
+Train set : Average Acc : 0.7473
+time  16.05581045150757
+epoch 21
+Train set : Average loss: 254.3487
+Train set : Average Acc : 0.7514
+time  16.081848621368408
+epoch 22
+Train set : Average loss: 251.9723
+Train set : Average Acc : 0.7534
+time  16.13206386566162
+epoch 23
+Train set : Average loss: 250.2033
+Train set : Average Acc : 0.7556
+time  16.08183789253235
+epoch 24
+Train set : Average loss: 244.6403
+Train set : Average Acc : 0.7596
+time  16.167235136032104
+epoch 25
+Train set : Average loss: 241.6340
+Train set : Average Acc : 0.7614
+time  16.052401542663574
+epoch 26
+Train set : Average loss: 239.3814
+Train set : Average Acc : 0.7655
+time  16.071425199508667
+epoch 27
+Train set : Average loss: 248.0172
+Train set : Average Acc : 0.7627
+time  16.13592028617859
+epoch 28
+Train set : Average loss: 239.8206
+Train set : Average Acc : 0.7645
+time  16.177757740020752
+epoch 29
+Train set : Average loss: 233.1501
+Train set : Average Acc : 0.7714
+time  16.064449548721313
+epoch 30
+Train set : Average loss: 231.7756
+Train set : Average Acc : 0.7730
+time  16.063985347747803
+epoch 31
+Train set : Average loss: 191.9057
+Train set : Average Acc : 0.8117
+time  16.246765613555908
+epoch 32
+Train set : Average loss: 183.3439
+Train set : Average Acc : 0.8203
+time  16.161211252212524
+epoch 33
+Train set : Average loss: 177.1054
+Train set : Average Acc : 0.8262
+time  16.080625772476196
+epoch 34
+Train set : Average loss: 173.9549
+Train set : Average Acc : 0.8290
+time  16.080708980560303
+epoch 35
+Train set : Average loss: 172.0487
+Train set : Average Acc : 0.8296
+time  16.03011703491211
+epoch 36
+Train set : Average loss: 168.6184
+Train set : Average Acc : 0.8324
+time  16.10154700279236
+epoch 37
+Train set : Average loss: 165.9871
+Train set : Average Acc : 0.8376
+time  16.068753242492676
+epoch 38
+Train set : Average loss: 166.2906
+Train set : Average Acc : 0.8361
+time  16.088642358779907
+epoch 39
+Train set : Average loss: 163.8891
+Train set : Average Acc : 0.8378
+time  16.259643077850342
+epoch 40
+Train set : Average loss: 160.2484
+Train set : Average Acc : 0.8420
+time  16.090137720108032
+epoch 41
+Train set : Average loss: 160.4723
+Train set : Average Acc : 0.8425
+time  16.077045917510986
+epoch 42
+Train set : Average loss: 158.6003
+Train set : Average Acc : 0.8408
+time  16.037139415740967
+epoch 43
+Train set : Average loss: 156.1359
+Train set : Average Acc : 0.8454
+time  16.23190689086914
+epoch 44
+Train set : Average loss: 155.7500
+Train set : Average Acc : 0.8466
+time  16.06148076057434
+epoch 45
+Train set : Average loss: 154.7215
+Train set : Average Acc : 0.8466
+time  16.04055166244507
+epoch 46
+Train set : Average loss: 152.8718
+Train set : Average Acc : 0.8480
+time  16.160117864608765
+epoch 47
+Train set : Average loss: 152.8145
+Train set : Average Acc : 0.8485
+time  16.301105737686157
+epoch 48
+Train set : Average loss: 150.8451
+Train set : Average Acc : 0.8490
+time  16.104044198989868
+epoch 49
+Train set : Average loss: 148.7636
+Train set : Average Acc : 0.8515
+time  16.150487899780273
+epoch 50
+Train set : Average loss: 146.7302
+Train set : Average Acc : 0.8552
+time  16.086707830429077
+[[25, 26, 19942.1209192276, 0.8876, 11, [['input', 0, 0], ['S_ConvBlock_64_1', 0, 0], ['S_ConvBlock_128_3', 0, 0], ['S_ResBlock_64_1', 1, 2], ['S_ResBlock_32_3', 2, 3], ['Avg_Pool', 3, 4], ['S_ResBlock_128_5', 4, 5], ['Max_Pool', 5, 5], ['S_ConvBlock_64_1', 7, 4], ['Avg_Pool', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]]]
+	gpu_id: 0 , [['input', 0, 0], ['S_ResBlock_32_5', 0, 0], ['S_ConvBlock_64_1', 0, 0], ['S_ResBlock_64_1', 2, 2], ['S_ResBlock_32_3', 1, 3], ['Avg_Pool', 3, 4], ['S_ResBlock_128_5', 4, 5], ['Max_Pool', 5, 5], ['S_ConvBlock_64_1', 7, 4], ['Avg_Pool', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]
+Files already downloaded and verified
+Files already downloaded and verified
+train num     50000
+GPUID     : 0
+epoch_num : 50
+batch_size: 128
+initialization method [kaiming]
+epoch 1
+Train set : Average loss: 794.4318
+Train set : Average Acc : 0.4086
+time  17.372153282165527
+epoch 2
+Train set : Average loss: 455.2645
+Train set : Average Acc : 0.5351
+time  15.057522535324097
+epoch 3
+Train set : Average loss: 392.9492
+Train set : Average Acc : 0.6052
+time  15.100902557373047
+epoch 4
+Train set : Average loss: 347.1964
+Train set : Average Acc : 0.6510
+time  15.06166696548462
+epoch 5
+Train set : Average loss: 318.7727
+Train set : Average Acc : 0.6807
+time  15.197952508926392
+epoch 6
+Train set : Average loss: 295.0810
+Train set : Average Acc : 0.7058
+time  15.111759424209595
+epoch 7
+Train set : Average loss: 277.8050
+Train set : Average Acc : 0.7248
+time  15.154685020446777
+epoch 8
+Train set : Average loss: 263.3586
+Train set : Average Acc : 0.7406
+time  15.143277168273926
+epoch 9
+Train set : Average loss: 251.9810
+Train set : Average Acc : 0.7513
+time  15.084542751312256
+epoch 10
+Train set : Average loss: 243.2061
+Train set : Average Acc : 0.7604
+time  15.130418539047241
+epoch 11
+Train set : Average loss: 234.7197
+Train set : Average Acc : 0.7698
+time  15.148752689361572
+epoch 12
+Train set : Average loss: 224.0031
+Train set : Average Acc : 0.7820
+time  15.140100240707397
+epoch 13
+Train set : Average loss: 216.7142
+Train set : Average Acc : 0.7876
+time  15.118870735168457
+epoch 14
+Train set : Average loss: 213.9203
+Train set : Average Acc : 0.7911
+time  15.130014419555664
+epoch 15
+Train set : Average loss: 208.7789
+Train set : Average Acc : 0.7947
+time  15.124654769897461
+epoch 16
+Train set : Average loss: 204.3735
+Train set : Average Acc : 0.8010
+time  15.119852304458618
+epoch 17
+Train set : Average loss: 197.0477
+Train set : Average Acc : 0.8081
+time  15.11847734451294
+epoch 18
+Train set : Average loss: 194.6507
+Train set : Average Acc : 0.8094
+time  15.140193462371826
+epoch 19
+Train set : Average loss: 188.5478
+Train set : Average Acc : 0.8153
+time  15.12798810005188
+epoch 20
+Train set : Average loss: 185.3308
+Train set : Average Acc : 0.8189
+time  15.107625246047974
+epoch 21
+Train set : Average loss: 181.3699
+Train set : Average Acc : 0.8223
+time  15.148128271102905
+epoch 22
+Train set : Average loss: 176.3163
+Train set : Average Acc : 0.8286
+time  15.094409227371216
+epoch 23
+Train set : Average loss: 175.6071
+Train set : Average Acc : 0.8289
+time  15.134299039840698
+epoch 24
+Train set : Average loss: 171.8954
+Train set : Average Acc : 0.8334
+time  15.10374402999878
+epoch 25
+Train set : Average loss: 166.9831
+Train set : Average Acc : 0.8370
+time  15.093270778656006
+epoch 26
+Train set : Average loss: 165.5560
+Train set : Average Acc : 0.8380
+time  15.086465120315552
+epoch 27
+Train set : Average loss: 160.9816
+Train set : Average Acc : 0.8436
+time  15.163962364196777
+epoch 28
+Train set : Average loss: 157.8986
+Train set : Average Acc : 0.8454
+time  15.127227783203125
+epoch 29
+Train set : Average loss: 156.1234
+Train set : Average Acc : 0.8455
+time  15.1033616065979
+epoch 30
+Train set : Average loss: 151.5132
+Train set : Average Acc : 0.8524
+time  15.13310980796814
+epoch 31
+Train set : Average loss: 115.4299
+Train set : Average Acc : 0.8864
+time  15.100603580474854
+epoch 32
+Train set : Average loss: 106.3230
+Train set : Average Acc : 0.8974
+time  15.103681325912476
+epoch 33
+Train set : Average loss: 102.0713
+Train set : Average Acc : 0.8980
+time  15.11574411392212
+epoch 34
+Train set : Average loss: 98.0207
+Train set : Average Acc : 0.9047
+time  15.05411148071289
+epoch 35
+Train set : Average loss: 96.6516
+Train set : Average Acc : 0.9050
+time  15.063239812850952
+epoch 36
+Train set : Average loss: 93.4740
+Train set : Average Acc : 0.9085
+time  15.096671342849731
+epoch 37
+Train set : Average loss: 92.2380
+Train set : Average Acc : 0.9087
+time  15.049398422241211
+epoch 38
+Train set : Average loss: 90.9954
+Train set : Average Acc : 0.9120
+time  15.151971578598022
+epoch 39
+Train set : Average loss: 89.9314
+Train set : Average Acc : 0.9120
+time  15.104959964752197
+epoch 40
+Train set : Average loss: 87.7038
+Train set : Average Acc : 0.9152
+time  15.187623500823975
+epoch 41
+Train set : Average loss: 87.6297
+Train set : Average Acc : 0.9148
+time  15.130182981491089
+epoch 42
+Train set : Average loss: 85.0937
+Train set : Average Acc : 0.9170
+time  15.112346172332764
+epoch 43
+Train set : Average loss: 82.6111
+Train set : Average Acc : 0.9191
+time  15.086707830429077
+epoch 44
+Train set : Average loss: 82.0327
+Train set : Average Acc : 0.9184
+time  15.049315690994263
+epoch 45
+Train set : Average loss: 81.3553
+Train set : Average Acc : 0.9196
+time  15.044265747070312
+epoch 46
+Train set : Average loss: 79.2310
+Train set : Average Acc : 0.9224
+time  15.067741632461548
+epoch 47
+Train set : Average loss: 79.4414
+Train set : Average Acc : 0.9225
+time  15.102590560913086
+epoch 48
+Train set : Average loss: 77.6828
+Train set : Average Acc : 0.9226
+time  15.1493239402771
+epoch 49
+Train set : Average loss: 77.4119
+Train set : Average Acc : 0.9236
+time  15.117400646209717
+epoch 50
+Train set : Average loss: 76.1694
+Train set : Average Acc : 0.9250
+time  15.100982904434204
+[[26, 27, 20704.354170084, 0.8876, 11, [['input', 0, 0], ['S_ConvBlock_64_1', 0, 0], ['S_ConvBlock_128_3', 0, 0], ['S_ResBlock_64_1', 1, 2], ['S_ResBlock_32_3', 2, 3], ['Avg_Pool', 3, 4], ['S_ResBlock_128_5', 4, 5], ['Max_Pool', 5, 5], ['S_ConvBlock_64_1', 7, 4], ['Avg_Pool', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]]]
+	gpu_id: 0 , [['input', 0, 0], ['S_ResBlock_32_5', 0, 0], ['S_ConvBlock_64_1', 0, 0], ['S_ResBlock_64_1', 2, 2], ['S_ResBlock_32_3', 1, 2], ['S_ConvBlock_128_1', 4, 4], ['Avg_Pool', 3, 4], ['S_ResBlock_64_5', 5, 5], ['Max_Pool', 6, 6], ['S_ResBlock_32_5', 7, 5], ['S_ConvBlock_64_1', 8, 5], ['Avg_Pool', 9, 7], ['Sum', 10, 11], ['full', 12, 12]]
+Files already downloaded and verified
+Files already downloaded and verified
+train num     50000
+GPUID     : 0
+epoch_num : 50
+batch_size: 128
+initialization method [kaiming]
+epoch 1
+Train set : Average loss: 760.0227
+Train set : Average Acc : 0.3988
+time  22.060158252716064
+epoch 2
+Train set : Average loss: 476.3245
+Train set : Average Acc : 0.5114
+time  19.70289134979248
+epoch 3
+Train set : Average loss: 423.4241
+Train set : Average Acc : 0.5708
+time  19.71669292449951
+epoch 4
+Train set : Average loss: 387.6895
+Train set : Average Acc : 0.6118
+time  19.686092138290405
+epoch 5
+Train set : Average loss: 362.1526
+Train set : Average Acc : 0.6389
+time  19.852291345596313
+epoch 6
+Train set : Average loss: 344.6571
+Train set : Average Acc : 0.6598
+time  19.644914150238037
+epoch 7
+Train set : Average loss: 330.0279
+Train set : Average Acc : 0.6717
+time  19.780359506607056
+epoch 8
+Train set : Average loss: 318.5269
+Train set : Average Acc : 0.6819
+time  19.665375232696533
+epoch 9
+Train set : Average loss: 304.5642
+Train set : Average Acc : 0.6972
+time  19.706348657608032
+epoch 10
+Train set : Average loss: 295.0165
+Train set : Average Acc : 0.7103
+time  19.707873582839966
+epoch 11
+Train set : Average loss: 288.4070
+Train set : Average Acc : 0.7151
+time  19.77382254600525
+epoch 12
+Train set : Average loss: 278.8258
+Train set : Average Acc : 0.7234
+time  19.718942642211914
+epoch 13
+Train set : Average loss: 269.6995
+Train set : Average Acc : 0.7341
+time  19.739618062973022
+epoch 14
+Train set : Average loss: 264.8686
+Train set : Average Acc : 0.7368
+time  19.685681104660034
+epoch 15
+Train set : Average loss: 258.6078
+Train set : Average Acc : 0.7444
+time  19.66072940826416
+epoch 16
+Train set : Average loss: 255.1781
+Train set : Average Acc : 0.7500
+time  19.77718448638916
+epoch 17
+Train set : Average loss: 249.2465
+Train set : Average Acc : 0.7542
+time  19.693807363510132
+epoch 18
+Train set : Average loss: 243.4101
+Train set : Average Acc : 0.7616
+time  19.64764666557312
+epoch 19
+Train set : Average loss: 239.6452
+Train set : Average Acc : 0.7648
+time  19.629794359207153
+epoch 20
+Train set : Average loss: 234.8715
+Train set : Average Acc : 0.7698
+time  19.70573592185974
+epoch 21
+Train set : Average loss: 232.6102
+Train set : Average Acc : 0.7721
+time  19.744025230407715
+epoch 22
+Train set : Average loss: 228.2995
+Train set : Average Acc : 0.7758
+time  19.704335689544678
+epoch 23
+Train set : Average loss: 222.6210
+Train set : Average Acc : 0.7826
+time  19.666247367858887
+epoch 24
+Train set : Average loss: 220.4829
+Train set : Average Acc : 0.7835
+time  19.72189426422119
+epoch 25
+Train set : Average loss: 218.2557
+Train set : Average Acc : 0.7853
+time  19.633610725402832
+epoch 26
+Train set : Average loss: 214.8535
+Train set : Average Acc : 0.7890
+time  19.646855354309082
+epoch 27
+Train set : Average loss: 212.9840
+Train set : Average Acc : 0.7924
+time  19.62032914161682
+epoch 28
+Train set : Average loss: 209.7082
+Train set : Average Acc : 0.7951
+time  19.71589994430542
+epoch 29
+Train set : Average loss: 205.7696
+Train set : Average Acc : 0.8006
+time  19.627938270568848
+epoch 30
+Train set : Average loss: 203.8609
+Train set : Average Acc : 0.7994
+time  19.61934185028076
+epoch 31
+Train set : Average loss: 165.7645
+Train set : Average Acc : 0.8373
+time  19.675381422042847
+epoch 32
+Train set : Average loss: 157.1257
+Train set : Average Acc : 0.8456
+time  19.68335509300232
+epoch 33
+Train set : Average loss: 152.9930
+Train set : Average Acc : 0.8519
+time  19.707205295562744
+epoch 34
+Train set : Average loss: 149.6219
+Train set : Average Acc : 0.8538
+time  19.729315042495728
+epoch 35
+Train set : Average loss: 148.7147
+Train set : Average Acc : 0.8534
+time  19.67810368537903
+epoch 36
+Train set : Average loss: 146.5512
+Train set : Average Acc : 0.8574
+time  19.73911738395691
+epoch 37
+Train set : Average loss: 145.0658
+Train set : Average Acc : 0.8586
+time  19.750239372253418
+epoch 38
+Train set : Average loss: 143.1517
+Train set : Average Acc : 0.8600
+time  19.68075132369995
+epoch 39
+Train set : Average loss: 141.0134
+Train set : Average Acc : 0.8624
+time  19.78373074531555
+epoch 40
+Train set : Average loss: 138.1703
+Train set : Average Acc : 0.8641
+time  19.684253454208374
+epoch 41
+Train set : Average loss: 139.9785
+Train set : Average Acc : 0.8628
+time  19.730685472488403
+epoch 42
+Train set : Average loss: 137.2104
+Train set : Average Acc : 0.8661
+time  19.673269033432007
+epoch 43
+Train set : Average loss: 134.0632
+Train set : Average Acc : 0.8674
+time  19.699354648590088
+epoch 44
+Train set : Average loss: 133.4429
+Train set : Average Acc : 0.8691
+time  19.733498334884644
+epoch 45
+Train set : Average loss: 133.2802
+Train set : Average Acc : 0.8708
+time  19.70197558403015
+epoch 46
+Train set : Average loss: 132.9721
+Train set : Average Acc : 0.8700
+time  19.699127435684204
+epoch 47
+Train set : Average loss: 130.6356
+Train set : Average Acc : 0.8718
+time  19.647016048431396
+epoch 48
+Train set : Average loss: 131.2936
+Train set : Average Acc : 0.8714
+time  19.679762840270996
+epoch 49
+Train set : Average loss: 131.3042
+Train set : Average Acc : 0.8717
+time  19.68843913078308
+epoch 50
+Train set : Average loss: 126.8924
+Train set : Average Acc : 0.8743
+time  19.667080879211426
+[[27, 28, 21695.573340415955, 0.8876, 11, [['input', 0, 0], ['S_ConvBlock_64_1', 0, 0], ['S_ConvBlock_128_3', 0, 0], ['S_ResBlock_64_1', 1, 2], ['S_ResBlock_32_3', 2, 3], ['Avg_Pool', 3, 4], ['S_ResBlock_128_5', 4, 5], ['Max_Pool', 5, 5], ['S_ConvBlock_64_1', 7, 4], ['Avg_Pool', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]]]
+	gpu_id: 0 , [['input', 0, 0], ['Concat', 0, 0], ['S_ResBlock_32_5', 0, 0], ['S_ResBlock_64_1', 1, 2], ['S_ResBlock_32_3', 2, 3], ['Avg_Pool', 3, 4], ['S_ResBlock_128_5', 4, 5], ['Max_Pool', 5, 5], ['S_ConvBlock_64_1', 7, 4], ['Avg_Pool', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]
+Files already downloaded and verified
+Files already downloaded and verified
+train num     50000
+GPUID     : 0
+epoch_num : 50
+batch_size: 128
+initialization method [kaiming]
+epoch 1
+Train set : Average loss: 705.4417
+Train set : Average Acc : 0.4154
+time  16.635427713394165
+epoch 2
+Train set : Average loss: 460.1170
+Train set : Average Acc : 0.5298
+time  14.55374789237976
+epoch 3
+Train set : Average loss: 403.7191
+Train set : Average Acc : 0.5944
+time  14.525390148162842
+epoch 4
+Train set : Average loss: 360.3917
+Train set : Average Acc : 0.6394
+time  14.512528896331787
+epoch 5
+Train set : Average loss: 330.3973
+Train set : Average Acc : 0.6689
+time  14.52434754371643
+epoch 6
+Train set : Average loss: 306.2848
+Train set : Average Acc : 0.6958
+time  14.565397500991821
+epoch 7
+Train set : Average loss: 286.1151
+Train set : Average Acc : 0.7182
+time  14.548501253128052
+epoch 8
+Train set : Average loss: 272.7278
+Train set : Average Acc : 0.7312
+time  14.512153625488281
+epoch 9
+Train set : Average loss: 256.5907
+Train set : Average Acc : 0.7469
+time  14.560632467269897
+epoch 10
+Train set : Average loss: 247.8322
+Train set : Average Acc : 0.7554
+time  14.494529008865356
+epoch 11
+Train set : Average loss: 239.7621
+Train set : Average Acc : 0.7638
+time  14.522060871124268
+epoch 12
+Train set : Average loss: 232.7909
+Train set : Average Acc : 0.7732
+time  14.587043523788452
+epoch 13
+Train set : Average loss: 225.8827
+Train set : Average Acc : 0.7779
+time  14.530726671218872
+epoch 14
+Train set : Average loss: 218.4909
+Train set : Average Acc : 0.7850
+time  14.612931966781616
+epoch 15
+Train set : Average loss: 212.9816
+Train set : Average Acc : 0.7908
+time  14.568063259124756
+epoch 16
+Train set : Average loss: 208.0805
+Train set : Average Acc : 0.7964
+time  14.525130987167358
+epoch 17
+Train set : Average loss: 204.4412
+Train set : Average Acc : 0.8001
+time  14.518407344818115
+epoch 18
+Train set : Average loss: 199.1842
+Train set : Average Acc : 0.8071
+time  14.528367757797241
+epoch 19
+Train set : Average loss: 194.7730
+Train set : Average Acc : 0.8092
+time  14.526060342788696
+epoch 20
+Train set : Average loss: 191.1731
+Train set : Average Acc : 0.8126
+time  14.507834911346436
+epoch 21
+Train set : Average loss: 186.0359
+Train set : Average Acc : 0.8196
+time  14.481035232543945
+epoch 22
+Train set : Average loss: 183.6272
+Train set : Average Acc : 0.8199
+time  14.525055885314941
+epoch 23
+Train set : Average loss: 177.3069
+Train set : Average Acc : 0.8271
+time  14.532007455825806
+epoch 24
+Train set : Average loss: 176.1630
+Train set : Average Acc : 0.8277
+time  14.491305112838745
+epoch 25
+Train set : Average loss: 172.7662
+Train set : Average Acc : 0.8304
+time  14.473304033279419
+epoch 26
+Train set : Average loss: 172.5320
+Train set : Average Acc : 0.8310
+time  14.513312578201294
+epoch 27
+Train set : Average loss: 166.9178
+Train set : Average Acc : 0.8361
+time  14.521879196166992
+epoch 28
+Train set : Average loss: 164.6065
+Train set : Average Acc : 0.8390
+time  14.50381326675415
+epoch 29
+Train set : Average loss: 160.9073
+Train set : Average Acc : 0.8420
+time  14.488118410110474
+epoch 30
+Train set : Average loss: 157.7289
+Train set : Average Acc : 0.8463
+time  14.503408193588257
+epoch 31
+Train set : Average loss: 124.5950
+Train set : Average Acc : 0.8786
+time  14.500673770904541
+epoch 32
+Train set : Average loss: 116.0193
+Train set : Average Acc : 0.8854
+time  14.515994548797607
+epoch 33
+Train set : Average loss: 111.0028
+Train set : Average Acc : 0.8903
+time  14.526700019836426
+epoch 34
+Train set : Average loss: 108.2235
+Train set : Average Acc : 0.8930
+time  14.54131817817688
+epoch 35
+Train set : Average loss: 106.2455
+Train set : Average Acc : 0.8957
+time  14.500345230102539
+epoch 36
+Train set : Average loss: 103.4766
+Train set : Average Acc : 0.8999
+time  14.539632558822632
+epoch 37
+Train set : Average loss: 102.3261
+Train set : Average Acc : 0.9000
+time  14.525010347366333
+epoch 38
+Train set : Average loss: 99.7398
+Train set : Average Acc : 0.9012
+time  14.510986328125
+epoch 39
+Train set : Average loss: 98.1386
+Train set : Average Acc : 0.9023
+time  14.539516925811768
+epoch 40
+Train set : Average loss: 95.6665
+Train set : Average Acc : 0.9065
+time  14.524398565292358
+epoch 41
+Train set : Average loss: 94.7150
+Train set : Average Acc : 0.9065
+time  14.48380422592163
+epoch 42
+Train set : Average loss: 95.0768
+Train set : Average Acc : 0.9077
+time  14.601103782653809
+epoch 43
+Train set : Average loss: 92.6954
+Train set : Average Acc : 0.9082
+time  14.524308204650879
+epoch 44
+Train set : Average loss: 93.0430
+Train set : Average Acc : 0.9096
+time  14.528806209564209
+epoch 45
+Train set : Average loss: 90.8287
+Train set : Average Acc : 0.9104
+time  14.537654876708984
+epoch 46
+Train set : Average loss: 88.6207
+Train set : Average Acc : 0.9131
+time  14.503303289413452
+epoch 47
+Train set : Average loss: 88.2449
+Train set : Average Acc : 0.9118
+time  14.460853099822998
+epoch 48
+Train set : Average loss: 86.2786
+Train set : Average Acc : 0.9162
+time  14.511714458465576
+epoch 49
+Train set : Average loss: 86.2679
+Train set : Average Acc : 0.9154
+time  14.532248973846436
+epoch 50
+Train set : Average loss: 84.9764
+Train set : Average Acc : 0.9157
+time  14.532243728637695
+[[28, 29, 22427.733382225037, 0.8876, 11, [['input', 0, 0], ['S_ConvBlock_64_1', 0, 0], ['S_ConvBlock_128_3', 0, 0], ['S_ResBlock_64_1', 1, 2], ['S_ResBlock_32_3', 2, 3], ['Avg_Pool', 3, 3], ['S_ResBlock_128_5', 4, 5], ['Max_Pool', 5, 5], ['S_ConvBlock_64_1', 7, 4], ['Avg_Pool', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]]]
+	gpu_id: 0 , [['input', 0, 0], ['S_ConvBlock_64_1', 0, 0], ['S_ResBlock_128_3', 0, 0], ['S_ResBlock_64_1', 1, 2], ['S_ConvBlock_32_3', 2, 1], ['S_ConvBlock_32_5', 4, 4], ['Avg_Pool', 3, 5], ['S_ResBlock_128_5', 5, 6], ['Max_Pool', 6, 6], ['S_ConvBlock_64_1', 8, 5], ['Avg_Pool', 7, 7], ['Sum', 9, 10], ['full', 11, 11]]
+Files already downloaded and verified
+Files already downloaded and verified
+train num     50000
+GPUID     : 0
+epoch_num : 50
+batch_size: 128
+initialization method [kaiming]
+epoch 1
+Train set : Average loss: 762.3460
+Train set : Average Acc : 0.3977
+time  22.279744625091553
+epoch 2
+Train set : Average loss: 471.8310
+Train set : Average Acc : 0.5153
+time  19.5632963180542
+epoch 3
+Train set : Average loss: 413.4601
+Train set : Average Acc : 0.5795
+time  19.649279832839966
+epoch 4
+Train set : Average loss: 365.6113
+Train set : Average Acc : 0.6308
+time  19.623196840286255
+epoch 5
+Train set : Average loss: 335.4588
+Train set : Average Acc : 0.6608
+time  19.554397344589233
+epoch 6
+Train set : Average loss: 312.4219
+Train set : Average Acc : 0.6887
+time  19.56617760658264
+epoch 7
+Train set : Average loss: 291.6976
+Train set : Average Acc : 0.7096
+time  19.604211807250977
+epoch 8
+Train set : Average loss: 275.3525
+Train set : Average Acc : 0.7257
+time  19.566871404647827
+epoch 9
+Train set : Average loss: 261.5821
+Train set : Average Acc : 0.7402
+time  19.636536598205566
+epoch 10
+Train set : Average loss: 250.1457
+Train set : Average Acc : 0.7521
+time  19.542547464370728
+epoch 11
+Train set : Average loss: 240.1413
+Train set : Average Acc : 0.7628
+time  19.626615047454834
+epoch 12
+Train set : Average loss: 231.8185
+Train set : Average Acc : 0.7687
+time  19.5777108669281
+epoch 13
+Train set : Average loss: 222.9647
+Train set : Average Acc : 0.7806
+time  19.591427087783813
+epoch 14
+Train set : Average loss: 215.8498
+Train set : Average Acc : 0.7878
+time  19.57106328010559
+epoch 15
+Train set : Average loss: 208.3162
+Train set : Average Acc : 0.7934
+time  19.55380082130432
+epoch 16
+Train set : Average loss: 207.1354
+Train set : Average Acc : 0.7957
+time  19.547858715057373
+epoch 17
+Train set : Average loss: 199.6134
+Train set : Average Acc : 0.8032
+time  19.563735961914062
+epoch 18
+Train set : Average loss: 194.6275
+Train set : Average Acc : 0.8084
+time  19.575459003448486
+epoch 19
+Train set : Average loss: 190.3142
+Train set : Average Acc : 0.8135
+time  19.604118824005127
+epoch 20
+Train set : Average loss: 185.7517
+Train set : Average Acc : 0.8180
+time  19.55882978439331
+epoch 21
+Train set : Average loss: 182.8598
+Train set : Average Acc : 0.8214
+time  19.58329725265503
+epoch 22
+Train set : Average loss: 178.8911
+Train set : Average Acc : 0.8234
+time  19.56561255455017
+epoch 23
+Train set : Average loss: 174.7922
+Train set : Average Acc : 0.8277
+time  19.596829891204834
+epoch 24
+Train set : Average loss: 170.1859
+Train set : Average Acc : 0.8320
+time  19.61466932296753
+epoch 25
+Train set : Average loss: 166.5600
+Train set : Average Acc : 0.8364
+time  19.53606414794922
+epoch 26
+Train set : Average loss: 167.0348
+Train set : Average Acc : 0.8360
+time  19.626880645751953
+epoch 27
+Train set : Average loss: 161.8968
+Train set : Average Acc : 0.8416
+time  19.539505004882812
+epoch 28
+Train set : Average loss: 158.2737
+Train set : Average Acc : 0.8434
+time  19.587003469467163
+epoch 29
+Train set : Average loss: 156.9750
+Train set : Average Acc : 0.8473
+time  19.521491050720215
+epoch 30
+Train set : Average loss: 154.5300
+Train set : Average Acc : 0.8491
+time  19.51304316520691
+epoch 31
+Train set : Average loss: 118.9677
+Train set : Average Acc : 0.8831
+time  19.598238945007324
+epoch 32
+Train set : Average loss: 109.9303
+Train set : Average Acc : 0.8922
+time  19.53730034828186
+epoch 33
+Train set : Average loss: 107.3757
+Train set : Average Acc : 0.8946
+time  19.534382343292236
+epoch 34
+Train set : Average loss: 102.4723
+Train set : Average Acc : 0.8983
+time  19.55815362930298
+epoch 35
+Train set : Average loss: 101.8166
+Train set : Average Acc : 0.8991
+time  19.54515051841736
+epoch 36
+Train set : Average loss: 99.4651
+Train set : Average Acc : 0.9011
+time  19.49797773361206
+epoch 37
+Train set : Average loss: 97.2676
+Train set : Average Acc : 0.9056
+time  19.5069682598114
+epoch 38
+Train set : Average loss: 96.2929
+Train set : Average Acc : 0.9051
+time  19.529207944869995
+epoch 39
+Train set : Average loss: 93.9638
+Train set : Average Acc : 0.9072
+time  19.52385640144348
+epoch 40
+Train set : Average loss: 94.2302
+Train set : Average Acc : 0.9081
+time  19.53617763519287
+epoch 41
+Train set : Average loss: 92.0870
+Train set : Average Acc : 0.9103
+time  19.56067728996277
+epoch 42
+Train set : Average loss: 90.5693
+Train set : Average Acc : 0.9096
+time  19.546497583389282
+epoch 43
+Train set : Average loss: 89.8889
+Train set : Average Acc : 0.9117
+time  19.53343415260315
+epoch 44
+Train set : Average loss: 88.5674
+Train set : Average Acc : 0.9126
+time  19.55943989753723
+epoch 45
+Train set : Average loss: 87.9087
+Train set : Average Acc : 0.9128
+time  19.549071788787842
+epoch 46
+Train set : Average loss: 85.8363
+Train set : Average Acc : 0.9144
+time  19.615283489227295
+epoch 47
+Train set : Average loss: 86.0161
+Train set : Average Acc : 0.9159
+time  19.53292727470398
+epoch 48
+Train set : Average loss: 83.7769
+Train set : Average Acc : 0.9175
+time  19.578027963638306
+epoch 49
+Train set : Average loss: 82.6658
+Train set : Average Acc : 0.9189
+time  19.59846329689026
+epoch 50
+Train set : Average loss: 81.4687
+Train set : Average Acc : 0.9218
+time  19.633702993392944
+[[29, 30, 23412.99937939644, 0.8876, 11, [['input', 0, 0], ['S_ConvBlock_64_1', 0, 0], ['S_ConvBlock_128_3', 0, 0], ['S_ResBlock_64_1', 1, 2], ['S_ResBlock_32_3', 2, 3], ['Avg_Pool', 3, 3], ['S_ResBlock_128_5', 4, 5], ['Max_Pool', 5, 3], ['S_ConvBlock_64_1', 7, 5], ['Avg_Pool', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]]]
+	gpu_id: 0 , [['input', 0, 0], ['S_ConvBlock_64_1', 0, 0], ['S_ResBlock_128_3', 0, 0], ['S_ResBlock_64_1', 1, 2], ['S_ResBlock_64_5', 2, 2], ['Max_Pool', 4, 4], ['Avg_Pool', 3, 4], ['S_ConvBlock_128_1', 6, 4], ['S_ConvBlock_32_1', 5, 4], ['S_ConvBlock_64_1', 7, 6], ['Avg_Pool', 8, 6], ['Sum', 9, 10], ['full', 11, 11]]
+Files already downloaded and verified
+Files already downloaded and verified
+train num     50000
+GPUID     : 0
+epoch_num : 50
+batch_size: 128
+initialization method [kaiming]
+epoch 1
+Train set : Average loss: 586.4888
+Train set : Average Acc : 0.4540
+time  17.855710983276367
+epoch 2
+Train set : Average loss: 370.2203
+Train set : Average Acc : 0.6271
+time  15.48229432106018
+epoch 3
+Train set : Average loss: 310.0651
+Train set : Average Acc : 0.6904
+time  15.472175121307373
+epoch 4
+Train set : Average loss: 281.0070
+Train set : Average Acc : 0.7213
+time  15.493223905563354
+epoch 5
+Train set : Average loss: 259.2202
+Train set : Average Acc : 0.7418
+time  15.518130540847778
+epoch 6
+Train set : Average loss: 244.9355
+Train set : Average Acc : 0.7573
+time  15.516688585281372
+epoch 7
+Train set : Average loss: 229.4181
+Train set : Average Acc : 0.7732
+time  15.502560138702393
+epoch 8
+Train set : Average loss: 218.3812
+Train set : Average Acc : 0.7835
+time  15.506325721740723
+epoch 9
+Train set : Average loss: 209.6163
+Train set : Average Acc : 0.7922
+time  15.448051452636719
+epoch 10
+Train set : Average loss: 202.5145
+Train set : Average Acc : 0.8015
+time  15.454811811447144
+epoch 11
+Train set : Average loss: 194.3708
+Train set : Average Acc : 0.8079
+time  15.533308029174805
+epoch 12
+Train set : Average loss: 189.3140
+Train set : Average Acc : 0.8147
+time  15.46375060081482
+epoch 13
+Train set : Average loss: 184.0253
+Train set : Average Acc : 0.8194
+time  15.43415641784668
+epoch 14
+Train set : Average loss: 178.4695
+Train set : Average Acc : 0.8248
+time  15.484747886657715
+epoch 15
+Train set : Average loss: 171.8071
+Train set : Average Acc : 0.8329
+time  15.493203163146973
+epoch 16
+Train set : Average loss: 168.2506
+Train set : Average Acc : 0.8351
+time  15.49999213218689
+epoch 17
+Train set : Average loss: 162.3632
+Train set : Average Acc : 0.8412
+time  15.438019752502441
+epoch 18
+Train set : Average loss: 158.4448
+Train set : Average Acc : 0.8456
+time  15.479716300964355
+epoch 19
+Train set : Average loss: 156.4528
+Train set : Average Acc : 0.8471
+time  15.48222804069519
+epoch 20
+Train set : Average loss: 151.7396
+Train set : Average Acc : 0.8504
+time  15.474875450134277
+epoch 21
+Train set : Average loss: 150.6609
+Train set : Average Acc : 0.8525
+time  15.437302827835083
+epoch 22
+Train set : Average loss: 144.0103
+Train set : Average Acc : 0.8588
+time  15.474714994430542
+epoch 23
+Train set : Average loss: 143.2209
+Train set : Average Acc : 0.8602
+time  15.491596460342407
+epoch 24
+Train set : Average loss: 136.0662
+Train set : Average Acc : 0.8660
+time  15.516430854797363
+epoch 25
+Train set : Average loss: 136.8530
+Train set : Average Acc : 0.8640
+time  15.496921062469482
+epoch 26
+Train set : Average loss: 133.1793
+Train set : Average Acc : 0.8668
+time  15.468103647232056
+epoch 27
+Train set : Average loss: 130.6326
+Train set : Average Acc : 0.8715
+time  15.49305534362793
+epoch 28
+Train set : Average loss: 126.5105
+Train set : Average Acc : 0.8755
+time  15.449011325836182
+epoch 29
+Train set : Average loss: 126.5975
+Train set : Average Acc : 0.8744
+time  15.48179841041565
+epoch 30
+Train set : Average loss: 124.3345
+Train set : Average Acc : 0.8776
+time  15.448226928710938
+epoch 31
+Train set : Average loss: 91.5822
+Train set : Average Acc : 0.9099
+time  15.471818208694458
+epoch 32
+Train set : Average loss: 82.8949
+Train set : Average Acc : 0.9193
+time  15.46987771987915
+epoch 33
+Train set : Average loss: 79.7544
+Train set : Average Acc : 0.9204
+time  15.487013339996338
+epoch 34
+Train set : Average loss: 75.6719
+Train set : Average Acc : 0.9262
+time  15.463104248046875
+epoch 35
+Train set : Average loss: 73.8810
+Train set : Average Acc : 0.9271
+time  15.492116928100586
+epoch 36
+Train set : Average loss: 72.0846
+Train set : Average Acc : 0.9293
+time  15.472067594528198
+epoch 37
+Train set : Average loss: 70.5232
+Train set : Average Acc : 0.9310
+time  15.50022840499878
+epoch 38
+Train set : Average loss: 68.7820
+Train set : Average Acc : 0.9325
+time  15.491678237915039
+epoch 39
+Train set : Average loss: 68.1090
+Train set : Average Acc : 0.9331
+time  15.457858562469482
+epoch 40
+Train set : Average loss: 66.8874
+Train set : Average Acc : 0.9343
+time  15.473907947540283
+epoch 41
+Train set : Average loss: 64.9382
+Train set : Average Acc : 0.9361
+time  15.48536205291748
+epoch 42
+Train set : Average loss: 63.5860
+Train set : Average Acc : 0.9367
+time  15.4628427028656
+epoch 43
+Train set : Average loss: 62.4561
+Train set : Average Acc : 0.9390
+time  15.478662252426147
+epoch 44
+Train set : Average loss: 62.4820
+Train set : Average Acc : 0.9388
+time  15.474169731140137
+epoch 45
+Train set : Average loss: 61.2586
+Train set : Average Acc : 0.9391
+time  15.468689680099487
+epoch 46
+Train set : Average loss: 60.2637
+Train set : Average Acc : 0.9410
+time  15.473078727722168
+epoch 47
+Train set : Average loss: 58.8906
+Train set : Average Acc : 0.9418
+time  15.493977546691895
+epoch 48
+Train set : Average loss: 57.0266
+Train set : Average Acc : 0.9439
+time  15.495496273040771
+epoch 49
+Train set : Average loss: 57.2659
+Train set : Average Acc : 0.9443
+time  15.49097466468811
+epoch 50
+Train set : Average loss: 57.0520
+Train set : Average Acc : 0.9430
+time  15.47083568572998
+[[30, 31, 24193.859611034393, 0.8876, 11, [['input', 0, 0], ['S_ConvBlock_64_1', 0, 0], ['S_ConvBlock_128_3', 0, 0], ['S_ResBlock_64_1', 1, 2], ['S_ResBlock_32_3', 2, 3], ['Avg_Pool', 3, 3], ['S_ResBlock_128_5', 4, 5], ['Max_Pool', 5, 3], ['S_ConvBlock_64_1', 7, 5], ['Avg_Pool', 6, 6], ['Sum', 8, 9], ['full', 10, 10]]]]
