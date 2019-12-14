@@ -14,6 +14,7 @@ KAIST CS454 project originated from cgp-cnn-PyTorch
 
 ## Usage
 
+```groovy
 exp_main.py [-h] [--gpu_ids GPU_IDS [GPU_IDS ...]]
                    [--population POPULATION] [--lam LAM]
                    [--log_folder LOG_FOLDER] [--max_gen MAX_GEN]
@@ -36,7 +37,7 @@ optional arguments:
   --seed SEED, -s SEED  Numpy random seed
   --epoch EPOCH, -e EPOCH
                         Training epoch
-
+```
 
 # cgp-cnn-PyTorch
 A Genetic Programming Approach to Designing CNN Architectures, In GECCO 2017 (oral presentation, Best Paper Award)
