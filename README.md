@@ -7,7 +7,7 @@ KAIST CS454 project originated from cgp-cnn-PyTorch
 * Python version         3.6.2
 * PyTorch version        0.4.1
 * tensorflow             1.9.0
-* CUDA version           10.x (Anything)
+* CUDA version           10.x (Any)
 * scikit-image           0.13.0
 * pandas                 0.20.3
 
