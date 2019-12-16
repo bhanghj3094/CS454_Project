@@ -3,7 +3,7 @@ import csv
 # list to write
 total = [[] for _ in range(30)]
 
-for i in range(40):
+for i in range(48):
   name = "logs_statistics_" + str(i) + "/log_cgp.txt"
 
   f = open(name, "r")
