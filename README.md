@@ -7,9 +7,37 @@ KAIST CS454 project originated from cgp-cnn-PyTorch
 * Python version         3.6.2
 * PyTorch version        0.4.1
 * tensorflow             1.9.0
-* CUDA version           10.x (Anything)
+* CUDA version           10.x (Any)
 * scikit-image           0.13.0
 * pandas                 0.20.3
+
+
+## Usage
+
+```groovy
+exp_main.py [-h] [--gpu_ids GPU_IDS [GPU_IDS ...]]
+                   [--population POPULATION] [--lam LAM]
+                   [--log_folder LOG_FOLDER] [--max_gen MAX_GEN]
+                   [--snm {normal,strong}] [--seed SEED]
+                   [--epoch EPOCH]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --gpu_ids GPU_IDS [GPU_IDS ...], -g GPU_IDS [GPU_IDS ...]
+                        List of GPU ids
+  --population POPULATION, -p POPULATION
+                        Num. of Population (Num. of Parents)
+  --lam LAM, -l LAM     Num. of offsprings
+  --log_folder LOG_FOLDER
+                        Log folder name
+  --max_gen MAX_GEN, -max MAX_GEN
+                        Num. of max evaluations
+  --snm {normal,strong}, -snm {normal,strong}
+                        Strong Neutral Mutation
+  --seed SEED, -s SEED  Numpy random seed
+  --epoch EPOCH, -e EPOCH
+                        Training epoch
+```
 
 # cgp-cnn-PyTorch
 A Genetic Programming Approach to Designing CNN Architectures, In GECCO 2017 (oral presentation, Best Paper Award)
@@ -20,38 +48,3 @@ This repository contains the code for the following paper:
 
 Masanori Suganuma, Shinichi Shirakawa, and Tomoharu Nagao, "A Genetic Programming Approach to Designing Convolutional Neural Network Architectures," 
 Proceedings of the Genetic and Evolutionary Computation Conference (GECCO '17, Best paper award), pp. 497-504 (2017) [[paper]](https://doi.org/10.1145/3071178.3071229) [[arXiv]](https://arxiv.org/abs/1704.00764)
-
-## Usage
-
-Server1:	ssh root@49.247.197.194
-
-  First subtopic   $> nohup python exp_main.py -snm strong > output_strong &
-  
-  Second subtopic  $> nohup ./statistics.sh 0 14 &
-
-Server2:	ssh root@49.247.197.170
-
-  First subtopic   $> nohup python exp_main.py > output &
-  
-  Second subtopic  $> nohup ./statistics.sh 15 29 &
-
-### Run the architecture search
-This code can reproduce the experiment for CIFAR-10 dataset with the same setting of the GECCO 2017 paper (by default scenario). The (training) data are split into the training and validation data. The validation data are used for assigning the fitness to the generated architectures.
-
-When you use the multiple GPUs, please specify the `-g` option:
-
-```shell
-python exp_main.py -g 2
-```
-
-After the execution, the files, `network_info.pickle` and `log_cgp.txt` will be generated. The file `network_info.pickle` contains the information for Cartegian genetic programming (CGP) and `log_cgp.txt` contains the log of the optimization and discovered CNN architecture's genotype lists.
-
-Some parameters (e.g., # rows and columns of CGP, and # epochs) can easily change by modifying the arguments in the script `exp_main.py`.
-
-### Re-training
-
-The discovered architecture is re-trained by the different training scheme (500 epoch training with momentum SGD) to polish up the network parameters. All training data are used for re-training, and the accuracy for the test data set is reported.
-
-```shell
-python exp_main.py -m retrain
-```
