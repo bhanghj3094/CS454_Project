@@ -1,7 +1,7 @@
 # Towards a Time-efficient CNN Design with Cartesian Genetic Programming
-KAIST CS454 project originated from cgp-cnn-PyTorch
+KAIST CS454, AI based Software Engineering, project originated from [cgp-cnn-PyTorch](https://github.com/sg-nm/cgp-cnn-PyTorch)
 
-## Requirement
+## Requirements
 
 * Ubuntu 16.04.6 LTS
 * Python version         3.6.2
@@ -39,10 +39,7 @@ optional arguments:
                         Training epoch
 ```
 
-# cgp-cnn-PyTorch
-A Genetic Programming Approach to Designing CNN Architectures, In GECCO 2017 (oral presentation, Best Paper Award)
-
-# Designing Convolutional Neural Network Architectures Based on Cartegian Genetic Programming
+## Designing Convolutional Neural Network Architectures Based on Cartegian Genetic Programming
 
 This repository contains the code for the following paper:
 
