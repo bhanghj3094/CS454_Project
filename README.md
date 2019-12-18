@@ -1,4 +1,4 @@
-# Towards a Time-efficient CNN Designwith Cartesian Genetic Programming
+# Towards a Time-efficient CNN Design with Cartesian Genetic Programming
 KAIST CS454 project originated from cgp-cnn-PyTorch
 
 ## Requirement
