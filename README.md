@@ -1,4 +1,4 @@
-# KAIST CS454 19Fall Project - Group7 
+# Towards a Time-efficient CNN Designwith Cartesian Genetic Programming
 KAIST CS454 project originated from cgp-cnn-PyTorch
 
 ## Requirement
